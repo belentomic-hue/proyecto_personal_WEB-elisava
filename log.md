@@ -36,6 +36,12 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-18 — Aprobación y publicación de context.md v0.1
+- **Canvis:** substituït el context tècnic inicial per un document aprovat de 23 seccions que descriu l'origen autobiogràfic, la recerca amb Gemini, el projecte familiar, els sis territoris, l'univers 3D, el paper previst de la IA i les decisions obertes.
+- **Motiu:** conservar el fonament de la investigació i orientar el desenvolupament coherent d'Ecosistema del Ser.
+- **Verificació:** publicació de `context.md` confirmada per GitHub; comprovació posterior de lectura pendent.
+- **Pendents/incidències:** desenvolupar `narrativa.md`, `referentes.md` i `estructura.md`; completar les decisions encara obertes.
+
 ## 2026-11-18 — Aprobación de personalidad.md v0.2
 - **Canvis:** substituïda la plantilla de `personalidad.md` pel document aprovat de 13 seccions sobre identitat creativa, filosofia, llenguatge narratiu i criteris de col·laboració amb la IA.
 - **Motiu:** establir una referència de personalitat coherent per al projecte i les exploracions relacionades.

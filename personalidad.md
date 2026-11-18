@@ -637,7 +637,7 @@ sin perder aquello que les da sentido.
 
 Versión: 0.2
 Fecha: 2026-11-18
-Estado: Borrador pendiente de aprobación.
+Estado: Aprobado por la diseñadora el 2026-11-18.
 
 Fuentes de contexto:
 - Conversación "Identidad Personal".

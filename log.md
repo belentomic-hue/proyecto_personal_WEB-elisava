@@ -36,6 +36,12 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-18 — Aprobación de personalidad.md v0.2
+- **Canvis:** substituïda la plantilla de `personalidad.md` pel document aprovat de 13 seccions sobre identitat creativa, filosofia, llenguatge narratiu i criteris de col·laboració amb la IA.
+- **Motiu:** establir una referència de personalitat coherent per al projecte i les exploracions relacionades.
+- **Verificació:** actualització confirmada per GitHub; pendent revisar-ne la visualització al navegador.
+- **Pendents/incidències:** continuar amb els altres documents de definició.
+
 ## 2026-11-02 — Revisió inicial i documentació
 - **Canvis:** revisats `README.md`, `index.html`, `style.css` i `script.js`; afegits `memoria.md`, `context.md` i aquest registre.
 - **Motiu:** documentar l'estructura inicial i establir una base per al manteniment.

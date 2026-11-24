@@ -36,6 +36,13 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-24 — Actualización de criterio.md v0.2
+- **Canvis:** ampliat `criterio.md` de la guia inicial a 15 seccions sobre fonts, decisions aprovades, integritat autobiogràfica, chakras, direcció visual marfil, avatar, càmera, interacció, accessibilitat, rendiment, referències i metodologia de validació.
+- **Motiu:** alinear els criteris de treball amb `estructura.md` i `referentes.md` i evitar que la IA confongui propostes, implementacions i decisions aprovades.
+- **Verificació:** actualització i lectura posterior del document a GitHub.
+- **Pendents/incidències:** `memoria.md` continua desactualitzat; queda pendent reconciliar `estructura.md` amb l'estètica marfil i pujar els fitxers PNG de referència.
+
+
 ## 2026-11-24 — Organización de las referencias visuales
 - **Canvis:** creada la carpeta `referentes/` amb tres subcarpetes (`01-atmosfera-color/`, `02-composicion-tipografia/` i `03-avatar-materialidad/`) i fitxers `README.md` que inventarien 14 imatges aportades.
 - **Motiu:** separar les referències d'atmosfera, composició i anatomia del personatge per orientar el disseny.

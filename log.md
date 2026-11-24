@@ -36,6 +36,13 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-24 — Actualización de memoria.md v0.2
+- **Canvis:** substituïda la descripció desactualitzada de la plantilla inicial per una memòria operativa en 12 seccions amb projecte autobiogràfic, cinc etapes, set chakras, direcció visual marfil, avatar, scroll, interaccions, límits ètics i pendents.
+- **Motiu:** consolidar decisions vigents i distingir-les de propostes o etapes històriques.
+- **Verificació:** `memoria.md` actualitzat i llegit de nou a GitHub.
+- **Pendents/incidències:** conciliar `estructura.md` amb la nova direcció visual, completar les imatges PNG i provar la web en navegador.
+
+
 ## 2026-11-24 — Actualización de criterio.md v0.2
 - **Canvis:** ampliat `criterio.md` de la guia inicial a 15 seccions sobre fonts, decisions aprovades, integritat autobiogràfica, chakras, direcció visual marfil, avatar, càmera, interacció, accessibilitat, rendiment, referències i metodologia de validació.
 - **Motiu:** alinear els criteris de treball amb `estructura.md` i `referentes.md` i evitar que la IA confongui propostes, implementacions i decisions aprovades.

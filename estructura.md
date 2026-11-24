@@ -1,6 +1,6 @@
 # ESTRUCTURA · Ecosistema del Ser
 
-**Versión:** 0.1  
+**Versión:** 0.2  
 **Fecha:** 2026-11-24  
 **Estado:** Borrador aprobado como base de trabajo; detalles sujetos a prototipado  
 **Repositorio:** belentomic-hue/proyecto_personal_WEB-elisava
@@ -20,6 +20,7 @@ Este documento complementa:
 - `context.md`: investigación, origen y marco conceptual.
 - `personalidad.md`: identidad creativa, filosofía y lenguaje.
 - `narrativa.md`: recorrido, capítulos y textos narrativos.
+- `referentes.md`: dirección de arte, anatomía, tipografía y composiciones aprobadas.
 - `criterio.md`: criterios de desarrollo y revisión.
 - `memoria.md`: decisiones duraderas.
 - `log.md`: historial de cambios.
@@ -102,9 +103,9 @@ La experiencia concluye con una pregunta abierta, no con una respuesta sobre có
 
 ### Identidad visual
 
-El avatar es un organismo abstracto, tridimensional, celular y cambiante.
+El avatar es un organismo abstracto, tridimensional, celular y cambiante, formado por **múltiples volúmenes blandos interconectados que componen una nube irregular**.
 
-No tiene rostro ni una anatomía humana literal.
+No tiene rostro ni una anatomía humana literal. Su silueta se transforma sin que las partes pierdan continuidad.
 
 Está formado por:
 
@@ -113,7 +114,7 @@ Está formado por:
 - Fibras y filamentos entrelazados.
 - Capas de diferentes densidades.
 - Volúmenes orgánicos irregulares.
-- Zonas luminosas y zonas oscuras.
+- Zonas luminosas, otras difusas y núcleos de color más concentrado.
 - Transiciones cromáticas graduales.
 
 No debe parecer una esfera rígida, un objeto geométrico perfecto ni una figura humana convencional.
@@ -124,7 +125,9 @@ El organismo mantiene una sensación de vida mediante movimientos lentos y conti
 
 Respira expandiéndose y contrayéndose en su propia geometría, no simplemente aumentando o disminuyendo de tamaño de forma uniforme.
 
-Sus capas pueden moverse a diferentes velocidades y presentar cierta inercia.
+Sus capas pueden moverse a diferentes velocidades y presentar cierta inercia. La materia combina **fluidez, respiración y elasticidad**; las fibras se estiran y recuperan su forma suavemente.
+
+La transparencia es **variable**: unas zonas dejan entrever filamentos y ramificaciones, mientras otras ocultan parcialmente la anatomía. Al acercarse la cámara se revelan tres escalas del mismo organismo: exterior cromático, membranas y microestructura.
 
 El avatar no tiene que aparecer completo en todas las escenas.
 
@@ -298,27 +301,31 @@ No deben utilizarse efectos exagerados o constantes que distraigan del relato.
 
 ## 09. Tipografía y lenguaje espacial
 
-### Criterio visual
+### Sistema tipográfico aprobado
 
-La tipografía debe ser limpia, editorial y legible.
+La dirección editorial se articula en tres registros, según `referentes.md`:
 
-Los títulos y elementos principales de navegación utilizarán mayúsculas, siguiendo la dirección visual definida para la portada.
+- **Serif elegante y delicada:** títulos narrativos, preguntas principales y pasajes poéticos.
+- **Sans serif limpia:** información explicativa, instrucciones y textos de apoyo.
+- **Monoespaciada discreta:** índices, números de etapa, referencias y anotaciones documentales.
 
-El tratamiento de los textos narrativos podrá adaptarse según su longitud y función.
+Las familias tipográficas específicas todavía no están elegidas. Las mayúsculas pueden tener protagonismo en portada e índices, pero no se imponen a toda la narración.
+
+### Tres composiciones reutilizables
+
+**Central:** avatar protagonista, frase central y detalles de navegación en los márgenes. Útil para portada, contemplación y pausas.
+
+**Asimétrica:** texto a un lado y materia a otro, sin retícula rígida. Útil para reflexiones y contenidos autobiográficos.
+
+**Espacial:** información distribuida alrededor del organismo, con líneas finas que representan **fibras, conexiones y trayectorias narrativas**. Útil para exploración y capítulos simbólicos.
+
+El sistema alterna **grandes espacios vacíos y escenas de gran complejidad**. No usar siempre la misma estructura ni añadir líneas solo como decoración.
 
 ### Integración tridimensional
 
-Los textos forman parte del espacio y no se limitan a una interfaz superpuesta.
+Los textos pueden aparecer suspendidos entre membranas, en diversos planos de profundidad, acompañando la cámara o delante de la materia.
 
-Pueden aparecer:
-
-- Suspendidos entre membranas.
-- En distintos planos de profundidad.
-- Acompañando el recorrido de la cámara.
-- Próximos a estructuras orgánicas.
-- Delante de la materia durante una escena de lectura.
-
-La profundidad debe apoyar la composición, no dificultar la lectura.
+La perspectiva, el movimiento y las transparencias nunca deben impedir la lectura. En momentos importantes, crear una zona de calma visual y mantener un tiempo de lectura suficiente.
 
 ### Jerarquías narrativas
 
@@ -331,62 +338,49 @@ Deben distinguirse:
 
 No atribuir a la diseñadora frases formuladas por la IA ni presentar adaptaciones como citas literales.
 
-### Ritmo de lectura
-
-Se priorizan frases breves y pausadas, con suficientes momentos de silencio.
-
-Los textos relevantes no deben desplazarse tan rápido que resulten difíciles de leer.
-
 ---
 
 ## 10. Materialidad tridimensional
 
-### Material principal
+### Materia y anatomía
 
-Se adopta un lenguaje de tejidos suaves y semitransparentes.
+Se adopta un lenguaje de **volúmenes blandos conectados, membranas suaves semitransparentes y fibras elásticas ramificadas**.
 
-La materia debe transmitir:
+La materia debe transmitir volumen, flexibilidad, superposición, profundidad y conexiones internas. Su silueta no debe parecer una esfera rígida ni una forma de cristal pulido.
 
-- Volumen.
-- Flexibilidad.
-- Profundidad.
-- Superposición.
-- Sensibilidad al movimiento.
-- Conexiones internas.
+La superficie tiene diferentes densidades y niveles de transparencia; algunas zonas son difusas y otras revelan filamentos. La microestructura se hace más visible durante los acercamientos.
 
-Los filamentos deben hacerse especialmente visibles durante acercamientos y escenas de observación.
+### Luz y pigmento
 
-### Luz
+La iluminación procede principalmente del interior del organismo. Se combina una sensación de **pigmento difuso** con **luz volumétrica** que atraviesa las capas.
 
-La iluminación procede principalmente del interior del organismo.
+Los reflejos exteriores son secundarios. El color puede aparecer como núcleos intensos que se disuelven en halos suaves; los degradados planos no sustituyen una prueba de volumen 3D real.
 
-La luz atraviesa parcialmente las fibras y membranas, permitiendo percibir sus distintas capas.
+### Relación con el fondo
 
-Los reflejos exteriores complementan el volumen y la textura, pero no deben dominar el material.
+La atmósfera general es **marfil cálido, luminosa y editorial**, con grano finísimo semejante a papel o pigmento impreso.
 
-### Contraste
+La delicadeza se consigue mediante diferencias de opacidad, profundidad y luminosidad, no mediante un fondo oscuro generalizado. Evitar que los tejidos se pierdan sobre el marfil o reduzcan el contraste de los textos.
 
-La combinación de sombras profundas y zonas luminosas permitirá que el organismo destaque sin perder delicadeza.
-
-**Decisión aprobada:** material suave y semitransparente, iluminación interior predominante y reflejos exteriores secundarios.
+**Decisión aprobada:** tejidos orgánicos, semitransparencia variable, núcleos cromáticos y luz interior predominante. Las técnicas de renderizado concretas siguen pendientes de prototipado.
 
 ---
 
 ## 11. Sistema cromático
 
+### Fondo y atmósfera
+
+La experiencia utiliza predominantemente un **fondo blanco cálido / marfil**, con un grano muy fino. La dirección general es luminosa, editorial y contemplativa, y **sustituye la propuesta inicial de un entorno predominantemente oscuro**.
+
+Pueden existir zonas de mayor sombra dentro del organismo cuando contribuyan a su profundidad, pero no debe confundirse ese contraste local con una página oscura.
+
 ### Progresión
 
 La riqueza cromática se revela gradualmente.
 
-La experiencia comienza con una paleta limitada y oscura. A lo largo de la narrativa se incorporan progresivamente nuevos colores y variaciones luminosas.
+La experiencia comienza con **colores contenidos sobre marfil**, no con una paleta oscura. A lo largo de la narrativa se incorporan nuevos tonos, capas y variaciones de luz.
 
-### Primera etapa
-
-Predominan la oscuridad y una selección contenida de tonos.
-
-El avatar puede contener otros colores de manera latente, poco iluminada o apenas perceptible.
-
-Esto conserva su naturaleza multicolor sin mostrar toda su riqueza desde el inicio.
+Algunos núcleos cromáticos pueden aparecer intensos desde el inicio, rodeados por halos suaves y áreas difusas; la progresión no exige ausencia total de color.
 
 ### Recorrido de los chakras
 
@@ -404,17 +398,13 @@ Se trata de una convención visual adoptada por el proyecto y asociada a lectura
 
 ### Integración final
 
-Los diferentes colores pueden coexistir dentro del organismo.
-
-La integración no implica uniformidad cromática ni la eliminación de contrastes.
+Los diferentes colores pueden coexistir en membranas y núcleos del organismo. La integración no implica uniformidad cromática ni eliminación de contrastes.
 
 ### Estado
 
-**Aprobado:** incorporación progresiva del color.
+**Aprobado:** fondo predominantemente marfil; halos difusos con núcleos intensos; progresión cromática vinculada al relato.
 
-**Pendiente:** definir colores exactos, intensidad, saturación, distribución inicial y comportamiento de cada material ante la luz.
-
-Las paletas exploratorias no constituyen todavía una especificación cromática definitiva.
+**Pendiente:** valores hexadecimales, intensidad, saturación, distribución precisa por etapa y respuesta final de cada material ante la iluminación. Los estudios visuales son referencias, no especificaciones técnicas cerradas.
 
 ---
 
@@ -446,7 +436,7 @@ Podrán utilizarse cambios más notorios de espacio, iluminación, densidad o mo
 
 ### La pausa blanca
 
-Se conserva como un contraste fundamental.
+Se conserva como un **silencio visual fundamental**, aunque el resto de la web también use un fondo claro. El contraste se logrará reduciendo drásticamente los elementos, el color, el ruido visual y el movimiento.
 
 El blanco no será una pantalla completamente inmóvil: mantendrá una respiración visual sutil.
 
@@ -494,7 +484,7 @@ Se conserva la dirección trabajada durante las primeras sesiones de diseño.
 
 ### Formación del avatar
 
-El organismo aparece progresivamente mediante la unión de partículas, filamentos y capas orgánicas.
+Sobre el fondo **marfil** aparece progresivamente un organismo mediante la unión de partículas, filamentos, membranas y **volúmenes blandos interconectados**.
 
 ### Aparición del texto
 
@@ -682,14 +672,17 @@ Quedan aprobados como principios generales:
 7. El cursor provoca orientación suave y reacción local de tejidos.
 8. Los clics textuales abren paneles; los visuales permiten acercamientos.
 9. Los elementos explorables se identifican mediante brillo e indicaciones discretas.
-10. Los colores se incorporan progresivamente.
-11. Los materiales son suaves, orgánicos y semitransparentes.
+10. Los colores se incorporan progresivamente sobre un **fondo predominantemente marfil**, mediante halos difusos y núcleos intensos.
+11. Los materiales son suaves, orgánicos y semitransparentes, con **visibilidad interna variable** y una nube de volúmenes interconectados.
 12. Predomina la iluminación desde el interior.
 13. Los cambios de escena notorios se reservan principalmente para grandes etapas.
 14. El menú completo se concentra en la portada.
 15. Durante el recorrido existe un acceso minimalista al índice, que aparece con el movimiento del cursor o la interacción táctil.
 16. La experiencia debe ser comprensible mediante el scroll, sin exigir clics adicionales.
 17. El recorrido se organiza en cinco grandes etapas, manteniendo los siete chakras como capítulos simbólicos de transformación.
+18. La tipografía combina serif narrativa, sans informativa y mono para referencias.
+19. Se alternan tres sistemas editoriales: central, asimétrico y espacial.
+20. La materia combina fluidez, respiración y fibras elásticas, revelando diferentes escalas de un mismo organismo.
 
 ---
 
@@ -697,9 +690,9 @@ Quedan aprobados como principios generales:
 
 Antes de definir la implementación definitiva será necesario concretar:
 
-- Geometría y nivel de detalle del avatar.
-- Paleta cromática exacta.
-- Tipografías definitivas.
+- Implementación y nivel de detalle de la geometría volumétrica del avatar (la forma conceptual está aprobada).
+- Paleta cromática exacta (el fondo marfil y la lógica de halos con núcleos intensos están aprobados).
+- Familias tipográficas definitivas (el sistema serif/sans/mono está aprobado).
 - Movimiento y deformación de fibras.
 - Recorridos precisos de cámara.
 - Duración y distancia de cada escena.
@@ -764,7 +757,7 @@ La tecnología debe ponerse al servicio de estas relaciones.
 
 ---
 
-**Versión:** 0.1  
-**Estado:** Base aprobada para desarrollo; detalles abiertos al prototipado.  
+**Versión:** 0.2  
+**Estado:** Base actualizada con la dirección de arte aprobada; detalles abiertos al prototipado.  
 **Publicación en GitHub:** Realizada tras aprobación.  
 **Próxima revisión:** validar principios generales mediante prototipos y resolver decisiones pendientes.

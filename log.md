@@ -36,6 +36,13 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-24 — Estructura v0.2 alineada con referentes
+- **Canvis:** actualitzat `estructura.md` sense alterar les 21 seccions ni les cinc etapes narratives; establert el fons marfil, el sistema editorial serif/sans/mono, tres composicions i l'avatar de volums orgànics connectats amb transparència variable, fibres elàstiques i llum interna.
+- **Motiu:** reconciliar la proposta antiga fosca amb les decisions visuals aprovades a `referentes.md`.
+- **Verificació:** fitxer publicat i rellegit a GitHub; comprovada l'eliminació del criteri inicial de paleta fosca.
+- **Pendents/incidències:** no s'ha modificat el codi web; resten les proves de volum 3D, tipografies definitives, colors exactes i càrrega d'imatges PNG.
+
+
 ## 2026-11-24 — Actualización de memoria.md v0.2
 - **Canvis:** substituïda la descripció desactualitzada de la plantilla inicial per una memòria operativa en 12 seccions amb projecte autobiogràfic, cinc etapes, set chakras, direcció visual marfil, avatar, scroll, interaccions, límits ètics i pendents.
 - **Motiu:** consolidar decisions vigents i distingir-les de propostes o etapes històriques.

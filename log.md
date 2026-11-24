@@ -36,6 +36,12 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-24 — Creación de narrativa.md v0.2
+- **Canvis:** creat `narrativa.md` amb el pròleg, la pausa blanca que respira, l'avatar sense rostre, els set capítols dels chakras, preguntes, microtextos poètics i el tancament de l'ecosistema.
+- **Motiu:** conservar la base narrativa aprovada per desenvolupar-la progressivament durant el disseny de la web.
+- **Verificació:** publicació i lectura posterior del document a GitHub.
+- **Pendents/incidències:** substituir marcadors autobiogràfics amb fragments reals, aprofundir els textos i verificar fonts tradicionals.
+
 ## 2026-11-24 — Actualización de personalidad.md v0.3
 - **Canvis:** actualitzades les seccions sobre la personalitat d'Ecosistema del Ser, el llenguatge narratiu espiritual i l'estètica abstracta/cel·lular, d'acord amb el nou recorregut dels set chakras. Es mantenen la identitat i la filosofia creativa general de la dissenyadora.
 - **Motiu:** evitar contradiccions amb `context.md` v0.2 sense alterar la identitat professional definida prèviament.

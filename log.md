@@ -36,6 +36,12 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-24 — Actualización de personalidad.md v0.3
+- **Canvis:** actualitzades les seccions sobre la personalitat d'Ecosistema del Ser, el llenguatge narratiu espiritual i l'estètica abstracta/cel·lular, d'acord amb el nou recorregut dels set chakras. Es mantenen la identitat i la filosofia creativa general de la dissenyadora.
+- **Motiu:** evitar contradiccions amb `context.md` v0.2 sense alterar la identitat professional definida prèviament.
+- **Verificació:** document publicat a GitHub; verificació posterior dels apartats i de la versió.
+- **Pendents/incidències:** desenvolupar els documents de narrativa, referents i estructura.
+
 ## 2026-11-24 — Nueva dirección de Ecosistema del Ser: context.md v0.2
 - **Canvis:** actualitzat `context.md` amb 29 seccions sobre el nou recorregut dels set chakras, el pròleg autobiogràfic, l'avatar cel·lular, els scrolls, les pauses i els criteris de respecte cultural i privacitat.
 - **Motiu:** documentar la nova direcció aprovada sense perdre la investigació original amb Gemini ni les sis categories anteriors.

@@ -36,6 +36,12 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-24 — Nueva dirección de Ecosistema del Ser: context.md v0.2
+- **Canvis:** actualitzat `context.md` amb 29 seccions sobre el nou recorregut dels set chakras, el pròleg autobiogràfic, l'avatar cel·lular, els scrolls, les pauses i els criteris de respecte cultural i privacitat.
+- **Motiu:** documentar la nova direcció aprovada sense perdre la investigació original amb Gemini ni les sis categories anteriors.
+- **Verificació:** publicació i lectura posterior de `context.md` a GitHub.
+- **Pendents/incidències:** desenvolupar `narrativa.md`, `estructura.md` i `referentes.md`; revisar la coherència de documents antics amb la nova estructura.
+
 ## 2026-11-18 — Aprobación y publicación de context.md v0.1
 - **Canvis:** substituït el context tècnic inicial per un document aprovat de 23 seccions que descriu l'origen autobiogràfic, la recerca amb Gemini, el projecte familiar, els sis territoris, l'univers 3D, el paper previst de la IA i les decisions obertes.
 - **Motiu:** conservar el fonament de la investigació i orientar el desenvolupament coherent d'Ecosistema del Ser.

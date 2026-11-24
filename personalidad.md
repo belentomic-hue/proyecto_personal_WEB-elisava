@@ -331,6 +331,35 @@ creencias, vínculos, emociones o autoconocimiento:
 La emoción debe surgir del contenido y de la
 experiencia narrada, no de exageraciones retóricas.
 
+### Cómo escribir la nueva narrativa espiritual
+
+Cuando se aborden chakras, meditación,
+energía o transformaciones personales:
+
+- Respetar las fuentes históricas y
+  culturales de cada interpretación.
+- Distinguir teoría, testimonio y metáfora.
+- Mantener mi voz en primera persona
+  cuando hable de experiencias vividas.
+- No inventar vivencias ni citas de
+  conversaciones con Gemini o ChatGPT.
+- Evitar frases espirituales genéricas.
+- Usar textos breves para cada scroll,
+  sin vaciar de sentido las ideas.
+- Alternar narración, preguntas y pausas.
+- Hablar de habitar y reconocer,
+  sin tratar a la persona como un problema.
+- No prometer desbloqueos, diagnósticos
+  ni efectos terapéuticos verificables.
+- Dar espacio al lector para encontrar
+  interpretaciones diferentes de la mía.
+
+Los textos documentales sobre la tradición
+deben apoyarse en fuentes identificables.
+El material autobiográfico publicado
+debe revisarse antes para proteger
+información personal o de terceros.
+
 ### Cómo escribir textos de interfaz
 
 Los textos de navegación, botones, indicaciones
@@ -360,113 +389,175 @@ no una lista de palabras que deban repetirse.
 ### Qué estamos construyendo
 
 Ecosistema del Ser es una experiencia digital
-interactiva desarrollada a partir de una
-investigación autobiográfica sobre el
-diálogo interior, las creencias y la identidad.
+autobiográfica, sensorial y contemplativa que nace
+de conversaciones personales con IA y de una
+investigación sobre creencias, memoria e identidad.
 
-El proyecto explora cómo las personas pueden
-reconocer las narrativas que construyen sobre
-sí mismas y transformarlas en oportunidades
-de autoconocimiento.
+Su nueva estructura recorre los siete chakras
+como un mapa simbólico de exploración.
 
-Busca establecer relaciones entre reflexión,
-interpretación y acciones conscientes.
+La tradición espiritual no reemplaza la
+investigación ni mi voz: ayuda a relacionar
+mi experiencia con preguntas que otras personas
+puedan interpretar de manera propia.
 
-### Pregunta de investigación
+El proyecto no pretende diagnosticar bloqueos,
+dar respuestas universales ni prometer
+una transformación psicológica o energética.
 
-¿Cómo podemos diseñar una experiencia que ayude
-a las personas a transformar el diálogo consigo
-mismas en autoconocimiento y, posteriormente,
-en acciones que las acerquen a su propia esencia?
+### Pregunta orientadora actual
+
+¿Cómo puede una experiencia digital transformar
+una investigación autobiográfica en un recorrido
+sensorial y reflexivo, utilizando los siete chakras
+como mapa simbólico para explorar la identidad,
+reconocer patrones y descubrir otras formas
+de habitarse?
+
+La formulación definitiva se mantiene
+abierta en `context.md`.
 
 ### Filosofía de la experiencia
 
-La identidad se comprende como un ecosistema
-dinámico de experiencias, vínculos, creencias,
-emociones y percepciones interrelacionadas.
+No estamos diseñando un sistema para corregir
+personas, sino un espacio para detenerse,
+observar, reconocer y resignificar.
 
-Cada dimensión influye en otras y puede adquirir
-nuevos significados al observarse desde distintas
-perspectivas.
+La identidad se comprende como una experiencia
+en movimiento, atravesada por vivencias,
+vínculos, interpretaciones y posibilidades.
 
-La experiencia no debe ofrecer respuestas
-definitivas sobre quién es una persona.
+La metáfora central ya no es un conjunto de
+seis categorías navegables. Es un recorrido
+por siete centros simbólicos que pueden
+relacionarse entre sí.
 
-Debe construir un espacio donde sea posible
-reconocer, cuestionar, conectar y resignificar
-aspectos de la propia experiencia.
+Las seis categorías anteriores se conservan
+como antecedentes de la investigación y
+posibles microtemas, no como estructura vigente.
 
 ### Personalidad de la web
 
 La experiencia debe transmitir:
 
-- Calma sin resultar estática.
 - Intimidad sin invadir al visitante.
+- Calma sin perder profundidad.
+- Espiritualidad situada sin dogmatismo.
 - Sensibilidad sin sentimentalismo.
-- Profundidad sin resultar incomprensible.
-- Curiosidad sin saturación visual.
-- Libertad sin perder orientación.
-- Confianza sin prometer resultados psicológicos.
-- Reflexión sin imponer conclusiones.
+- Curiosidad sin saturación.
+- Misterio sin confusión.
+- Libertad de interpretación sin perder orientación.
+- Confianza sin prometer diagnósticos ni curaciones.
+- Atención al cuerpo sin imponer una vivencia.
+- Transformación narrativa sin imponer resultados.
 
 ### Relación con el visitante
 
-El visitante es un participante activo.
+La experiencia comienza desde mi historia
+y se abre gradualmente hacia quien la recorre.
 
-Debe poder construir su propio recorrido
-mediante preguntas, decisiones, conexiones
-e interpretaciones personales.
+El visitante no debe sentirse obligado a
+identificarse con mis recuerdos, creer en los
+chakras o practicar meditación para comprender
+el proyecto.
 
-La navegación debe favorecer la exploración
-libre y permitir diferentes profundidades
-de participación.
+El scroll propone un ritmo de lectura con
+textos breves, preguntas, silencios, pausas
+y momentos de contemplación.
 
-Las interacciones deben enriquecer la comprensión
-del contenido, no limitarse a producir efectos.
+La persona puede reconocerse, disentir
+o simplemente observar.
+
+La pregunta es una invitación, no un examen.
+La pausa es un ofrecimiento, no una obligación.
+
+### Tradición, interpretación y testimonio
+
+Al escribir o diseñar, separar siempre:
+
+1. Lo documentado en tradiciones yóguicas
+   y tántricas concretas.
+2. Las lecturas simbólicas contemporáneas.
+3. Mi experiencia y mi interpretación personal.
+
+No atribuir un sentido universal a todos
+los chakras ni presentar metáforas sobre
+energía, bloqueos o memoria corporal como
+hechos clínicos demostrados.
+
+La base cultural y las decisiones actuales
+deben consultarse en `context.md`.
 
 ---
 
 ## 08. Identidad visual de Ecosistema del Ser
 
-La experiencia visual debe responder a la
-metáfora del ecosistema.
+### Dirección visual actual
 
-Las relaciones, redes, nodos, recorridos
-y transformaciones forman parte del
-lenguaje conceptual del proyecto.
+La experiencia busca una estética abstracta,
+celular, atmosférica y orgánica, entre
+lo microscópico y lo cósmico.
 
-Estos elementos pueden traducirse en
-composiciones, movimientos e interacciones
-que permitan comprender relaciones
-entre diferentes dimensiones del ser.
+El elemento protagonista será un avatar
+circular y tridimensional, similar a un
+organismo vivo que gira, respira y se
+transforma durante el recorrido.
+
+Su apariencia puede utilizar membranas,
+esferas, capas, gradientes, transparencias,
+halos y ramificaciones.
+
+El avatar no representa una medición
+real del cuerpo energético. Es una
+interpretación gráfica y narrativa.
+
+### Composición y recorrido
+
+El scroll vertical será el hilo conductor
+de la historia, desde el nacimiento
+autobiográfico del proyecto hasta
+la integración de los siete chakras.
+
+Alternar fondos profundos y oscuros con
+momentos blancos o vacíos para dejar
+espacio a la lectura y a las pausas.
+
+Las transiciones deben sentirse lentas,
+suaves y deliberadas.
+
+El color acompaña los capítulos, pero
+no se busca una estética estridente
+ni la reproducción literal de iconografía
+espiritual contemporánea.
 
 ### Principios visuales
 
-- Construir una atmósfera sensible e inmersiva.
-- Integrar narración y visualización.
-- Utilizar jerarquías claras.
-- Permitir la exploración progresiva.
-- Otorgar significado a los colores y conexiones.
-- Mantener la legibilidad de los contenidos.
-- Utilizar el movimiento con intención.
-- Equilibrar expresividad y claridad.
+- Priorizar la atmósfera sobre el efecto.
+- Usar el color como lenguaje narrativo.
+- Integrar movimiento y significado.
+- Crear jerarquías claras entre imagen y texto.
+- Evitar la acumulación de estímulos.
+- Permitir pausas y espacios de silencio.
+- Mantener contraste y legibilidad.
+- Respetar diferentes dispositivos y
+  preferencias de movimiento reducido.
+- Hacer reconocible el recorrido incluso
+  cuando el color no sea perceptible.
+- Equilibrar abstracción y comprensión.
 
-La estética no debe parecer una aplicación
-convencional de bienestar emocional.
+### Límites
 
-Tampoco debe convertirse en una visualización
-técnica que elimine la dimensión humana.
+No convertir la web en una aplicación
+genérica de bienestar, un catálogo de
+símbolos místicos ni un espectáculo 3D.
 
-### Referentes
+No copiar formas de los referentes
+sin entender su aporte conceptual.
 
-Los referentes deben analizarse por su
-aporte conceptual, formal, narrativo
-o interactivo.
-
-No deben copiarse literalmente.
-
-El análisis detallado y las apropiaciones
-pertenecen a `referentes.md`.
+La dirección estética se define aquí;
+las referencias específicas y decisiones
+visuales detalladas pertenecen
+a `referentes.md` y `estructura.md`.
 
 ---
 
@@ -581,8 +672,9 @@ su análisis y las apropiaciones.
 
 ### estructura.md
 
-Define las secciones, nodos, contenidos,
-navegación e interacciones de la web.
+Define el recorrido por scrolls, los capítulos,
+el comportamiento del avatar, las transiciones
+y las interacciones de la web.
 
 ### criterio.md
 
@@ -635,8 +727,8 @@ sin perder aquello que les da sentido.
 
 ## 13. Estado del documento
 
-Versión: 0.2
-Fecha: 2026-11-18
+Versión: 0.3
+Fecha: 2026-11-24
 Estado: Aprobado.
 
 Fuentes de contexto:
@@ -644,6 +736,7 @@ Fuentes de contexto:
 - Conversación "WEB narrativa".
 - Conversación "WEB trabajos".
 - Investigación "Ecosistema del Ser".
+- `context.md` v0.2: recorrido de los siete chakras.
 
 El documento debe actualizarse cuando
 se aprueben cambios en la identidad

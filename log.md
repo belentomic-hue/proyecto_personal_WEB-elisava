@@ -36,6 +36,13 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-24 — Creación de estructura.md v0.1
+- **Canvis:** afegit `estructura.md` amb el sistema global de moviment, avatar, càmera-scroll, interaccions, materialitat, color, navegació, cinc etapes narratives i decisions pendents.
+- **Motiu:** consolidar la base de disseny aprovada per l'usuària abans de continuar prototipant.
+- **Verificació:** publicació i lectura posterior del fitxer a GitHub.
+- **Pendents/incidències:** validar la implementació en el navegador, colors exactes, geometria 3D i continguts autobiogràfics.
+
+
 ## 2026-11-24 — Primera web inmersiva fluorescente
 - **Canvis:** substituïda la plantilla HTML/CSS/JS per una primera experiència responsive amb portada editorial, organisme procedural de fibres projectades en 3D sobre Canvas 2D, scroll de càmera, cinc etapes narratives, pausa blanca, set chakras i panells interactius.
 - **Motiu:** traslladar la direcció visual acordada i els referents cromàtics fluorescents a un prototip editable sense dependències de framework.

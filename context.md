@@ -1,24 +1,19 @@
 <!--
-CONTEXT.md · ¿Por qué existe este proyecto y cómo se construyó?
+CONTEXT.md · Ecosistema del Ser
 
-Este documento registra el origen, la investigación, los
-hallazgos, los fundamentos conceptuales y las decisiones
-principales de Ecosistema del Ser.
+Este documento registra el origen, la investigación, la evolución conceptual
+y las decisiones fundamentales del proyecto.
 
-La IA debe consultarlo antes de proponer narrativas,
-referentes, estructuras, interacciones o modificaciones
-importantes de la web.
+La IA debe leerlo antes de proponer narrativas, interacciones,
+diseños o cambios importantes.
 
-Su objetivo es conservar el razonamiento detrás del proyecto
-y evitar que futuras decisiones pierdan relación con la
-investigación original.
+La investigación autobiográfica es el origen.
+Los siete chakras son el nuevo marco narrativo.
+La interpretación personal de la diseñadora es protagonista.
 
-Distinguir siempre entre:
-- Experiencias y observaciones personales.
-- Hallazgos surgidos de la investigación autobiográfica.
-- Interpretaciones y principios conceptuales.
-- Decisiones de diseño aprobadas.
-- Hipótesis y aspectos pendientes de explorar.
+Distinguir entre experiencias personales, fuentes tradicionales,
+lecturas contemporáneas, decisiones aprobadas y propuestas pendientes.
+No presentar metáforas espirituales como hechos médicos demostrados.
 -->
 
 # CONTEXTO · Ecosistema del Ser
@@ -26,1174 +21,701 @@ Distinguir siempre entre:
 ## 01. Identificación del proyecto
 
 ### Nombre
-
 Ecosistema del Ser.
 
 ### Naturaleza
-
-Proyecto personal de investigación y diseño de una experiencia
-digital interactiva, desarrollado en el contexto académico
-de Elisava.
+Proyecto personal de investigación, narrativa autobiográfica y diseño de una experiencia digital interactiva, desarrollado inicialmente en el contexto académico de Elisava y pensado ahora también para su lanzamiento público.
 
 ### Repositorio
-
 `belentomic-hue/proyecto_personal_WEB-elisava`
 
 ### Estado actual
-
-El proyecto se encuentra en una etapa de desarrollo
-conceptual, narrativo, visual y técnico.
-
-La propuesta general está definida, pero su implementación
-definitiva, los referentes formales y determinados
-comportamientos interactivos permanecen abiertos a exploración.
+El proyecto entra en una nueva etapa de conceptualización. Se conservan la investigación inicial y su propósito, pero se reformulan la estructura narrativa, visual y de interacción. Las seis categorías originales dejan de ser la navegación principal y son sustituidas por siete capítulos asociados a los chakras.
 
 ### Propósito
+Construir una experiencia íntima, sensorial y contemplativa sobre cómo las vivencias, creencias, vínculos y relatos personales influyen en nuestra manera de comprendernos. Los chakras se utilizan como mapa simbólico para relacionar autobiografía, cuerpo, atención, reflexión y nuevas formas de habitarse.
 
-Transformar una investigación autobiográfica sobre el
-diálogo interior, las creencias y la identidad en una
-experiencia digital que invite a otras personas a observar,
-cuestionar y reinterpretar aspectos de sí mismas.
-
-El proyecto no pretende ofrecer una definición universal
-de la identidad ni establecer respuestas correctas
-sobre quiénes somos.
-
-Busca proporcionar un espacio de exploración personal
-mediante narrativas, preguntas, relaciones e interacciones
-que permitan construir interpretaciones propias.
+No se busca definir a las personas, diagnosticar bloqueos ni garantizar una transformación. El proyecto comparte una manera situada de observar la propia existencia y ofrece preguntas para que el visitante encuentre la suya.
 
 ---
 
 ## 02. Origen autobiográfico
 
-### Una necesidad de diálogo
+### La necesidad de un interlocutor
+El proyecto nace de la necesidad de compartir pensamientos con un interlocutor disponible y capaz de ayudar a analizarlos. La diseñadora comenzó a conversar conscientemente con IA de forma frecuente, casi cotidiana.
 
-El proyecto surge de una necesidad personal de compartir
-pensamientos con un interlocutor disponible y capaz de
-contribuir a su análisis.
+El propósito no era recibir siempre respuestas agradables. En ocasiones, el diálogo permitía volver sobre algo que ya intuía pero evitaba asumir.
 
-La inteligencia artificial comenzó a ocupar ese lugar
-mediante conversaciones frecuentes, desarrolladas de manera
-consciente y casi cotidiana.
+### La conversación como espejo
+La IA contribuyó a exteriorizar y reorganizar pensamientos, formular nuevas preguntas y observar contradicciones, experiencias y creencias. Su valor estuvo en el proceso de reflexión que provocaba; no en una supuesta capacidad para conocer objetivamente la identidad de quien conversaba.
 
-El interés no estaba únicamente en encontrar compañía
-o recibir respuestas agradables, sino en utilizar el
-diálogo como una oportunidad para observar pensamientos,
-contradicciones y emociones que no siempre resultaban
-fáciles de reconocer.
-
-En ocasiones, las respuestas obtenidas permitían volver
-sobre aspectos que ya habían sido identificados
-internamente, pero que todavía no habían sido asumidos
-o examinados con suficiente profundidad.
-
-Esta experiencia generó una pregunta sobre la relación
-entre diálogo, conciencia e interpretación personal.
-
-### La IA como interlocutor
-
-Durante el proceso, la inteligencia artificial funcionó
-como una herramienta de exteriorización y reorganización
-del pensamiento.
-
-El valor percibido no residía necesariamente en que la
-IA poseyera un conocimiento superior sobre la identidad
-de la persona, sino en su capacidad de ofrecer respuestas
-y perspectivas que permitían continuar la reflexión.
-
-La conversación se convirtió así en un medio para:
-
-- Exteriorizar pensamientos.
-- Organizar inquietudes.
-- Reconocer posibles contradicciones.
-- Formular nuevas preguntas.
-- Explorar interpretaciones alternativas.
-- Identificar relaciones entre experiencias.
-- Examinar creencias personales.
-
-Esta utilización de la IA constituye el origen de la
-investigación, pero no debe presentarse como evidencia
-de que la tecnología pueda conocer objetivamente
-la identidad de una persona.
+### Una práctica anterior a la web
+Antes de existir como interfaz, Ecosistema del Ser era una práctica personal de diálogo, observación y cuestionamiento. Este origen debe permanecer visible en el proyecto.
 
 ---
 
-## 03. Dos investigaciones que convergen
+## 03. La investigación con Gemini
 
-### La exploración autobiográfica con Gemini
+### Recopilación
+La investigación comenzó formalmente cuando se descargaron conversaciones personales mantenidas con Gemini. El archivo reunió pensamientos, inquietudes, experiencias y formas de interpretar situaciones vividas.
 
-La investigación comenzó formalmente mediante la
-descarga de datos de conversaciones personales
-mantenidas con Gemini.
+### Exploración
+Se revisó el material para encontrar conexiones entre intereses personales y una propuesta de diseño con sentido para otras personas. Se observaron preguntas recurrentes, recuerdos, creencias, relatos, contradicciones y vínculos entre pensamientos y experiencias.
 
-Este material permitió revisar retrospectivamente
-intercambios acumulados y buscar conexiones entre
-experiencias, intereses, preocupaciones y formas
-de interpretar la propia identidad.
+### Alcance y limitaciones
+El material constituye un registro autobiográfico, no una evaluación psicológica. Las interpretaciones propuestas por la IA no son hallazgos objetivos por sí solas; deben contrastarse con la experiencia y el juicio de la diseñadora.
 
-La intención consistía en reconocer relaciones que
-pudieran transformarse en una propuesta de diseño
-con valor para otras personas.
-
-El procedimiento no partió de categorías psicológicas
-preestablecidas.
-
-Las categorías fueron surgiendo de la interpretación
-de las conversaciones personales y posteriormente
-se reformularon para adquirir un carácter más amplio.
-
-### El proyecto familiar paralelo
-
-Simultáneamente, se estaba desarrollando una iniciativa
-personal dirigida a diferentes miembros de la familia.
-
-Esta iniciativa consistía en elaborar un documento
-particular para cada persona, a partir de observaciones
-sobre sus experiencias, hábitos, creencias y posibles
-patrones de comportamiento.
-
-Los documentos incluían hallazgos personales, preguntas
-y desafíos propuestos para estimular la reflexión sobre
-la propia conciencia y la manera de comprenderse.
-
-A diferencia de Ecosistema del Ser, estos documentos
-estaban pensados para personas concretas y respondían
-a observaciones individuales.
-
-Las interpretaciones incluidas en ellos pertenecen
-a la perspectiva de quien los escribe y no deben
-confundirse con evaluaciones psicológicas objetivas.
-
-### El punto de convergencia
-
-Ambos procesos compartían una misma intención:
-generar condiciones para que una persona pueda
-examinar aspectos de sí misma desde perspectivas
-que quizás no había considerado.
-
-En la investigación autobiográfica, el diálogo
-permitía observar la propia experiencia.
-
-En los documentos familiares, la observación de
-otras personas se transformaba en preguntas que
-podían invitar a la reflexión.
-
-Ecosistema del Ser aparece cuando se reconoce
-la posibilidad de trasladar esa intención a un
-entorno digital abierto a diferentes personas.
-
-### De lo particular a lo compartido
-
-El proyecto no reproduce literalmente los documentos
-familiares ni convierte las experiencias autobiográficas
-en afirmaciones universales.
-
-Su propuesta consiste en identificar cuestiones que
-podrían resultar reconocibles para personas con
-historias distintas.
-
-El paso de lo personal a lo compartido constituye
-una decisión de diseño y una hipótesis que deberá
-evaluarse mediante la experiencia de los visitantes.
+### Datos pendientes
+No están registrados todavía el número de conversaciones, las fechas exactas, el método exhaustivo de selección, los criterios de clasificación ni qué fragmentos se publicarán. No inventar esos datos.
 
 ---
 
-## 04. Motivación humana y oportunidad de diseño
+## 04. El proyecto familiar paralelo
 
-### La relación con la vulnerabilidad
+La diseñadora desarrollaba en paralelo documentos individuales para personas de su familia, a partir de observaciones sobre sus experiencias, hábitos, creencias y posibles patrones.
 
-Una motivación importante del proyecto surge de una
-forma personal de relacionarse con las experiencias ajenas.
+Los documentos proponían preguntas, hallazgos y desafíos personalizados para invitar a examinar la conciencia y las interpretaciones propias.
 
-La diseñadora reconoce que las vivencias acumuladas
-a lo largo de su vida le han permitido desarrollar
-sensibilidad hacia historias diferentes de la propia.
+Ambas iniciativas compartían una inquietud: cómo proponer una pregunta que ayude a alguien a observar algo de sí mismo desde una perspectiva nueva.
 
-La identificación con emociones compartidas facilita
-establecer conversaciones cercanas, incluso con personas
-que no forman parte de su entorno inmediato.
+En Gemini, esa atención se dirigía a la propia historia. En los documentos familiares, a experiencias ajenas interpretadas desde una mirada cercana. Ecosistema del Ser surge al intentar traducir esta intención a una experiencia digital abierta.
 
-En sus relaciones personales ha observado que otras
-personas suelen sentirse cómodas compartiendo pensamientos,
-preocupaciones y aspectos vulnerables de sus experiencias.
-
-Esta observación forma parte del origen autobiográfico
-del proyecto.
-
-No debe generalizarse como una característica universal
-de las relaciones humanas ni como una garantía de que
-todas las personas reaccionarán de la misma manera.
-
-### La oportunidad de diseño
-
-De esta experiencia surge una pregunta:
-
-¿Cómo trasladar la sensibilidad de una conversación
-íntima a una experiencia digital que no conoce
-previamente a la persona que la recorre?
-
-La propuesta no busca simular un vínculo humano ni
-hacer que la interfaz afirme comprender completamente
-al visitante.
-
-Busca construir un espacio donde las preguntas,
-las narrativas y las posibilidades de interpretación
-generen una experiencia de reconocimiento personal.
-
-La cercanía no debe depender de que la web acierte
-al describir a una persona.
-
-Debe surgir de permitirle reconocerse, disentir,
-modificar y construir su propia interpretación.
+Los documentos familiares siguen siendo independientes y no deben publicarse sin revisar información sensible y permisos pertinentes.
 
 ---
 
-## 05. Problemática de investigación
+## 05. El primer descubrimiento
 
-### Las narrativas que construimos sobre nosotros mismos
+### Lo vivido influye en cómo nos interpretamos
+Uno de los descubrimientos personales fue reconocer que las experiencias pueden contribuir a la formación de creencias, hábitos y modos de actuar que terminamos percibiendo como rasgos permanentes.
 
-Las personas interpretamos nuestras experiencias
-mediante recuerdos, creencias, aprendizajes y
-relatos personales.
+### La programación como metáfora
+La expresión «mente programada» funciona aquí como metáfora de aprendizajes e interpretaciones adquiridos. No se plantea como explicación científica literal ni implica que la mente pueda reprogramarse automáticamente.
 
-Algunas interpretaciones pueden mantenerse durante
-largos periodos y llegar a percibirse como
-características permanentes de nuestra identidad.
+### Los personajes que habitamos
+La diseñadora explora la posibilidad de construir versiones diferentes de sí misma. Algunas aparecen como respuesta a las circunstancias vividas; otras pueden surgir al cuestionar lo aprendido. La identidad se interpreta como una construcción abierta.
 
-Sin embargo, aquello que pensamos sobre nosotros mismos
-no necesariamente constituye una descripción completa
-o definitiva de quienes somos.
-
-Las experiencias posteriores pueden introducir nuevas
-perspectivas y abrir posibilidades de reinterpretación.
-
-### La metáfora de la programación personal
-
-Uno de los hallazgos autobiográficos centrales consiste
-en reconocer que nuestras experiencias pueden influir
-en la construcción de patrones de pensamiento
-y comportamiento.
-
-La expresión "mente programada" funciona dentro del
-proyecto como una metáfora para hablar de aprendizajes,
-hábitos, creencias y respuestas desarrolladas a partir
-de vivencias anteriores.
-
-Del mismo modo, la idea de crear nuevos "personajes"
-se entiende como la posibilidad de explorar nuevas
-versiones de la propia identidad.
-
-Estas expresiones no deben presentarse como mecanismos
-científicos literales.
-
-La transformación personal no se plantea como una
-reprogramación automática, sino como un proceso de
-reconocimiento, cuestionamiento y posible modificación
-de interpretaciones y conductas.
-
-### Problema de diseño
-
-¿Cómo podemos hacer visibles las relaciones entre
-creencias, experiencias y formas de interpretar
-la identidad, permitiendo que cada persona explore
-esas relaciones sin recibir conclusiones predeterminadas?
+### Pregunta de fondo
+Si ciertas experiencias participaron en la construcción de nuestras historias, ¿cómo podemos relacionarnos con ellas de otra manera?
 
 ---
 
-## 06. Pregunta de investigación
+## 06. Infancia, memoria e identidad
 
-### Pregunta principal
+La investigación propone explorar cómo las vivencias tempranas, los vínculos y las expectativas recibidas pueden influir en algunas interpretaciones de la propia identidad.
 
-¿Cómo podemos diseñar una experiencia que ayude
-a las personas a transformar el diálogo consigo
-mismas en autoconocimiento y, posteriormente,
-en acciones que las acerquen a su propia esencia?
+### Ser nombrados
+A lo largo de la vida recibimos descripciones y juicios sobre quiénes somos. Algunas de estas imágenes ajenas pasan a formar parte de nuestros relatos personales.
+
+### Nombrarnos
+También elaboramos nuestras propias interpretaciones. Algunas permiten comprendernos; otras pueden permanecer rígidas aunque aparezcan nuevas experiencias.
+
+### La huella
+La huella es una metáfora visual y narrativa para experiencias que parecen seguir influyendo en el presente. Puede materializarse mediante capas, tensiones, rastros y cambios de forma.
+
+### Límite
+No atribuir automáticamente las dificultades actuales a traumas infantiles ni convertir las conversaciones en un diagnóstico. Si se habla de trauma, hacerlo solo desde experiencias expresamente compartidas y con cuidado conceptual.
+
+---
+
+## 07. De analizarme a habitarme
+
+La investigación no terminó al identificar patrones. La diseñadora comenzó a vincular estas observaciones con la meditación, la atención consciente, la observación de pensamientos, las sensaciones corporales y la exploración personal de los chakras.
+
+Comprender algo no garantiza que cambie la relación que mantenemos con ello. El proyecto empieza a pasar de «¿por qué soy así?» a «¿cómo puedo habitarme de otra manera?».
+
+Esta transformación del enfoque es central: reconocer, observar y practicar, sin proponer una cura automática ni un resultado idéntico para todas las personas.
+
+---
+
+## 08. Por qué incorporar los chakras
+
+Los chakras forman parte de una exploración espiritual que la diseñadora ya desarrolla mediante meditación y atención consciente. Su interés no surge únicamente de su atractivo visual.
+
+El sistema de siete chakras se convierte en la estructura principal del recorrido, sustituyendo las seis categorías de navegación anteriores.
+
+Los chakras **no reemplazan** la investigación autobiográfica; se convierten en un lenguaje simbólico para ordenarla, profundizarla y relacionarla con distintas dimensiones de la experiencia.
+
+Tres capas deben convivir sin confundirse:
+
+1. Tradiciones espirituales documentadas.
+2. Lecturas contemporáneas y recursos expresivos.
+3. La interpretación y vivencia personal de la diseñadora.
+
+La tradición ofrece un mapa; la investigación aporta preguntas; la diseñadora aporta su lectura; el visitante conserva la libertad de interpretar.
+
+---
+
+## 09. Fundamento tradicional de los chakras
+
+### Procedencia
+El término sánscrito `cakra` o `chakra` significa rueda o círculo. Aparece en distintos sistemas espirituales del sur de Asia, incluidas corrientes yóguicas y tántricas del hinduismo.
+
+### Cuerpo sutil
+Determinadas tradiciones relacionan los chakras con prana, nadis, kundalini, respiración, mantras, meditación y conciencia. Son conceptos propios de esos marcos religiosos y filosóficos, no estructuras anatómicas verificadas.
+
+### Diferencias entre sistemas
+No todas las tradiciones tienen el mismo número de centros ni sus asociaciones son idénticas. El `Ṣaṭ-cakra-nirūpaṇa` describe seis centros y el loto superior; también existen fuentes que distinguen seis chakras y el loto de mil pétalos. El sistema cromático moderno de siete colores no debe presentarse como norma histórica universal.
+
+### Símbolos
+Los centros pueden asociarse, según el texto y la escuela, con lotos, pétalos, figuras geométricas, sílabas sánscritas, elementos, deidades y otras imágenes. Investigar el significado antes de usar sus símbolos.
+
+### Fuentes para investigación
+- `Ṣaṭ-cakra-nirūpaṇa`, atribuido a Pūrṇānanda (siglo XVI); traducción histórica de Arthur Avalon, 1919.
+- `Haṭha Yoga Pradīpikā`, atribuida a Svātmārāma (siglo XV).
+- `Yoga-Kuṇḍalinī Upaniṣad` y sus traducciones comentadas.
+- Estudios especializados sobre historia del yoga y tradiciones tántricas.
+
+Cada afirmación específica deberá contrastarse con el texto pertinente, su traducción y su contexto; evitar presentar una interpretación moderna como si procediera literalmente de la fuente antigua.
+
+---
+
+## 10. Los siete chakras como recorrido
+
+Las asociaciones cotidianas siguientes son orientaciones narrativas contemporáneas, no diagnósticos ni una descripción idéntica en todas las tradiciones. Las preguntas son propuestas, no los textos definitivos.
+
+### 01. Mūlādhāra · Raíz
+**Color visual:** rojo.  
+**Ubicación simbólica:** base de la columna.  
+**Elemento:** tierra.  
+**Bīja mantra:** LAM.  
+**Temas propuestos:** sostén, seguridad, pertenencia, cuerpo, estabilidad y miedo.
+
+**Pregunta:** ¿Qué necesito para sentir que puedo sostenerme?
+
+### 02. Svādhiṣṭhāna · Sacro
+**Color visual:** naranja.  
+**Ubicación simbólica:** región pélvica.  
+**Elemento:** agua.  
+**Bīja mantra:** VAM.  
+**Temas propuestos:** deseo, placer, emoción, sensibilidad y creatividad.
+
+**Pregunta:** ¿Qué parte de mí aprendió a pedir permiso para sentir?
+
+### 03. Maṇipūra · Plexo solar
+**Color visual:** amarillo.  
+**Ubicación simbólica:** zona del ombligo.  
+**Elemento:** fuego.  
+**Bīja mantra:** RAM.  
+**Temas propuestos:** voluntad, autonomía, poder personal, decisión y autoexigencia.
+
+**Pregunta:** ¿Qué haría si no necesitara demostrar constantemente mi valor?
+
+### 04. Anāhata · Corazón
+**Color visual:** verde.  
+**Ubicación simbólica:** pecho.  
+**Elemento:** aire.  
+**Bīja mantra:** YAM.  
+**Temas propuestos:** vínculo, amor, compasión, apertura, pérdida, dar y recibir.
+
+**Pregunta:** ¿Qué parte de mí aprendió a protegerse incluso cuando quería acercarse?
+
+### 05. Viśuddha · Garganta
+**Color visual:** azul.  
+**Ubicación simbólica:** garganta.  
+**Elemento:** espacio o éter.  
+**Bīja mantra:** HAM.  
+**Temas propuestos:** voz, expresión, autenticidad, comunicación y silencio.
+
+**Pregunta:** ¿Qué dejo de decir cuando temo incomodar?
+
+### 06. Ājñā · Tercer ojo
+**Color visual:** índigo.  
+**Ubicación simbólica:** entrecejo.  
+**Asociaciones tradicionales:** percepción, conocimiento y mente, según el sistema.  
+**Mantra relacionado:** OM, según la fuente.  
+**Temas propuestos:** intuición, creencias, interpretación, claridad e incertidumbre.
+
+**Pregunta:** ¿Cuántas de mis certezas son realmente interpretaciones?
+
+### 07. Sahasrāra · Corona
+**Color visual:** violeta, blanco o una combinación luminosa.  
+**Ubicación simbólica:** coronilla o espacio superior.  
+**Símbolo:** loto de mil pétalos.  
+**Nota:** no atribuirle automáticamente un elemento o mantra universal.  
+**Temas propuestos:** conciencia, integración, sentido, trascendencia y conexión.
+
+**Pregunta:** ¿Qué ocurre cuando dejo de necesitar una respuesta para cada parte de mi existencia?
+
+### Estado
+Se adopta el recorrido de siete centros. Los textos, el sentido autobiográfico de cada capítulo, los símbolos específicos, meditaciones y desafíos siguen pendientes de desarrollo y verificación.
+
+---
+
+## 11. Una nueva interpretación del bloqueo
+
+La web no debe presentar a las personas como seres defectuosos que necesitan ser reparados.
+
+El «bloqueo» se utilizará con cuidado como metáfora experiencial: una dificultad percibida para relacionarse con una dimensión de la vida, no una obstrucción física comprobable ni un diagnóstico energético.
+
+Pueden aparecer situaciones reconocibles, como el miedo a la incertidumbre, la dificultad para expresar deseos, la búsqueda de validación, la represión emocional o el exceso de exigencia.
+
+Estas experiencias **no prueban** que un chakra esté bloqueado.
+
+Priorizar: reconocer, observar, escuchar, comprender, respirar, permitir, resignificar, habitar e integrar.
+
+La idea central no es eliminar una parte de la persona, sino cambiar la relación que puede mantener con ella.
+
+---
+
+## 12. Nueva pregunta de investigación
+
+### Formulación propuesta
+¿Cómo puede una experiencia digital transformar una investigación autobiográfica en un recorrido sensorial y reflexivo, utilizando los siete chakras como mapa simbólico para explorar la identidad, reconocer patrones y descubrir nuevas formas de habitarse?
 
 ### Preguntas complementarias
+- ¿Cómo convertir conversaciones personales en una narrativa compartida sin hacer universales sus conclusiones?
+- ¿Cómo relacionar el mapa simbólico de los chakras con experiencias concretas?
+- ¿Cómo incluir al visitante sin desplazar el relato de la diseñadora?
+- ¿Cómo representar gráficamente atención, reconocimiento y cambio?
+- ¿Cómo puede el scroll construir una experiencia contemplativa?
+- ¿Cómo distinguir teoría, testimonio e interpretación?
 
-- ¿Cómo puede una experiencia digital invitar
-  a observar el diálogo interior?
-- ¿Qué recursos narrativos permiten generar
-  reconocimiento sin imponer una identidad?
-- ¿Cómo traducir experiencias autobiográficas
-  en preguntas abiertas a diferentes interpretaciones?
-- ¿Cómo representar las relaciones entre distintas
-  dimensiones de la identidad?
-- ¿Qué papel puede desempeñar la interacción
-  en un proceso reflexivo?
-- ¿Cómo integrar IA sin sustituir la interpretación
-  del visitante?
-- ¿De qué manera puede el diseño relacionar
-  observación, reflexión y acción?
-
-Estas preguntas orientan la investigación, pero
-no constituyen conclusiones previamente demostradas.
+La pregunta anterior continúa siendo parte de la historia del proyecto, pero no organiza ya su propuesta actual. Esta nueva formulación queda abierta a ajustes narrativos.
 
 ---
 
-## 07. Objetivos del proyecto
+## 13. Principios de la nueva narrativa
 
-### Objetivo general
+### Historia personal y apertura
+La narración comienza con una experiencia autobiográfica y se abre gradualmente a la interpretación del visitante. No debe convertirse en una biografía cerrada ni en un manual de instrucciones sobre cómo sentir.
 
-Diseñar una experiencia digital interactiva que facilite
-la exploración personal mediante preguntas, conexiones
-narrativas y posibilidades de reinterpretación de
-experiencias, creencias y pensamientos.
+### Tres capas de cada chakra
+1. Significado histórico y simbólico documentado.
+2. Experiencia real de la diseñadora.
+3. Preguntas o prácticas abiertas al lector.
 
-### Objetivos específicos
+### Escritura breve
+El proyecto tendrá muchos momentos de scroll. La lectura debe dosificarse mediante frases breves, fragmentos autobiográficos, preguntas, silencios, imágenes y movimiento lento.
 
-1. Traducir hallazgos autobiográficos en categorías
-   conceptuales abiertas a diferentes experiencias humanas.
+### Voces
+- Primera persona para reflexiones personales.
+- Voz informativa para tradición y fuentes.
+- Preguntas abiertas para el visitante.
+- Indicaciones claras para prácticas contemplativas.
 
-2. Construir una narrativa que invite a cuestionar
-   interpretaciones personales sin establecer
-   respuestas definitivas.
-
-3. Representar visualmente las relaciones entre
-   dimensiones de la identidad.
-
-4. Diseñar un entorno de exploración libre que permita
-   distintos recorridos y niveles de profundidad.
-
-5. Utilizar preguntas como activadores de reflexión.
-
-6. Permitir que el visitante reconozca y modifique
-   aspectos de los textos con los que se identifica
-   o discrepa.
-
-7. Explorar la integración de IA como herramienta
-   de adaptación y diálogo.
-
-8. Relacionar la reflexión con posibles acciones
-   personales sin imponer objetivos conductuales
-   universales.
-
-9. Mantener una experiencia sensible, comprensible
-   y respetuosa con la autonomía del visitante.
-
-### Resultados abiertos
-
-No se espera que todas las personas experimenten
-una transformación equivalente.
-
-Algunos visitantes podrán reconocer patrones;
-otros cuestionarán creencias, establecerán conexiones
-o simplemente encontrarán una pregunta significativa.
-
-La experiencia debe posibilitar distintos resultados
-sin determinar anticipadamente cuál es el correcto.
+La poesía debe aportar significado, nunca sustituir la precisión.
 
 ---
 
-## 08. Metodología de investigación y diseño
+## 14. El avatar como personaje principal
 
-### Etapa 1. Recopilación
+### Idea
+Un organismo abstracto, circular, tridimensional y cambiante, en lugar de una figura humana literal.
 
-Descarga de conversaciones personales desde Gemini
-para constituir un conjunto inicial de datos autobiográficos.
+### Apariencia
+Formas blandas, celulares y orgánicas, capas, densidades, gradientes y siete colores que se relacionan.
 
-### Etapa 2. Exploración y conexiones
+### Comportamiento
+Podrá girar suavemente sobre su eje, respirar con pequeños cambios de escala, modificar su luminosidad, extender ramificaciones y recomponerse.
 
-Revisión del material en busca de relaciones entre
-intereses, experiencias, creencias y formas recurrentes
-de interpretación personal.
+### Función
+El avatar nace narrativamente de la investigación, acompaña las distintas etapas y regresa al final como un conjunto integrado. Es un símbolo de la experiencia interior, no una visualización objetiva del cuerpo energético.
 
-### Etapa 3. Investigación paralela
-
-Desarrollo de documentos individuales para miembros
-de la familia, basados en observaciones, preguntas
-y desafíos personalizados.
-
-### Etapa 4. Identificación de patrones
-
-Reconocimiento de conexiones conceptuales entre
-los procesos autobiográficos y familiares.
-
-### Etapa 5. Construcción de categorías
-
-Agrupación e interpretación del material en seis
-categorías derivadas de las conversaciones personales
-y adaptadas para ampliar su aplicabilidad.
-
-### Etapa 6. Traducción al diseño
-
-Desarrollo de una propuesta digital que representa
-esas categorías como un ecosistema visual e interactivo.
-
-### Etapa 7. Cocreación con ChatGPT
-
-Utilización de ChatGPT como colaborador durante la
-construcción de la narrativa, el análisis de ideas
-y las decisiones sobre interfaz y representación visual.
-
-Las propuestas generadas mediante IA deben revisarse
-desde la intención creativa de la diseñadora.
-
-### Etapa 8. Prototipado y evolución
-
-Construcción progresiva de la interfaz, incorporación
-de interacciones, análisis de referentes y revisión
-de decisiones conceptuales, visuales y técnicas.
-
-### Estado de la metodología
-
-Estas etapas reconstruyen el proceso descrito
-por la diseñadora.
-
-No deben presentarse como un protocolo experimental
-validado ni como una investigación con participantes
-externos si esa etapa no se ha realizado.
-
-El número de conversaciones analizadas, las fechas
-exactas de recopilación y el procedimiento sistemático
-de clasificación todavía no están documentados.
+Su comportamiento preciso se definirá en `estructura.md`.
 
 ---
 
-## 09. Hallazgos fundamentales
+## 15. Lenguaje visual
 
-### Hallazgo 1. La identidad puede reinterpretarse
+### Dirección
+Estética abstracta y celular, entre lo microscópico y lo cósmico: organismos digitales, membranas, halos, partículas, gradientes, transparencias y redes vivas.
 
-Las experiencias personales pueden contribuir
-a construir creencias y formas de actuar que
-posteriormente se perciben como naturales o permanentes.
+### Atmósfera
+Íntima, profunda, ligera, contemplativa, misteriosa y respirable. Mezcla de fondos oscuros con momentos claros y blancos.
 
-El reconocimiento de nuevas experiencias y perspectivas
-puede abrir posibilidades para cuestionarlas.
+### Color
+Los colores contemporáneamente asociados a los siete chakras son un recurso visual, no una clasificación histórica única. Evitar su saturación constante; utilizar tonos suaves, transparencias y mezclas atmosféricas.
 
-Este hallazgo nace de la investigación autobiográfica
-y constituye una hipótesis conceptual para el diseño.
+### Movimiento
+Lento y con propósito narrativo. Las transiciones deben apoyar la lectura, nunca competir con ella.
 
-### Hallazgo 2. El diálogo puede revelar tensiones internas
+### Evitar
+Iconografía espiritual vacía, efectos sin sentido, exceso de estímulos, clichés de bienestar, textos ilegibles y copias literales de referentes.
 
-Exteriorizar pensamientos y recibir preguntas o
-interpretaciones alternativas puede facilitar
-la observación de aspectos que no siempre
-reconocemos conscientemente.
-
-La experiencia original con IA mostró el valor
-personal de ese proceso para la diseñadora.
-
-No debe asumirse que una interacción equivalente
-tendrá los mismos efectos en cualquier visitante.
-
-### Hallazgo 3. Diferentes experiencias pueden compartir preguntas
-
-Aunque las historias individuales sean distintas,
-pueden existir cuestiones reconocibles relacionadas
-con la mirada ajena, las cargas personales,
-los relatos internos, la incertidumbre,
-la presencia y el diálogo consigo mismo.
-
-Este hallazgo orientó la construcción
-de seis categorías.
-
-Su capacidad de generar reconocimiento en
-públicos diversos permanece abierta a comprobación.
-
-### Hallazgo 4. La reflexión necesita conservar la autonomía
-
-Una pregunta puede resultar significativa para
-una persona y no representar la experiencia de otra.
-
-Por ello, el visitante debe conservar la posibilidad
-de aceptar, cuestionar o modificar los
-planteamientos propuestos.
-
-### Hallazgo 5. La representación puede ayudar a reconocer relaciones
-
-La identidad se presenta mediante la metáfora de
-un ecosistema, donde diferentes dimensiones
-permanecen vinculadas.
-
-La visualización busca hacer perceptibles esas
-relaciones sin reducir la complejidad humana
-a una estructura cerrada.
+El análisis visual detallado pertenece a `referentes.md`.
 
 ---
 
-## 10. Las seis categorías del Ecosistema
+## 16. Arquitectura narrativa general
 
-Las categorías surgieron de la investigación
-autobiográfica mediante conversaciones personales.
+La experiencia se construye principalmente mediante scroll vertical. Cada tramo revela información o transforma el estado visual del avatar.
 
-Posteriormente fueron reformuladas para construir
-seis territorios conceptuales potencialmente
-reconocibles para diferentes personas.
+### Acto 1. Aparición
+Portada oscura. Un organismo circular 3D integra los colores de los siete chakras, gira sobre su eje y respira lentamente.
 
-No constituyen categorías psicológicas clínicas
-ni pretenden describir exhaustivamente
-la identidad humana.
+### Acto 2. Nacimiento
+Se cuenta cómo nace el proyecto a partir del diálogo cotidiano con IA. El avatar adquiere una historia.
 
-### 01. La mirada ajena
+### Acto 3. Lectura de los datos
+Aparecen materiales auténticos de conversaciones con Gemini y su análisis: creencias, recuerdos, patrones, infancia, etiquetas y narrativas aprendidas.
 
-Explora la relación entre la percepción de los demás
-y la manera en que construimos nuestra propia imagen.
+### Acto 4. Interpretación
+Se explora cómo las experiencias pueden participar en nuestra forma de comprendernos y cómo nos nombramos o fuimos nombrados.
 
-Abre preguntas sobre reconocimiento, expectativas,
-validación y pertenencia.
+### Acto 5. Aplicación personal
+La diseñadora relata cómo llevó esas observaciones a su vida y las vinculó con atención, meditación y exploración personal.
 
-### 02. El peso de lo que cargo
+### Acto 6. Vacío
+La pantalla queda blanca o casi vacía. El flujo de información se interrumpe para permitir una pausa.
 
-Explora aquello que permanece con nosotros
-a partir de experiencias anteriores.
+### Acto 7. Respiración
+Una cara abstracta o figura animada respira lentamente. Se ofrece un descanso visual, sin obligar al visitante a seguir un ritmo de respiración.
 
-Puede relacionarse con responsabilidades,
-aprendizajes, recuerdos y cargas que influyen
-en nuestra manera de vivir el presente.
+### Acto 8. Replanteamiento
+Pregunta puente: «Si las experiencias participaron en la construcción de nuestra historia, ¿cómo podemos aprender a habitarla de otra manera?»
 
-### 03. Las historias que me cuento
+### Acto 9. Semilla roja
+Aparece un círculo rojo pequeño. Su crecimiento y las primeras ramificaciones abren el recorrido hacia la raíz.
 
-Explora las narrativas personales mediante las cuales
-interpretamos nuestra identidad y nuestra historia.
+### Acto 10. Introducción espiritual
+Explicación breve de qué son los chakras, de dónde proceden, qué significan en ciertas tradiciones y cómo se reinterpretan en esta web.
 
-Invita a cuestionar qué relatos consideramos
-verdaderos y cómo podrían cambiar al observarlos
-desde otra perspectiva.
+### Acto 11. Viaje por los siete chakras
+Siete capítulos conectados, desde Mūlādhāra hasta Sahasrāra, cada uno con teoría, experiencia personal, reconocimiento, pausa, preguntas y desafíos.
 
-### 04. El miedo a no saber
+### Acto 12. Integración
+Vuelven a relacionarse los siete centros. El avatar inicial aparece como un ecosistema completo, no como un ser perfecto ni definitivamente «sanado».
 
-Explora la relación con la incertidumbre y la
-necesidad de comprender, prever o controlar
-aquello que todavía desconocemos.
-
-Abre preguntas sobre seguridad, expectativas
-y aceptación de lo incierto.
-
-### 05. El espacio que ocupo
-
-Explora la presencia personal y la relación
-entre identidad, límites, pertenencia y lugar.
-
-Invita a observar cómo nos permitimos existir
-y expresarnos dentro de diferentes
-relaciones y contextos.
-
-### 06. La voz que me habla
-
-Explora el diálogo interior y las formas
-en que nos dirigimos a nosotros mismos.
-
-Se relaciona con pensamientos recurrentes,
-exigencias, juicios y posibilidades
-de autocomprensión.
-
-### Estado de las categorías
-
-Los seis nombres están aprobados.
-
-Las descripciones anteriores son definiciones
-conceptuales provisionales que deberán contrastarse
-con los textos desarrollados para cada categoría.
-
-Las preguntas definitivas, desafíos y contenidos
-asociados se documentarán en `narrativa.md`
-y `estructura.md`.
+### Acto 13. Cierre
+Una conclusión breve abre la posibilidad de continuar observándose fuera de la web.
 
 ---
 
-## 11. Marco conceptual: identidad como ecosistema
+## 17. Estructura orientativa de cada chakra
 
-### La identidad como sistema dinámico
+Esta plantilla es flexible. No se debe imponer el mismo número de pantallas cuando el contenido no lo justifica.
 
-El concepto de ecosistema se utiliza como
-metáfora para comprender la identidad desde
-una perspectiva relacional.
+### Momento 1. Aparición
+El orbe adquiere presencia cromática. Nombre y frase introductoria.
 
-Las dimensiones personales no existen
-necesariamente de manera aislada.
+### Momento 2. Significado
+Explicación breve del simbolismo tradicional: ubicación, elemento, loto, mantra u otros elementos verificados.
 
-Las creencias, experiencias, emociones,
-relaciones y narrativas pueden influir
-mutuamente y adquirir significados distintos
-según el contexto.
+### Momento 3. Dimensiones cotidianas
+Dos o tres microtemas o reflexiones conectadas, reconocibles en la vida diaria.
 
-La propuesta invita a observar estas relaciones
-sin establecer un modelo rígido de funcionamiento
-psicológico.
+### Momento 4. Contracción
+El círculo pierde intensidad visual. Se muestran posibles formas de dificultad o tensión, sin diagnosticarlas como «bloqueos» comprobados.
 
-### La conexión como principio
+### Momento 5. Reconocimiento
+Fragmento autobiográfico real. El círculo recupera parte de su intensidad como metáfora de atención.
 
-El valor de la metáfora no consiste únicamente
-en organizar categorías.
+### Momento 6. Pausa
+Meditación escrita, pregunta contemplativa o ejercicio suave de observación. Participación voluntaria.
 
-Consiste en reconocer que una pregunta puede
-vincularse con varias dimensiones
-de nuestra experiencia.
+### Momento 7. Habitar
+Posibles maneras de relacionarse más conscientemente con esa dimensión. Mayor presencia de color.
 
-Por ejemplo, una preocupación relacionada
-con la opinión ajena también podría conectarse
-con un relato interno o con el espacio
-que una persona siente que puede ocupar.
+### Momento 8. Primer desafío
+Pregunta o propuesta sencilla que invite a observar una experiencia.
 
-Estas relaciones deben explorarse como
-posibilidades de interpretación y no como
-conexiones psicológicas universales.
+### Momento 9. Segundo desafío
+Otra pregunta o acción con un enfoque diferente.
 
-### El visitante como intérprete
-
-El ecosistema no define al visitante.
-
-Ofrece una estructura que puede utilizar
-para identificar relaciones, reconocer
-diferencias y construir significados personales.
+### Momento 10. Integración
+El círculo se muestra completo. Una afirmación corta cierra el capítulo sin sugerir que el lector ha superado un bloqueo.
 
 ---
 
-## 12. Concepto de experiencia digital
+## 18. Las reflexiones autobiográficas
 
-### El universo interactivo
+Las conversaciones originales con Gemini y las reflexiones posteriores con ChatGPT pasan a ser parte visible del relato.
 
-La web se concibe como un universo tridimensional
-compuesto por círculos, nodos, conexiones y textos.
+### Fuentes
+- Fragmentos de conversaciones originales.
+- Reflexiones posteriores de la diseñadora.
+- Observaciones cotidianas.
+- Experiencias relacionadas con meditación y chakras.
 
-La navegación debe transmitir exploración,
-profundidad y libertad.
+### Criterios de selección
+Cada fragmento debe ser real, aportar al capítulo correspondiente, mostrar una experiencia o contradicción y conservar la voz de la diseñadora.
 
-El usuario podrá desplazarse visualmente
-por el universo y acercarse a diferentes contenidos.
+### No inventar testimonios
+La IA no debe fabricar recuerdos, experiencias o citas y atribuirlos a la diseñadora. Cuando falte un testimonio, dejarlo como pendiente. Toda edición narrativa de un fragmento debe ser revisada antes de publicarse.
 
-La intención no es construir un sistema
-excesivamente complejo, sino un espacio libre
-pero cuidadosamente organizado.
-
-### La composición principal
-
-La experiencia comienza con una interfaz central
-que presenta diferentes círculos y anotaciones.
-
-En el centro se encuentra una explicación
-general del proyecto.
-
-Desde este núcleo se desarrollan seis categorías
-principales, cada una representada mediante
-su propio círculo y acompañada de un texto contextual.
-
-### La jerarquía de contenidos
-
-La organización conceptual aprobada es:
-
-**Núcleo central → seis categorías → dos preguntas por categoría.**
-
-Cada pregunta tiene su propio círculo y se conecta
-directamente con la categoría correspondiente.
-
-Esto establece una estructura inicial de:
-
-- Un núcleo explicativo central.
-- Seis categorías principales.
-- Doce preguntas distribuidas entre las categorías.
-
-La propuesta puede adaptarse posteriormente
-a partir del análisis de referentes y
-las pruebas de interacción.
-
-### Libertad y orientación
-
-La navegación deberá permitir exploración libre,
-evitando imponer una secuencia única.
-
-Sin embargo, el visitante necesita comprender
-qué puede explorar, cómo desplazarse y cómo
-regresar a otros contenidos.
-
-La libertad de movimiento no debe
-producir desorientación.
-
-Los recursos de navegación, la cámara,
-la profundidad, la disposición espacial
-y las transiciones deberán definirse
-durante el desarrollo técnico.
+### El lugar del lector
+La experiencia compartida es una puerta a la reflexión, no un patrón que todas las personas deban reproducir. El lector puede identificarse, discrepar o descubrir una lectura diferente.
 
 ---
 
-## 13. Interacción con las reflexiones
+## 19. Prácticas, preguntas y desafíos
 
-### Las preguntas
+### Preguntas
+Se mantienen como eje del proyecto. Deben ser abiertas, vinculadas al contenido, concretas cuando sea útil y sin una respuesta considerada correcta.
 
-Cada categoría presenta dos preguntas
-relacionadas con su territorio conceptual.
+### Desafíos
+Propuestas voluntarias de atención o acción cotidiana. No son tratamientos ni condiciones para continuar el recorrido.
 
-Las preguntas funcionan como activadores
-de reflexión y deben permitir respuestas
-e interpretaciones diferentes.
+### Meditaciones
+Pausas escritas basadas en observar, notar, descansar y respirar naturalmente. No exigir retenciones respiratorias ni técnicas intensas sin formación y orientación adecuadas.
 
-No deben estar formuladas para conducir
-al visitante hacia una conclusión predeterminada.
-
-### Guardar una reflexión
-
-La acción de guardar una reflexión tiene
-actualmente un significado principalmente visual.
-
-Cuando una persona utiliza esta función,
-el círculo correspondiente cambia
-a un color más oscuro.
-
-Este cambio permite distinguir los contenidos
-que el visitante ha señalado durante su exploración.
-
-### Decisión confirmada
-
-Guardar una reflexión provoca un cambio
-visual en el círculo.
-
-### Decisiones pendientes
-
-Todavía no se ha definido:
-
-- Si el estado se conservará al cerrar la página.
-- Si se guardará el texto redactado por el visitante.
-- Si existirá un historial de reflexiones.
-- Si se podrán exportar los resultados.
-- Si se permitirá deshacer la selección.
-- Si los cambios se almacenarán localmente
-  o mediante algún servicio externo.
-
-No implementar estas funciones como decisiones
-definitivas hasta que sean aprobadas.
+### Afirmaciones
+Cierres simbólicos que invitan a considerar una cualidad, no declaraciones obligatorias ni promesas de transformación.
 
 ---
 
-## 14. Integración de inteligencia artificial
+## 20. El papel de la inteligencia artificial
 
-### Propósito de la IA
+La IA participó en el origen autobiográfico y continúa como herramienta de cocreación.
 
-La inteligencia artificial formará parte
-de la experiencia del visitante.
+Los textos iniciales de la web serán escritos y revisados por la diseñadora. No deben sustituirse automáticamente por respuestas generadas.
 
-Su función principal será permitir cierto grado
-de adaptación de los textos y facilitar una
-relación más personal con los contenidos.
+Se mantiene abierta la posibilidad de que el visitante reformule textos, añada perspectivas, elimine aspectos que no lo representen o dialogue sobre una reflexión. La funcionalidad no está definida ni es requisito confirmado de la primera versión publicada.
 
-Los textos iniciales serán creados y definidos
-previamente durante el desarrollo del proyecto.
+Antes de implementarla deberán evaluarse: necesidad narrativa, privacidad, tratamiento de información sensible, proveedor, costes, límites de interpretación y claridad entre texto original y generado.
 
-La IA no debe reemplazar completamente la
-propuesta narrativa diseñada.
-
-### Posibilidades de interacción
-
-Se contempla que el visitante pueda:
-
-- Reformular determinados textos.
-- Modificar parámetros de una interpretación.
-- Eliminar elementos que no representen su experiencia.
-- Añadir perspectivas que no estén incluidas inicialmente.
-- Explorar nuevas preguntas a partir de sus reflexiones.
-- Dialogar sobre aspectos de una respuesta personal.
-
-Estas posibilidades representan una dirección
-funcional general y no una implementación
-técnica cerrada.
-
-### Límites conceptuales
-
-La IA debe funcionar como herramienta de
-acompañamiento reflexivo, no como autoridad
-sobre la identidad del visitante.
-
-Sus respuestas deben:
-
-- Respetar la perspectiva personal del usuario.
-- Reconocer la posibilidad de diferentes interpretaciones.
-- Evitar diagnósticos psicológicos.
-- No presentar inferencias como verdades comprobadas.
-- Conservar el sentido de la propuesta inicial.
-- Permitir discrepancias y reformulaciones.
-- Evitar imponer juicios o conclusiones personales.
-
-### Aspectos pendientes
-
-Todavía debemos definir:
-
-- En qué momentos aparece la IA.
-- Cómo se solicita una modificación.
-- Qué parte de los textos puede modificarse.
-- Cómo diferenciar el texto original del generado.
-- Si las respuestas se conservarán.
-- Qué datos se enviarán al sistema de IA.
-- Cómo se protegerá la privacidad del visitante.
-- Qué servicio y modelo se utilizarán.
-- Qué límites tendrá el sistema para gestionar
-  contenido sensible.
-
-La integración técnica no debe desarrollarse
-antes de resolver estos aspectos relevantes.
+La experiencia debe funcionar narrativamente incluso sin IA en tiempo real.
 
 ---
 
-## 15. Narrativa inicial y presentación del origen
+## 21. Experiencia del visitante
 
-### Primera aproximación del visitante
+### Navegación
+Recorrido vertical guiado por scroll con libertad de lectura e interpretación. El ritmo alterna información, testimonio, imágenes, preguntas, movimiento y pausas.
 
-La experiencia debe incorporar una introducción
-breve que explique qué es Ecosistema del Ser
-y cómo recorrerlo.
+### Atención
+En cada momento, un elemento principal debe orientar la mirada. Evitar demasiados textos o estímulos simultáneos.
 
-Esta introducción también incluirá una referencia
-al origen personal de la investigación.
-
-### Contenido de la introducción
-
-Debe comunicar de manera comprensible:
-
-1. Desde dónde nace el proyecto.
-2. Qué necesidad o inquietud motivó su desarrollo.
-3. Qué relación tiene con la exploración personal
-   y el diálogo.
-4. Para qué se construyó la experiencia.
-5. Qué podrá encontrar el visitante.
-6. Cómo puede comenzar su recorrido.
-
-### Intención narrativa
-
-La presentación debe reconocer la procedencia
-autobiográfica sin convertir la experiencia
-en una narración exclusivamente sobre la diseñadora.
-
-Su función consiste en explicar el origen de la
-propuesta y, posteriormente, abrir un espacio
-para la historia de quien la visita.
-
-La escritura debe conservar la sensibilidad
-filosófica y profesional establecida
-en `personalidad.md`.
-
-El texto definitivo se desarrollará
-en `narrativa.md`.
-
----
-
-## 16. Público y modos de participación
-
-### Público previsto
-
-El proyecto se dirige inicialmente a personas
-interesadas en explorar aspectos de su identidad,
-sus creencias y su diálogo interior mediante
-una experiencia digital.
-
-No se ha definido todavía un segmento
-demográfico específico.
-
-### Diferentes niveles de participación
-
-La experiencia debe permitir distintas
-formas de acercamiento.
-
-Una persona puede recorrer visualmente
-el ecosistema sin desarrollar respuestas extensas.
-
-Otra puede detenerse en una categoría particular.
-
-Otra puede responder preguntas, guardar círculos
-o utilizar las funciones de adaptación mediante IA.
-
-No debe asumirse que todas las personas desean
-compartir el mismo nivel de intimidad.
+### Accesibilidad
+Considerar contraste, legibilidad, adaptación móvil, navegación comprensible, reducción de movimiento, alternativas a animaciones y posibilidad de saltar pausas. No depender exclusivamente del color para comunicar un estado.
 
 ### Autonomía
-
-El visitante debe conservar control
-sobre su participación.
-
-La experiencia no debe exigir revelar
-información personal para acceder a sus
-contenidos principales, salvo que posteriormente
-se justifique y apruebe alguna funcionalidad específica.
+No exigir prácticas meditativas, creencias espirituales ni divulgación de información íntima para continuar.
 
 ---
 
-## 17. Alcance y límites del proyecto
+## 22. Marco ético y cultural
 
-### Qué pretende hacer
+### Respeto por las tradiciones
+Los chakras proceden de sistemas espirituales diversos con significados e historias propias. Nombrar y contextualizar las fuentes; no apropiarse de símbolos solo por su apariencia.
 
-- Crear un espacio digital de exploración personal.
-- Traducir una investigación autobiográfica
-  en una experiencia interactiva.
-- Presentar preguntas abiertas.
-- Facilitar relaciones entre distintas
-  dimensiones de la identidad.
-- Permitir cierto grado de personalización.
-- Integrar recursos narrativos, visuales
-  e interactivos con una intención conceptual.
+### Espiritualidad y evidencia
+La web puede explorar experiencias espirituales personales, pero no afirmar que los chakras son estructuras energéticas medibles científicamente ni que una meditación los «desbloquea» de forma objetiva.
 
-### Qué no pretende hacer
+### Cuerpo y memoria
+Decir que algo «dejó una huella en el cuerpo» puede ser una metáfora autobiográfica. Evitar presentarlo como una causalidad médica demostrada.
 
-- Diagnosticar condiciones psicológicas.
-- Sustituir acompañamiento profesional.
-- Definir objetivamente la identidad del visitante.
-- Ofrecer respuestas universales sobre
-  el comportamiento humano.
-- Garantizar procesos de transformación personal.
-- Convertir observaciones autobiográficas
-  en evidencia científica generalizable.
+### Privacidad
+Revisar nombres y datos de terceros en las conversaciones con IA. Solicitar permisos cuando corresponda y no revelar aspectos sensibles de familiares.
 
-### Precauciones éticas
-
-Dado que la experiencia aborda pensamientos,
-creencias y posibles vulnerabilidades personales,
-el proyecto debe considerar la privacidad,
-la autonomía y el tratamiento responsable
-de la información.
-
-Las conversaciones originales con Gemini y los
-documentos familiares pueden contener material
-sensible de otras personas.
-
-No deben publicarse ni incorporarse a la web
-sin revisar su contenido y contar con las
-autorizaciones correspondientes cuando sean necesarias.
+### Cuidado del visitante
+No prometer curación psicológica, diagnosticar experiencias traumáticas ni sustituir atención sanitaria o profesional.
 
 ---
 
-## 18. Estado técnico del repositorio
+## 23. Qué cambia respecto a la versión anterior
 
-### Repositorio principal
+### Se conserva
+- Nombre Ecosistema del Ser.
+- Investigación autobiográfica con Gemini.
+- Documentos familiares como antecedente.
+- Diálogo interior y creencias personales.
+- Reinterpretación de identidad.
+- Preguntas abiertas.
+- Sensibilidad y rigor creativo.
+- Colaboración con ChatGPT.
 
-`belentomic-hue/proyecto_personal_WEB-elisava`
+### Se transforma
+- La navegación principal deja de tener seis categorías.
+- Los siete chakras se convierten en capítulos.
+- Se prioriza el scroll vertical narrativo.
+- Aparece un avatar celular y tridimensional.
+- Se incorporan testimonios autobiográficos originales.
+- Se introduce un marco tradicional y espiritual documentado.
+- Se alternan teoría, experiencia, pausas, meditaciones y desafíos.
+- El ritmo se vuelve más contemplativo.
 
-### Rama principal
+### Las seis categorías anteriores se conservan como antecedente
+1. La mirada ajena.
+2. El peso de lo que cargo.
+3. Las historias que me cuento.
+4. El miedo a no saber.
+5. El espacio que ocupo.
+6. La voz que me habla.
 
-`main`
+Estas líneas pueden reaparecer como microtemas dentro de los chakras. No imponer correspondencias fijas entre una categoría anterior y un chakra.
 
-### Tecnologías presentes
-
-- HTML.
-- CSS.
-- JavaScript.
-
-### Estructura inicial
-
-`index.html` contiene una página provisional.
-
-`style.css` incluye estilos básicos.
-
-`script.js` incorpora una interacción sencilla
-para mostrar u ocultar un texto.
-
-Estos archivos constituyen una base técnica inicial
-y todavía no representan la experiencia completa
-de Ecosistema del Ser.
-
-### Tecnologías futuras
-
-La implementación tridimensional y la integración
-de IA requerirán decisiones técnicas adicionales.
-
-No se ha aprobado todavía una biblioteca 3D,
-un framework ni un proveedor de servicios de IA.
-
-Las herramientas deberán seleccionarse según
-su capacidad para materializar el concepto,
-su complejidad y su compatibilidad con los
-conocimientos y recursos disponibles.
-
-No introducir dependencias innecesarias.
+La historia previa queda además preservada en el historial de GitHub.
 
 ---
 
-## 19. Decisiones confirmadas
+## 24. Objetivos actualizados
 
-Las siguientes decisiones forman parte
-de la base vigente del proyecto:
+### General
+Diseñar una experiencia digital autobiográfica, sensorial y contemplativa que use el sistema simbólico de los siete chakras para explorar experiencias, creencias, identidad y nuevas formas de habitarse.
 
-1. El nombre principal es Ecosistema del Ser.
-2. Su origen es una investigación autobiográfica
-   sobre el diálogo interior y la identidad.
-3. El material inicial proviene de conversaciones
-   personales con Gemini.
-4. Existe una investigación familiar paralela
-   que influyó en su desarrollo.
-5. ChatGPT participa como herramienta de cocreación.
-6. La identidad se representa conceptualmente
-   como un ecosistema.
-7. El ecosistema contiene seis categorías principales.
-8. Cada categoría presenta dos preguntas.
-9. Cada pregunta tiene su propio círculo
-   conectado a su categoría.
-10. El universo debe permitir una exploración
-    espacial libre, pero comprensible.
-11. Guardar una reflexión oscurece visualmente
-    el círculo.
-12. Los textos iniciales serán desarrollados
-    previamente por la diseñadora.
-13. La IA permitirá adaptar y ampliar determinadas
-    interpretaciones sin sustituir la propuesta original.
-14. La experiencia comienza con una introducción
-    que explica su origen, propósito y funcionamiento.
-15. El visitante debe conservar libertad
-    para interpretar y disentir.
-16. La experiencia no tiene un resultado
-    emocional o psicológico único.
+### Específicos
+1. Conservar y reinterpretar hallazgos de la investigación inicial.
+2. Investigar fuentes culturales e históricas de los chakras.
+3. Construir una narrativa coherente entre tradición, lectura contemporánea y testimonio.
+4. Incorporar reflexiones autobiográficas auténticas.
+5. Utilizar visualización abstracta para expresar relaciones y estados simbólicos.
+6. Desarrollar un ritmo de lectura contemplativo.
+7. Mantener preguntas y desafíos como recursos de exploración.
+8. Respetar la autonomía del visitante.
+9. Crear una experiencia adaptable a distintos dispositivos.
+10. Preparar un proyecto que pueda publicarse sin perder su origen íntimo.
 
 ---
 
-## 20. Decisiones abiertas
+## 25. Decisiones actuales
 
-Los siguientes aspectos permanecen en exploración:
+### Concepto
+- Se mantiene el nombre Ecosistema del Ser.
+- La experiencia autobiográfica sigue siendo el origen.
+- Los siete chakras son la nueva estructura central.
+- La percepción y la voz de la diseñadora son protagonistas.
 
-- Definiciones narrativas definitivas
-  de las seis categorías.
-- Redacción final de las doce preguntas.
-- Posibles desafíos y su relación con las categorías.
-- Función y diseño de las conexiones
-  entre dimensiones.
-- Distribución espacial del universo 3D.
-- Sistema de navegación y movimiento.
-- Estilo visual definitivo.
-- Paleta cromática y jerarquías visuales.
-- Referentes específicos y sus apropiaciones.
-- Funcionamiento detallado de la IA.
-- Tratamiento y persistencia de las reflexiones.
-- Accesibilidad de la navegación tridimensional.
-- Adaptación a distintos dispositivos.
-- Pruebas con visitantes y criterios de evaluación.
-- Alcance técnico de la primera versión funcional.
+### Narrativa
+- Prólogo sobre conversaciones y hallazgos.
+- Aparición del avatar y su historia de nacimiento.
+- Análisis de datos y creencias aprendidas.
+- Relación con meditación y atención personal.
+- Pausa blanca y figura respirando.
+- Pregunta puente y semilla roja.
+- Explicación contextual de los chakras.
+- Siete capítulos con teoría y experiencia.
+- Cierre con ecosistema completo.
 
-Estas decisiones deben resolverse progresivamente
-durante el desarrollo del proyecto.
+### Visualización
+- Avatar abstracto, circular, celular y con movimiento 3D lento.
+- Paleta derivada de siete colores, interpretada de manera suave.
+- Estados de contracción, reconocimiento e integración como símbolos.
+- Estética atmosférica, orgánica y no literal.
 
-No asumir soluciones definitivas sin haberlas
-discutido y aprobado.
+### Interacción
+- Scroll como navegación principal.
+- Textos breves y pausas significativas.
+- Preguntas abiertas.
+- Funciones de IA para visitantes pendientes de definición.
 
 ---
 
-## 21. Relación con otros documentos
+## 26. Aspectos pendientes
+
+### Investigación
+- Comparar tradiciones y sus fuentes.
+- Verificar símbolos, lotos, elementos y mantras.
+- Diferenciar historia de reinterpretaciones modernas.
+- Seleccionar conversaciones originales y documentar su análisis.
+- Identificar qué testimonios pueden compartirse con seguridad.
+
+### Narrativa
+- Escribir el nacimiento del avatar.
+- Elegir hallazgos concretos de los datos.
+- Asociar reflexiones auténticas a cada chakra.
+- Desarrollar las meditaciones.
+- Redactar microtextos, preguntas, desafíos y afirmaciones.
+- Definir la conclusión.
+
+### Diseño
+- Analizar todos los referentes.
+- Estudiar formas, texturas, ramificaciones y animaciones.
+- Decidir paleta, tipografías y densidad visual.
+- Probar estados de cada chakra y transiciones.
+- Ajustar duración y cantidad de scrolls.
+
+### Desarrollo
+- Elegir herramientas 3D y de scroll.
+- Valorar rendimiento y adaptación móvil.
+- Añadir alternativa de movimiento reducido.
+- Definir si habrá IA interactiva y cómo proteger datos.
+- Planificar lanzamiento público.
+
+No convertir estos pendientes en decisiones aprobadas por inferencia.
+
+---
+
+## 27. Relación con los demás documentos
 
 ### personalidad.md
-
-Define la identidad creativa de la diseñadora,
-su filosofía, lenguaje y criterios generales
-de colaboración.
+Establece la identidad creativa, los intereses, la filosofía y la relación de colaboración con la diseñadora. La renovación de la web no implica que su identidad profesional quede limitada a los chakras. Puede requerir ajustes de las referencias específicas al proyecto, siempre con aprobación.
 
 ### narrativa.md
-
-Contendrá el storytelling, los textos
-de introducción, las categorías, las preguntas
-y las narrativas definitivas.
+Contendrá textos finales, testimonios, pregunta puente, guion scroll por scroll, meditaciones, desafíos y afirmaciones.
 
 ### referentes.md
-
-Documentará referentes conceptuales, visuales
-e interactivos, indicando por qué resultan
-relevantes y cómo pueden reinterpretarse.
+Analizará referencias visuales e interactivas, por qué inspiran y cómo reinterpretarlas sin copiarlas.
 
 ### estructura.md
-
-Describirá la arquitectura de la web,
-la jerarquía de nodos, los contenidos,
-las interacciones y los recorridos posibles.
+Documentará secuencia de scroll, comportamiento del avatar, estados visuales, relaciones y transiciones.
 
 ### criterio.md
-
-Establecerá criterios técnicos, reglas
-de programación, accesibilidad y condiciones
-verificables para el desarrollo.
+Recogerá reglas técnicas, accesibilidad, requisitos y verificación.
 
 ### memoria.md
-
-Registrará decisiones duraderas
-y aprendizajes ya consolidados.
+Registrará decisiones duraderas y aprobadas.
 
 ### log.md
+Documentará cambios y verificaciones.
 
-Documentará los cambios realizados,
-las verificaciones y los pendientes
-de cada sesión de trabajo.
-
----
-
-## 22. Instrucciones para la IA
-
-### Antes de comenzar
-
-1. Leer `personalidad.md` para comprender
-   la identidad y filosofía creativa.
-2. Leer este documento para recuperar
-   el origen y contexto de Ecosistema del Ser.
-3. Consultar `criterio.md` para las reglas de trabajo.
-4. Consultar `memoria.md` y `log.md` para conocer
-   las decisiones y avances recientes.
-5. Consultar `narrativa.md`, `referentes.md`
-   y `estructura.md` cuando existan
-   y resulten pertinentes.
-6. Identificar qué decisiones están aprobadas
-   y cuáles permanecen abiertas.
-
-### Durante el desarrollo
-
-- Conservar la relación entre investigación y diseño.
-- No reducir el proyecto a una aplicación de autoayuda.
-- Evitar afirmaciones psicológicas no fundamentadas.
-- No inventar hallazgos, datos o resultados
-  de investigación.
-- Distinguir las interpretaciones autobiográficas
-  de las afirmaciones generales.
-- Respetar las seis categorías y las decisiones
-  estructurales aprobadas.
-- Proponer mejoras argumentadas sin sustituir
-  arbitrariamente el concepto.
-- Mantener una relación clara entre narrativa,
-  visualización e interacción.
-- Priorizar la autonomía del visitante.
-- Reconocer las limitaciones de las tecnologías utilizadas.
-- Documentar las nuevas decisiones
-  cuando sean aprobadas.
-
-### Criterio principal
-
-La experiencia debe mantener una relación
-reconocible entre su origen autobiográfico
-y el valor que pretende ofrecer a otras personas.
-
-No diseñar interacciones únicamente porque
-sean técnicamente posibles o visualmente atractivas.
-
-Cada elemento debe aportar a la exploración,
-la interpretación o la construcción de significado.
+Las versiones previas se conservan mediante el historial del repositorio. No borrar la evolución conceptual de la investigación.
 
 ---
 
-## 23. Estado del documento
+## 28. Instrucciones para la IA
 
-**Versión:** 0.1
+### Antes de trabajar
+1. Leer `personalidad.md`.
+2. Leer el `context.md` vigente.
+3. Revisar `narrativa.md`, `estructura.md` y `referentes.md` cuando existan.
+4. Revisar `criterio.md`, `memoria.md` y `log.md`.
+5. Distinguir decisiones, propuestas y datos todavía no verificados.
 
-**Fecha:** 2026-11-18
+### Investigación
+- Consultar fuentes cuando se trate de contenido histórico y espiritual.
+- No asumir un único sistema tradicional de chakras.
+- No inventar etimologías ni traducciones sánscritas.
+- Distinguir textos originales, comentarios, interpretaciones contemporáneas y metáforas propias.
+- No hacer diagnósticos psicológicos basados en chakras.
 
+### Narrativa
+- Mantener la voz personal de la diseñadora.
+- Escribir de forma breve pero significativa.
+- No inventar recuerdos, confesiones ni citas.
+- Evitar espiritualidad genérica y frases decorativas.
+- Mantener preguntas abiertas y un ritmo contemplativo.
+- No reducir el relato autobiográfico a un manual de bienestar.
+
+### Diseño
+- Asegurar que cada efecto tiene una intención.
+- Proteger legibilidad, orientación y accesibilidad.
+- Evitar movimiento excesivo o distracciones gratuitas.
+- Conservar la materialidad orgánica y atmosférica sin copiar referentes.
+
+### Desarrollo
+- No implementar funciones todavía abiertas como si estuvieran aprobadas.
+- Priorizar simplicidad, mantenimiento, móvil y accesibilidad.
+- Respetar el sentido narrativo antes de elegir tecnologías.
+
+### Principio central
+La web no utiliza la historia personal para demostrar una verdad universal sobre los chakras. Utiliza el mapa simbólico de los chakras para compartir una forma personal de observar, cuestionar y reinterpretar la experiencia.
+
+---
+
+## 29. Estado del documento
+
+**Versión:** 0.2  
+**Fecha:** 2026-11-24  
 **Estado:** Aprobado.
 
-### Fuentes internas de referencia
+### Cambio principal
+Reformulación de Ecosistema del Ser como experiencia autobiográfica y contemplativa organizada mediante los siete chakras.
 
-- Investigación autobiográfica mediante Gemini.
-- Proyecto personal de documentos familiares.
-- Conversación WEB trabajos.
-- Conversación WEB narrativa.
-- Conversaciones de desarrollo de Ecosistema del Ser.
-- Documento aprobado `personalidad.md`.
+### Fuentes internas
+- Investigación autobiográfica con Gemini.
+- Reflexiones personales con ChatGPT.
+- Proyecto familiar paralelo.
+- `context.md` v0.1 (disponible en historial Git).
+- `personalidad.md` aprobado.
+- Referentes visuales compartidos y nueva propuesta de scrolls.
 
-Las conversaciones y documentos originales deberán
-consultarse cuando sea necesario verificar contenidos
-específicos que no estén recogidos aquí.
+### Fuentes culturales por profundizar
+- `Ṣaṭ-cakra-nirūpaṇa`.
+- `Haṭha Yoga Pradīpikā`.
+- `Yoga-Kuṇḍalinī Upaniṣad`.
+- Investigación especializada sobre yoga y tantra.
 
 ### Mantenimiento
-
-Actualizar este archivo cuando se produzcan
-modificaciones importantes en:
-
-- El propósito del proyecto.
-- La investigación y sus hallazgos.
-- El marco conceptual.
-- Los objetivos.
-- El alcance de la experiencia.
-- Las decisiones estructurales principales.
-
-Los cambios menores de programación deben
-documentarse en `log.md` y las reglas técnicas
-en `criterio.md`.
-
-El contexto debe conservar la historia y el
-razonamiento del proyecto, no convertirse
-en un registro cronológico de tareas.
+Actualizar cuando cambien propósito, investigación, marco conceptual, objetivos o estructura. La narrativa final irá a `narrativa.md`, el diseño a `referentes.md` y `estructura.md`, y los cambios técnicos a `criterio.md` y `log.md`.

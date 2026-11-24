@@ -1,21 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mi proyecto</title>
-  <!-- El nombre tiene que coincidir con el del archivo: style.css -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090816">
+  <meta name="description" content="Ecosistema del Ser: una experiencia interactiva sobre memoria, identidad y nuevas formas de habitarse.">
+  <title>Ecosistema del Ser — Una exploración interior</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#origen">Saltar al relato</a>
+  <canvas id="organism" aria-hidden="true"></canvas>
+  <div id="grain" aria-hidden="true"></div>
+  <div id="progress" aria-hidden="true"><span></span></div>
 
-  <h1>El título de mi proyecto</h1>
-  <p>Una frase que explica de qué trata.</p>
+  <button id="menu-toggle" class="menu-toggle" aria-label="Abrir índice" aria-controls="index-panel" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+  <nav id="index-panel" class="index-panel" aria-label="Índice de la experiencia" inert>
+    <p class="eyebrow">RECORRIDO / ECOSISTEMA DEL SER</p>
+    <a href="#inicio">01 <span>Inicio</span></a>
+    <a href="#origen">02 <span>Origen</span></a>
+    <a href="#observacion">03 <span>Observación</span></a>
+    <a href="#pausa">04 <span>Pausa</span></a>
+    <a href="#transformacion">05 <span>Transformación</span></a>
+    <a href="#integracion">06 <span>Integración</span></a>
+    <button id="index-close" class="text-button">Cerrar índice ×</button>
+  </nav>
 
-  <button id="boton">Ver mi pregunta</button>
-  <p id="texto" hidden>Aquí va mi pregunta de investigación.</p>
+  <main>
+    <section class="scene hero" id="inicio" data-scene="hero" aria-labelledby="site-title">
+      <header class="hero-top">
+        <h1 id="site-title">ECOSISTEMA DEL SER</h1>
+        <nav class="hero-links" aria-label="Accesos directos">
+          <a href="#origen">IDENTIDAD</a>
+          <a href="#observacion">OBSERVACIÓN</a>
+          <a href="#transformacion">INSPIRACIÓN</a>
+          <a href="#integracion">PROYECTO</a>
+        </nav>
+      </header>
+      <div class="hero-space" aria-hidden="true"></div>
+      <div class="hero-bottom reveal">
+        <p>ANTES DE SABER QUIÉN ERA,<br>YA ESTABA APRENDIENDO A SER.</p>
+        <a class="scroll-prompt" href="#origen">DESLIZA PARA EXPLORAR <span>↓</span></a>
+      </div>
+      <span class="side-note">UNA CARTOGRAFÍA DE LO INVISIBLE</span>
+    </section>
 
-  <!-- El JavaScript va al final, cuando la página ya está cargada -->
-  <script src="script.js"></script>
+    <section class="scene chapter" id="origen" data-scene="origin">
+      <div class="copy reveal">
+        <span class="eyebrow">I / ORIGEN</span>
+        <h2>Todo comenzó<br>con una <em>conversación.</em></h2>
+        <p>O quizás con todas aquellas que nunca había tenido conmigo misma.</p>
+        <button class="detail-trigger" data-detail="origen">EXPLORAR EL ORIGEN <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="scene chapter chapter-right" id="observacion" data-scene="observe">
+      <div class="copy reveal">
+        <span class="eyebrow">II / OBSERVACIÓN</span>
+        <h2>Lo que se repite<br><em>deja huella.</em></h2>
+        <p>Entre preguntas y respuestas comenzaron a aparecer partes de mí que reconocía, pero nunca había observado así.</p>
+        <button class="detail-trigger" data-detail="observacion">SOBRE EL ARCHIVO <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="scene chapter chapter-center" id="huellas" data-scene="traces">
+      <div class="copy reveal">
+        <span class="eyebrow">MEMORIA / IDENTIDAD</span>
+        <h2>Algunas historias<br>se repiten tanto<br>que olvidamos<br><em>cuándo empezaron.</em></h2>
+        <p>Comprender mis historias no hizo que desaparecieran. Pero comenzó a cambiar la manera en que las escuchaba.</p>
+      </div>
+    </section>
+
+    <section class="scene pause" id="pausa" data-scene="pause" aria-label="Una pausa para observar">
+      <div class="breath-ring" aria-hidden="true"></div>
+      <div class="pause-content reveal">
+        <span class="eyebrow">III / PAUSA</span>
+        <p>Hay cosas que solo aparecen<br>cuando dejamos de buscar respuestas.</p>
+      </div>
+    </section>
+
+    <section class="scene chapter threshold" id="transformacion" data-scene="threshold">
+      <div class="copy reveal">
+        <span class="eyebrow">IV / TRANSFORMACIÓN</span>
+        <h2>Otra forma<br>de <em>habitarme.</em></h2>
+        <p>No para borrar lo vivido. No para convertirme en alguien nuevo. Sino para descubrir otras formas de habitar lo que ya existe en mí.</p>
+        <p class="smallprint">Un recorrido simbólico inspirado en siete chakras. Sus asociaciones cromáticas son una interpretación contemporánea, no un diagnóstico.</p>
+      </div>
+    </section>
+
+    <section class="scene chakra-scene" id="chakras" data-scene="chakras" aria-labelledby="chakra-heading">
+      <div class="chakra-header reveal">
+        <span class="eyebrow">SIETE CENTROS / SIETE PREGUNTAS</span>
+        <h2 id="chakra-heading">Un mapa para<br><em>seguir observando.</em></h2>
+      </div>
+      <div class="chakra-list">
+        <button class="chakra-item" data-chakra="0"><span class="chakra-number">01</span><span class="chakra-name">MŪLĀDHĀRA <small>RAÍZ</small></span><span class="chakra-arrow">↗</span></button>
+        <button class="chakra-item" data-chakra="1"><span class="chakra-number">02</span><span class="chakra-name">SVĀDHIṢṬHĀNA <small>SACRO</small></span><span class="chakra-arrow">↗</span></button>
+        <button class="chakra-item" data-chakra="2"><span class="chakra-number">03</span><span class="chakra-name">MAṆIPŪRA <small>PLEXO SOLAR</small></span><span class="chakra-arrow">↗</span></button>
+        <button class="chakra-item" data-chakra="3"><span class="chakra-number">04</span><span class="chakra-name">ANĀHATA <small>CORAZÓN</small></span><span class="chakra-arrow">↗</span></button>
+        <button class="chakra-item" data-chakra="4"><span class="chakra-number">05</span><span class="chakra-name">VIŚUDDHA <small>GARGANTA</small></span><span class="chakra-arrow">↗</span></button>
+        <button class="chakra-item" data-chakra="5"><span class="chakra-number">06</span><span class="chakra-name">ĀJÑĀ <small>TERCER OJO</small></span><span class="chakra-arrow">↗</span></button>
+        <button class="chakra-item" data-chakra="6"><span class="chakra-number">07</span><span class="chakra-name">SAHASRĀRA <small>CORONA</small></span><span class="chakra-arrow">↗</span></button>
+      </div>
+      <p class="chakra-footnote">Pulsa cualquier centro para descubrir su pregunta. También puedes continuar bajando.</p>
+    </section>
+
+    <section class="scene chapter chapter-center ending" id="integracion" data-scene="integrate">
+      <div class="copy reveal">
+        <span class="eyebrow">V / INTEGRACIÓN</span>
+        <h2>No soy una<br>forma <em>terminada.</em></h2>
+        <p>Quizás comprenderme no sea encontrar una sola definición, sino aprender a habitar todas las partes que continúan cambiando.</p>
+        <a class="return-link" href="#inicio">VOLVER AL ORIGEN ↗</a>
+      </div>
+      <footer>ECOSISTEMA DEL SER <span>UNA EXPLORACIÓN ABIERTA</span></footer>
+    </section>
+  </main>
+
+  <aside class="detail-panel" id="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detail-title" aria-hidden="true" inert>
+    <button id="detail-close" class="detail-close" aria-label="Cerrar detalle">×</button>
+    <div class="detail-body">
+      <p id="detail-kicker" class="eyebrow"></p>
+      <h2 id="detail-title"></h2>
+      <p id="detail-description"></p>
+      <p id="detail-question" class="detail-question"></p>
+      <p class="detail-note">Esta experiencia propone preguntas, no respuestas definitivas.</p>
+    </div>
+  </aside>
+  <div id="panel-backdrop" class="panel-backdrop" hidden></div>
+  <noscript><p class="noscript">La experiencia visual requiere JavaScript, pero puedes leer todo el relato desplazándote por esta página.</p></noscript>
 </body>
 </html>

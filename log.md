@@ -36,6 +36,12 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-24 — Primera web inmersiva fluorescente
+- **Canvis:** substituïda la plantilla HTML/CSS/JS per una primera experiència responsive amb portada editorial, organisme procedural de fibres projectades en 3D sobre Canvas 2D, scroll de càmera, cinc etapes narratives, pausa blanca, set chakras i panells interactius.
+- **Motiu:** traslladar la direcció visual acordada i els referents cromàtics fluorescents a un prototip editable sense dependències de framework.
+- **Verificació:** lectura de les versions del repositori i confirmació dels commits de publicació; pendent revisió visual i de comportament al navegador i en mòbil.
+- **Pendents/incidències:** millorar el volum 3D real mitjançant WebGL si es considera necessari; incorporar testimonis i cites autèntiques, validar accessibilitat i rendiment, ampliar els capítols dels chakras.
+
 ## 2026-11-24 — Creación de narrativa.md v0.2
 - **Canvis:** creat `narrativa.md` amb el pròleg, la pausa blanca que respira, l'avatar sense rostre, els set capítols dels chakras, preguntes, microtextos poètics i el tancament de l'ecosistema.
 - **Motiu:** conservar la base narrativa aprovada per desenvolupar-la progressivament durant el disseny de la web.

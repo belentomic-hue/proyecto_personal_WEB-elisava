@@ -36,6 +36,12 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-24 — Organización de las referencias visuales
+- **Canvis:** creada la carpeta `referentes/` amb tres subcarpetes (`01-atmosfera-color/`, `02-composicion-tipografia/` i `03-avatar-materialidad/`) i fitxers `README.md` que inventarien 14 imatges aportades.
+- **Motiu:** separar les referències d'atmosfera, composició i anatomia del personatge per orientar el disseny.
+- **Verificació:** carpetes creades amb confirmació de GitHub i fitxers llegits posteriorment.
+- **Pendents/incidències:** no s'han pujat les imatges binàries a GitHub; s'han preparat en un paquet ZIP amb noms únics perquè es puguin incorporar. `referentes.md` continua pendent d'aprovació final.
+
 ## 2026-11-24 — Creación de estructura.md v0.1
 - **Canvis:** afegit `estructura.md` amb el sistema global de moviment, avatar, càmera-scroll, interaccions, materialitat, color, navegació, cinc etapes narratives i decisions pendents.
 - **Motiu:** consolidar la base de disseny aprovada per l'usuària abans de continuar prototipant.

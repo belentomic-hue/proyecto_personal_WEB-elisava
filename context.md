@@ -77,7 +77,7 @@ No están registrados todavía el número de conversaciones, las fechas exactas,
 
 ---
 
-## 04. El proyecto familiar paralelo
+## 04. El proyecto familiar paralelo (antecedente privado, excluido de la web)
 
 La diseñadora desarrollaba en paralelo documentos individuales para personas de su familia, a partir de observaciones sobre sus experiencias, hábitos, creencias y posibles patrones.
 
@@ -289,11 +289,11 @@ La narración comienza con una experiencia autobiográfica y se abre gradualment
 
 ### Tres capas de cada chakra
 1. Significado histórico y simbólico documentado.
-2. Experiencia real de la diseñadora.
+2. Interpretación personal y simbólica, sin exigir testimonio en cada chakra.
 3. Preguntas o prácticas abiertas al lector.
 
 ### Escritura breve
-El proyecto tendrá muchos momentos de scroll. La lectura debe dosificarse mediante frases breves, fragmentos autobiográficos, preguntas, silencios, imágenes y movimiento lento.
+La extensión debe ser contenida; no se fija la cantidad de scrolls. La lectura debe dosificarse mediante frases breves, fragmentos autobiográficos, preguntas, silencios, imágenes y movimiento lento.
 
 ### Voces
 - Primera persona para reflexiones personales.
@@ -346,103 +346,32 @@ El análisis visual detallado pertenece a `referentes.md`.
 
 ## 16. Arquitectura narrativa general
 
-La experiencia se construye principalmente mediante scroll vertical. Cada tramo revela información o transforma el estado visual del avatar.
+1. **Nacimiento — ¿Quién soy?** Portada con título, apartados y pregunta; cuestionamiento, origen del proyecto e investigación.
+2. **Observación — ¿Cómo llegué a ser quien soy?** Primeras huellas, mirada ajena, certezas aprendidas, refugios, paradoja de identidad, descubrimiento y posibilidad. Cada reflexión nace de la anterior.
+3. **Pausa — ¿Y ahora qué?** Silencio, respiración, umbral, nueva perspectiva, tradición espiritual e interpretación personal de los chakras.
+4. **Transformación — Habitar el ser.** Existir, Sentir, Elegir, Amar, Expresar, Percibir y Trascender.
+5. **Integración — Seguir siendo.** Regreso al avatar completo y reflexión breve, sin representar perfección espiritual.
 
-### Acto 1. Aparición
-Portada oscura. Un organismo circular 3D integra los colores de los siete chakras, gira sobre su eje y respira lentamente.
-
-### Acto 2. Nacimiento
-Se cuenta cómo nace el proyecto a partir del diálogo cotidiano con IA. El avatar adquiere una historia.
-
-### Acto 3. Lectura de los datos
-Aparecen materiales auténticos de conversaciones con Gemini y su análisis: creencias, recuerdos, patrones, infancia, etiquetas y narrativas aprendidas.
-
-### Acto 4. Interpretación
-Se explora cómo las experiencias pueden participar en nuestra forma de comprendernos y cómo nos nombramos o fuimos nombrados.
-
-### Acto 5. Aplicación personal
-La diseñadora relata cómo llevó esas observaciones a su vida y las vinculó con atención, meditación y exploración personal.
-
-### Acto 6. Vacío
-La pantalla queda blanca o casi vacía. El flujo de información se interrumpe para permitir una pausa.
-
-### Acto 7. Respiración
-Una cara abstracta o figura animada respira lentamente. Se ofrece un descanso visual, sin obligar al visitante a seguir un ritmo de respiración.
-
-### Acto 8. Replanteamiento
-Pregunta puente: «Si las experiencias participaron en la construcción de nuestra historia, ¿cómo podemos aprender a habitarla de otra manera?»
-
-### Acto 9. Semilla roja
-Aparece un círculo rojo pequeño. Su crecimiento y las primeras ramificaciones abren el recorrido hacia la raíz.
-
-### Acto 10. Introducción espiritual
-Explicación breve de qué son los chakras, de dónde proceden, qué significan en ciertas tradiciones y cómo se reinterpretan en esta web.
-
-### Acto 11. Viaje por los siete chakras
-Siete capítulos conectados, desde Mūlādhāra hasta Sahasrāra, cada uno con teoría, experiencia personal, reconocimiento, pausa, preguntas y desafíos.
-
-### Acto 12. Integración
-Vuelven a relacionarse los siete centros. El avatar inicial aparece como un ecosistema completo, no como un ser perfecto ni definitivamente «sanado».
-
-### Acto 13. Cierre
-Una conclusión breve abre la posibilidad de continuar observándose fuera de la web.
+La fuente textual es narrativa.md v0.4. No fijar cantidad de scrolls ni nuevas decisiones de interacción.
 
 ---
 
 ## 17. Estructura orientativa de cada chakra
 
-Esta plantilla es flexible. No se debe imponer el mismo número de pantallas cuando el contenido no lo justifica.
+1. **Descubrir:** conocer el centro, su significado y aquello que representa.
+2. **Sentir:** dirigir la atención hacia esa dimensión corporal y vital.
+3. **Reconocer:** observar resistencias y formas aprendidas.
+4. **Cultivar:** explorar otras maneras de relacionarse con ellas mediante meditación guiada voluntaria.
+5. **Experimentar:** un pequeño desafío cotidiano.
+6. **Cuestionar:** una pregunta abierta final, todavía revisable.
 
-### Momento 1. Aparición
-El orbe adquiere presencia cromática. Nombre y frase introductoria.
-
-### Momento 2. Significado
-Explicación breve del simbolismo tradicional: ubicación, elemento, loto, mantra u otros elementos verificados.
-
-### Momento 3. Dimensiones cotidianas
-Dos o tres microtemas o reflexiones conectadas, reconocibles en la vida diaria.
-
-### Momento 4. Contracción
-El círculo pierde intensidad visual. Se muestran posibles formas de dificultad o tensión, sin diagnosticarlas como «bloqueos» comprobados.
-
-### Momento 5. Reconocimiento
-Fragmento autobiográfico real. El círculo recupera parte de su intensidad como metáfora de atención.
-
-### Momento 6. Pausa
-Meditación escrita, pregunta contemplativa o ejercicio suave de observación. Participación voluntaria.
-
-### Momento 7. Habitar
-Posibles maneras de relacionarse más conscientemente con esa dimensión. Mayor presencia de color.
-
-### Momento 8. Primer desafío
-Pregunta o propuesta sencilla que invite a observar una experiencia.
-
-### Momento 9. Segundo desafío
-Otra pregunta o acción con un enfoque diferente.
-
-### Momento 10. Integración
-El círculo se muestra completo. Una afirmación corta cierra el capítulo sin sugerir que el lector ha superado un bloqueo.
+La meditación atraviesa el capítulo. No exigir microtemas independientes, testimonios por chakra, segundo desafío ni afirmación final. Las transiciones enlazan los territorios.
 
 ---
 
 ## 18. Las reflexiones autobiográficas
 
-Las conversaciones originales con Gemini y las reflexiones posteriores con ChatGPT pasan a ser parte visible del relato.
-
-### Fuentes
-- Fragmentos de conversaciones originales.
-- Reflexiones posteriores de la diseñadora.
-- Observaciones cotidianas.
-- Experiencias relacionadas con meditación y chakras.
-
-### Criterios de selección
-Cada fragmento debe ser real, aportar al capítulo correspondiente, mostrar una experiencia o contradicción y conservar la voz de la diseñadora.
-
-### No inventar testimonios
-La IA no debe fabricar recuerdos, experiencias o citas y atribuirlos a la diseñadora. Cuando falte un testimonio, dejarlo como pendiente. Toda edición narrativa de un fragmento debe ser revisada antes de publicarse.
-
-### El lugar del lector
-La experiencia compartida es una puerta a la reflexión, no un patrón que todas las personas deban reproducir. El lector puede identificarse, discrepar o descubrir una lectura diferente.
+Las conversaciones con Gemini y ChatGPT son fuentes privadas de investigación. Mostrar únicamente reflexiones finales, no citas, transcripciones ni fragmentos originales. Confirmar la autenticidad de los pasajes en primera persona antes de publicar. No inventar recuerdos ni incorporar otros proyectos personales.
 
 ---
 
@@ -457,9 +386,8 @@ Propuestas voluntarias de atención o acción cotidiana. No son tratamientos ni 
 ### Meditaciones
 Pausas escritas basadas en observar, notar, descansar y respirar naturalmente. No exigir retenciones respiratorias ni técnicas intensas sin formación y orientación adecuadas.
 
-### Afirmaciones
-Cierres simbólicos que invitan a considerar una cualidad, no declaraciones obligatorias ni promesas de transformación.
-
+### Cierre de cada chakra
+Una pregunta abierta; no se exige afirmación.
 ---
 
 ## 20. El papel de la inteligencia artificial
@@ -528,7 +456,7 @@ No prometer curación psicológica, diagnosticar experiencias traumáticas ni su
 - Los siete chakras se convierten en capítulos.
 - Se prioriza el scroll vertical narrativo.
 - Aparece un avatar celular y tridimensional.
-- Se incorporan testimonios autobiográficos originales.
+- Se incorporan reflexiones finales de la investigación, sin conversaciones privadas.
 - Se introduce un marco tradicional y espiritual documentado.
 - Se alternan teoría, experiencia, pausas, meditaciones y desafíos.
 - El ritmo se vuelve más contemplativo.
@@ -575,15 +503,13 @@ Diseñar una experiencia digital autobiográfica, sensorial y contemplativa que 
 - La percepción y la voz de la diseñadora son protagonistas.
 
 ### Narrativa
-- Prólogo sobre conversaciones y hallazgos.
-- Aparición del avatar y su historia de nacimiento.
-- Análisis de datos y creencias aprendidas.
-- Relación con meditación y atención personal.
-- Pausa blanca y figura respirando.
-- Pregunta puente y semilla roja.
-- Explicación contextual de los chakras.
-- Siete capítulos con teoría y experiencia.
-- Cierre con ecosistema completo.
+1. **Nacimiento — ¿Quién soy?** Portada con título, apartados y pregunta; cuestionamiento, origen del proyecto e investigación.
+2. **Observación — ¿Cómo llegué a ser quien soy?** Primeras huellas, mirada ajena, certezas aprendidas, refugios, paradoja de identidad, descubrimiento y posibilidad. Cada reflexión nace de la anterior.
+3. **Pausa — ¿Y ahora qué?** Silencio, respiración, umbral, nueva perspectiva, tradición espiritual e interpretación personal de los chakras.
+4. **Transformación — Habitar el ser.** Existir, Sentir, Elegir, Amar, Expresar, Percibir y Trascender.
+5. **Integración — Seguir siendo.** Regreso al avatar completo y reflexión breve, sin representar perfección espiritual.
+
+La fuente textual es narrativa.md v0.4. No fijar cantidad de scrolls ni nuevas decisiones de interacción.
 
 ### Visualización
 - Avatar abstracto, circular, celular y con movimiento 3D lento.
@@ -606,15 +532,12 @@ Diseñar una experiencia digital autobiográfica, sensorial y contemplativa que 
 - Verificar símbolos, lotos, elementos y mantras.
 - Diferenciar historia de reinterpretaciones modernas.
 - Seleccionar conversaciones originales y documentar su análisis.
-- Identificar qué testimonios pueden compartirse con seguridad.
+- Confirmar las reflexiones autobiográficas sin publicar conversaciones.
 
 ### Narrativa
-- Escribir el nacimiento del avatar.
-- Elegir hallazgos concretos de los datos.
-- Asociar reflexiones auténticas a cada chakra.
-- Desarrollar las meditaciones.
-- Redactar microtextos, preguntas, desafíos y afirmaciones.
-- Definir la conclusión.
+- Pulir la redacción de referencia v0.4, preguntas y desafíos.
+- Confirmar pasajes autobiográficos y verificar fuentes espirituales.
+- Mantener continuidad y extensión contenida.
 
 ### Diseño
 - Analizar todos los referentes.
@@ -640,7 +563,7 @@ No convertir estos pendientes en decisiones aprobadas por inferencia.
 Establece la identidad creativa, los intereses, la filosofía y la relación de colaboración con la diseñadora. La renovación de la web no implica que su identidad profesional quede limitada a los chakras. Puede requerir ajustes de las referencias específicas al proyecto, siempre con aprobación.
 
 ### narrativa.md
-Contendrá textos finales, testimonios, pregunta puente, guion scroll por scroll, meditaciones, desafíos y afirmaciones.
+Contiene el guion v0.4, reflexiones, meditaciones, un desafío y una pregunta por chakra; textos revisables.
 
 ### referentes.md
 Analizará referencias visuales e interactivas, por qué inspiran y cómo reinterpretarlas sin copiarlas.
@@ -703,8 +626,8 @@ La web no utiliza la historia personal para demostrar una verdad universal sobre
 
 ## 29. Estado del documento
 
-**Versión:** 0.2  
-**Fecha:** 2026-11-24  
+**Versión:** 0.3  
+**Fecha:** 2026-11-25  
 **Estado:** Aprobado.
 
 ### Cambio principal

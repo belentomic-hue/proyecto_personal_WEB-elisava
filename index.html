@@ -1,135 +1,1113 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#090816">
-  <meta name="description" content="Ecosistema del Ser: una experiencia interactiva sobre memoria, identidad y nuevas formas de habitarse.">
-  <title>Ecosistema del Ser — Una exploración interior</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>Ecosistema del Ser</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&display=swap">
+<style>
+:root{--paper:#ffffff;--ink:#191815;--line:#d2cfc8;--gutter:clamp(18px,5vw,78px);font-family:Arial,sans-serif;color:var(--ink);background:var(--paper);scroll-behavior:smooth}
+*{box-sizing:border-box}body{margin:0}a{color:inherit}a:focus-visible,summary:focus-visible,canvas:focus-visible{outline:2px solid #66519c;outline-offset:5px}
+
+nav{display:flex;flex-wrap:wrap;gap:10px 20px;font-size:12px}
+.hero{min-height:calc(100svh - 55px);display:flex;flex-direction:column;padding:clamp(26px,5vh,56px) var(--gutter) 22px}
+h1,h2{font-family:Georgia,serif;font-weight:400;letter-spacing:-.07em;margin:0;line-height:.92}
+h1{font-size:var(--title-size,9vw);white-space:nowrap;text-align:center}
+.avatar{margin:0 auto;width:min(70vw,56svh,660px);min-width:min(82vw,270px);aspect-ratio:65/54;position:relative}
+.hero .avatar{margin:auto}
+.avatar canvas{width:100%;height:100%;display:block;cursor:grab;touch-action:pan-y}
+.avatar canvas:active{cursor:grabbing}
+.hero-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:14px;font-size:12px}
+.hero-controls a{margin-left:auto}
+.stage{padding:clamp(64px,12vh,150px) var(--gutter);border-top:1px solid var(--line);scroll-margin-top:16px}
+.stage-head{display:grid;grid-template-columns:1fr 3fr;gap:14px;align-items:baseline;margin-bottom:clamp(30px,6vw,80px)}
+.stage-head p{margin:0;font-size:12px;text-transform:uppercase;letter-spacing:.14em}
+h2{font-size:clamp(42px,7vw,112px)}
+.reading{max-width:690px;margin-left:25%}.reading article+article{margin-top:38px}
+h3{font-size:14px;margin:0 0 14px;font-weight:600}
+.reading p,.chakra-content p{font:clamp(17px,1.5vw,21px)/1.56 Georgia,serif;margin:0 0 .75em}
+.stage-pausa .avatar,.stage-integracion .avatar{margin:0 auto 38px}
+.atlas{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+details{border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-width:0}
+details[open]{grid-column:1/-1}
+summary{padding:16px;cursor:pointer;display:flex;align-items:center;gap:14px;font:22px Georgia,serif;list-style:none}
+summary::-webkit-details-marker{display:none}summary::after{content:'+';margin-left:auto;font:16px Arial,sans-serif}details[open] summary::after{content:'−'}
+summary small{display:block;font:11px Arial,sans-serif;margin-top:5px}
+.orb{flex:0 0 38px;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 28% 22%,#fff,transparent 55%),radial-gradient(circle at 74% 78%,var(--tone),#eee8e7 95%);transition:transform .45s}
+summary:hover .orb,summary:focus-visible .orb{transform:scale(1.2)}
+.chakra-content{max-width:730px;padding:8px clamp(20px,5vw,68px) 30px}
+.chakra-content h3{margin-top:25px}
+footer{padding:20px var(--gutter);border-top:1px solid var(--line);font-size:12px}
+@media(max-width:640px){.stage-head{grid-template-columns:1fr}.reading{margin-left:0}.avatar{width:88vw}.hero-controls a{margin:0}}
+@media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}.orb{transition:none}}
+
+.hero{background:#fff;color:#000;min-height:max(100svh,min(71.111111vw,1024px));padding:clamp(14px,2.5vw,34px) 2.5vw 18px}
+.hero h1{font-family:Italiana,Georgia,serif;text-transform:uppercase;letter-spacing:-.035em}
+.hero nav{justify-content:space-between;gap:10px 16px;margin-top:clamp(14px,2vw,26px);font:clamp(12px,1.33vw,19px) Italiana,Georgia,serif;text-transform:uppercase}
+.hero nav a{text-decoration:none}
+.hero nav a:hover{text-decoration:underline;text-underline-offset:4px}
+.hero-question{font:clamp(12px,1.12vw,17px)/1.3 Italiana,Georgia,serif;margin:calc(clamp(8px,1vw,15px) + 1cm) auto 0;text-align:center}
+.hero .avatar{width:min(80vw,780px);margin:calc(clamp(-48px,-4svh,-16px) - 1cm) auto 0;aspect-ratio:65/47}
+.hero-controls{margin-top:auto;justify-content:flex-end;flex-wrap:nowrap}
+.hero-controls a{margin:0;flex:none;font-size:24px;text-decoration:none}
+@media(max-width:640px){.hero nav{justify-content:center}.hero .avatar{width:86vw}}
+
+.avatar-expansion{position:fixed;inset:0;z-index:1;overflow:hidden;pointer-events:none}
+.avatar-expansion canvas{position:absolute;left:0;top:0;transform-origin:center}
+.hero .avatar.is-expanding canvas{opacity:0}
+.hero h1,.hero nav,.hero-question,.hero-controls,.stage-nacimiento .stage-head,.stage-nacimiento .reading{position:relative;z-index:2}
+.stage-nacimiento .stage-head h2,.stage-nacimiento .stage-head p,.stage-nacimiento article{text-shadow:0 0 14px white,0 0 7px white}
+
+
+.stage-nacimiento{padding-top:0;scroll-margin-top:0;border-top:0}
+.birth-color-intro{position:relative;height:100svh;padding-top:clamp(24px,5vh,54px)}
+.birth-label{position:fixed;left:var(--gutter);top:clamp(24px,5vh,54px);z-index:3;opacity:0;margin:0;width:max-content;font:clamp(26px,4vw,58px)/1 Italiana,Georgia,serif;color:#000;text-shadow:0 0 14px #fff}
+.birth-title{position:absolute;top:76%;left:38%;width:62%;z-index:2;font-size:clamp(28px,4.2vw,62px);text-align:center;text-transform:uppercase;font-family:Italiana,Georgia,serif;text-shadow:0 0 14px #fff}
+.stage-nacimiento .reading{padding-top:clamp(32px,7vh,80px)}
+@media(prefers-reduced-motion:reduce){
+  .birth-color-intro{background:radial-gradient(ellipse at 45% 48%,#ed4060,transparent 42%),radial-gradient(ellipse at 57% 40%,#f3cc52,transparent 49%),radial-gradient(ellipse at 40% 70%,#61c9c6,transparent 64%),radial-gradient(ellipse at 65% 58%,#a57bcc,transparent 72%)}
+}
+
+.color-chapter{min-height:160svh}
+.color-scene{position:sticky;top:0;height:100svh;background:#fff;overflow:hidden}
+.color-strip{position:absolute;left:0;right:0;top:61%;transform:translateY(-50%);overflow-x:auto;scrollbar-width:none}
+.color-strip::-webkit-scrollbar{display:none}
+.color-strip:focus-visible{outline-offset:-4px}
+.color-scene::before{content:'';position:absolute;inset:0;pointer-events:none;opacity:var(--color-wash,0);background:radial-gradient(ellipse at 0% 20%,#f9ddd6 0%,transparent 55%),radial-gradient(ellipse at 90% 12%,#ece4f6 0%,transparent 61%),radial-gradient(ellipse at 43% 80%,#daefec 0%,transparent 66%),radial-gradient(ellipse at 94% 87%,#fff1d8 0%,transparent 53%);mask-image:linear-gradient(to bottom,#000 66%,rgba(0,0,0,.48) 85%,transparent 100%)}
+.color-track{display:flex;width:max-content;padding:28px 10vw}
+.color-track .color-orb+.color-orb{margin-inline-start:clamp(-72px,-5vw,-23px)}
+.color-orb{display:block;width:clamp(137px,23vw,370px);aspect-ratio:1;flex:none;border-radius:50%;background:radial-gradient(circle at 72% 20%,#fff 0%,transparent 66%),radial-gradient(ellipse at 36% 68%,var(--orb) 12%,transparent 76%);filter:blur(clamp(5px,.85vw,13px))}
+.color-copy{position:absolute;z-index:1;margin:0;width:min(28ch,36vw);font:clamp(16px,1.6vw,23px)/1.25 Italiana,Georgia,serif;color:#33292c;text-shadow:0 1px 12px rgba(255,255,255,.65)}
+.color-copy-left{left:12%;bottom:36%}
+.color-copy-right{left:62%;top:32%}
+@media(max-width:640px){.color-copy-left{left:6%}.color-copy-right{left:56%}.color-copy{width:38vw}}
+
+
+.color-morph{position:fixed;inset:0;z-index:1;overflow:hidden;pointer-events:none}
+.color-morph .color-orb{position:absolute;top:0;left:0}
+body{text-transform:uppercase}
+
+.color-arrow{position:absolute;top:61%;transform:translateY(-50%);z-index:2;width:44px;height:44px;padding:0;border:0;background:transparent;color:#000;cursor:pointer}
+.arrow-icon{display:block;margin:auto}
+.color-arrow-left .arrow-icon{transform:rotate(90deg)}
+.color-arrow-right .arrow-icon{transform:rotate(-90deg)}
+.hero-controls a{color:#000;display:grid;place-items:center;min-width:44px;min-height:44px}
+.color-arrow-left{left:clamp(8px,2vw,32px)}
+.color-arrow-right{right:clamp(8px,2vw,32px)}
+
+.root-chapter{min-height:1904svh}
+.root-scene{position:sticky;top:0;isolation:isolate;display:grid;place-items:center;height:100svh;overflow:hidden;background:transparent}
+.root-orb{position:absolute;width:min(94vw,120svh,1200px);aspect-ratio:1.42;display:grid;place-items:center;transform:scale(var(--root-scale,1))}
+.root-orb::before{content:'';position:absolute;inset:0;filter:blur(clamp(9px,2vw,30px));background:radial-gradient(ellipse 43% 52% at 51% 61%,#ae323dcf,transparent 93%),radial-gradient(ellipse 39% 45% at 35% 43%,#b94450c9,transparent 92%),radial-gradient(ellipse 39% 45% at 66% 45%,#c75c64bf,transparent 92%),radial-gradient(ellipse 39% 39% at 63% 72%,#df9ca1a3,transparent 95%)}
+.root-copy{position:relative;margin:0;padding:0 6vw;text-align:center;text-transform:uppercase;color:#14090b;font:clamp(18px,2.4vw,37px)/1.16 Italiana,Georgia,serif;opacity:var(--root-copy,1);transform:translateY(var(--root-rise,0px));text-shadow:0 0 12px #f8cfd0}
+@media(prefers-reduced-motion:reduce){.root-scene{position:sticky}}
+.root-flight-layer{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.root-flight-layer .root-orb{left:0;top:0}
+.root-copy{z-index:2}
+.root-tint{opacity:0}
+.root-tint::before{background:radial-gradient(ellipse 43% 52% at 51% 61%,var(--a),transparent 93%),radial-gradient(ellipse 39% 45% at 35% 43%,var(--b),transparent 92%),radial-gradient(ellipse 39% 45% at 66% 45%,var(--c),transparent 92%),radial-gradient(ellipse 39% 39% at 63% 72%,var(--d),transparent 95%)}
+.root-copy{position:absolute;opacity:0}
+.transcend-copy{width:min(94vw,940px);padding:0 3vw;font-size:clamp(17px,2.25vw,32px);line-height:1.22;text-shadow:0 0 14px #f3e9fc}
+.transcend-copy p{margin:0}
+.transcend-copy p+p{margin-top:1em}
+@media(max-width:640px){.transcend-copy br{display:none}}
+@media(max-height:520px){.transcend-copy{font-size:clamp(13px,3.4svh,17px)}}
+
+.root-scene{grid-template-columns:minmax(0,1fr) minmax(0,2.15fr);grid-template-rows:minmax(0,1fr);gap:clamp(12px,4vw,64px);padding:0 var(--gutter)}
+.root-scene .root-orb{grid-area:1/2;position:relative;width:min(100%,73svh,780px);aspect-ratio:1.13}
+.root-flight-layer .root-orb{width:min(100vw,73svh,780px);aspect-ratio:1.13}
+.root-scene .root-copy{grid-area:1/1;position:relative;justify-self:start;align-self:start;width:min(100%,31ch);padding:0;margin-top:calc(clamp(24px,5vh,54px) + clamp(26px,4vw,58px) + 20px);text-align:left;line-height:1.25;font-size:clamp(16px,2vw,30px);text-shadow:none}
+.root-scene .root-copy br{display:none}
+.root-scene .transcend-copy{font-size:clamp(15px,1.55vw,24px)}
+@media(max-width:640px){
+  .root-scene{grid-template-columns:minmax(0,1fr);grid-template-rows:1fr 1fr;gap:0;padding:9svh var(--gutter) 3svh}
+  .root-scene .root-copy{grid-area:1/1;margin-top:clamp(25px,5svh,50px)}
+  .root-scene .root-orb{grid-area:2/1;align-self:start;justify-self:end;width:min(80%,46svh)}
+}
+.color-track button.color-orb{border:0;padding:0;cursor:pointer}
+.color-track button.color-orb:focus-visible{outline:2px solid #191815;outline-offset:-3px;filter:none}
+.chakra-reading{grid-area:1/1;z-index:2;align-self:start;justify-self:start;width:min(100%,37ch);margin-top:calc(clamp(24px,5vh,54px) + clamp(26px,4vw,58px) + 20px);font:clamp(15px,1.55vw,23px)/1.33 Italiana,Georgia,serif;text-transform:uppercase;color:#14090b}
+.chakra-reading h2,.chakra-reading h3{font:inherit;font-weight:bold;margin:0 0 .55em}
+.chakra-reading p{margin:0 0 .75em}
+.chakra-reading .reading-subtitle{font-size:.79em;font-style:italic}
+@media(max-width:640px){.chakra-reading{width:min(100%,47ch);margin-top:clamp(25px,5svh,50px)}.root-scene.is-reading .root-orb::before{opacity:.3}}
+
+.root-chapter[hidden]{display:none}
+.color-track button.color-orb{transition:transform .32s ease}
+.color-track button.color-orb:hover,.color-track button.color-orb:focus-visible{position:relative;z-index:1;transform:scale(1.12)}
+.root-scene.is-reading .root-orb:not(canvas){visibility:hidden}
+.reading-avatar{display:none;position:absolute;left:0;top:0;width:min(73vw,88svh,1050px);height:auto;pointer-events:none;z-index:1}
+.root-scene.is-reading .reading-avatar{display:block}
+.root-scene.is-reading .chakra-reading{position:absolute;inset:auto;left:var(--reading-left);top:var(--reading-top);width:min(36vw,37ch);max-height:calc(100% - var(--reading-top));overflow:auto;margin:0}
+@media(max-width:640px){
+  .reading-avatar{width:min(92vw,61svh)}
+  .root-scene.is-reading .chakra-reading{width:min(74vw,47ch)}
+}
+@media(prefers-reduced-motion:reduce){.color-track button.color-orb{transition:none}}
+.root-scene.is-reading .chakra-reading{width:min(37vw,41ch);font-size:clamp(17px,1.75vw,27px);line-height:1.35;text-wrap:pretty;padding:0 .2em .4em}
+.root-scene.is-reading .chakra-reading p:last-child{margin-bottom:0}
+@media(max-width:640px){.root-scene.is-reading .chakra-reading{width:76vw;font-size:clamp(16px,4.6vw,22px)}}
+.root-scene.is-reading .chakra-reading{text-align:center}
+.chakra-back{position:absolute;top:clamp(24px,5vh,54px);right:var(--gutter);z-index:3;padding:0;border:0;background:none;color:#14090b;cursor:pointer;font:clamp(12px,1.25vw,17px) Italiana,Georgia,serif;text-transform:uppercase}
+.chakra-back:hover,.chakra-back:focus-visible{text-decoration:underline;text-underline-offset:.2em}
+
+.root-scene.is-reading .chakra-reading{
+  width:var(--reading-width,85vw);font-size:var(--reading-size,clamp(24px,5vw,88px));
+  line-height:1.08;text-wrap:balance;text-align:center;text-transform:uppercase;
+  max-height:calc(100% - var(--reading-top) - 5svh);
+}
+.root-scene.is-reading .chakra-reading p+p{margin-top:.35em}
+.root-scene.is-blank .reading-avatar{visibility:hidden}
+</style>
 </head>
 <body>
-  <a class="skip-link" href="#origen">Saltar al relato</a>
-  <canvas id="organism" aria-hidden="true"></canvas>
-  <div id="grain" aria-hidden="true"></div>
-  <div id="progress" aria-hidden="true"><span></span></div>
-
-  <button id="menu-toggle" class="menu-toggle" aria-label="Abrir índice" aria-controls="index-panel" aria-expanded="false">
-    <span></span><span></span>
-  </button>
-  <nav id="index-panel" class="index-panel" aria-label="Índice de la experiencia" inert>
-    <p class="eyebrow">RECORRIDO / ECOSISTEMA DEL SER</p>
-    <a href="#inicio">01 <span>Inicio</span></a>
-    <a href="#origen">02 <span>Origen</span></a>
-    <a href="#observacion">03 <span>Observación</span></a>
-    <a href="#pausa">04 <span>Pausa</span></a>
-    <a href="#transformacion">05 <span>Transformación</span></a>
-    <a href="#integracion">06 <span>Integración</span></a>
-    <button id="index-close" class="text-button">Cerrar índice ×</button>
-  </nav>
-
-  <main>
-    <section class="scene hero" id="inicio" data-scene="hero" aria-labelledby="site-title">
-      <header class="hero-top">
-        <h1 id="site-title">ECOSISTEMA DEL SER</h1>
-        <nav class="hero-links" aria-label="Accesos directos">
-          <a href="#origen">IDENTIDAD</a>
-          <a href="#observacion">OBSERVACIÓN</a>
-          <a href="#transformacion">INSPIRACIÓN</a>
-          <a href="#integracion">PROYECTO</a>
-        </nav>
-      </header>
-      <div class="hero-space" aria-hidden="true"></div>
-      <div class="hero-bottom reveal">
-        <p>ANTES DE SABER QUIÉN ERA,<br>YA ESTABA APRENDIENDO A SER.</p>
-        <a class="scroll-prompt" href="#origen">DESLIZA PARA EXPLORAR <span>↓</span></a>
-      </div>
-      <span class="side-note">UNA CARTOGRAFÍA DE LO INVISIBLE</span>
-    </section>
-
-    <section class="scene chapter" id="origen" data-scene="origin">
-      <div class="copy reveal">
-        <span class="eyebrow">I / ORIGEN</span>
-        <h2>Todo comenzó<br>con una <em>conversación.</em></h2>
-        <p>O quizás con todas aquellas que nunca había tenido conmigo misma.</p>
-        <button class="detail-trigger" data-detail="origen">EXPLORAR EL ORIGEN <span>↗</span></button>
-      </div>
-    </section>
-
-    <section class="scene chapter chapter-right" id="observacion" data-scene="observe">
-      <div class="copy reveal">
-        <span class="eyebrow">II / OBSERVACIÓN</span>
-        <h2>Lo que se repite<br><em>deja huella.</em></h2>
-        <p>Entre preguntas y respuestas comenzaron a aparecer partes de mí que reconocía, pero nunca había observado así.</p>
-        <button class="detail-trigger" data-detail="observacion">SOBRE EL ARCHIVO <span>↗</span></button>
-      </div>
-    </section>
-
-    <section class="scene chapter chapter-center" id="huellas" data-scene="traces">
-      <div class="copy reveal">
-        <span class="eyebrow">MEMORIA / IDENTIDAD</span>
-        <h2>Algunas historias<br>se repiten tanto<br>que olvidamos<br><em>cuándo empezaron.</em></h2>
-        <p>Comprender mis historias no hizo que desaparecieran. Pero comenzó a cambiar la manera en que las escuchaba.</p>
-      </div>
-    </section>
-
-    <section class="scene pause" id="pausa" data-scene="pause" aria-label="Una pausa para observar">
-      <div class="breath-ring" aria-hidden="true"></div>
-      <div class="pause-content reveal">
-        <span class="eyebrow">III / PAUSA</span>
-        <p>Hay cosas que solo aparecen<br>cuando dejamos de buscar respuestas.</p>
-      </div>
-    </section>
-
-    <section class="scene chapter threshold" id="transformacion" data-scene="threshold">
-      <div class="copy reveal">
-        <span class="eyebrow">IV / TRANSFORMACIÓN</span>
-        <h2>Otra forma<br>de <em>habitarme.</em></h2>
-        <p>No para borrar lo vivido. No para convertirme en alguien nuevo. Sino para descubrir otras formas de habitar lo que ya existe en mí.</p>
-        <p class="smallprint">Un recorrido simbólico inspirado en siete chakras. Sus asociaciones cromáticas son una interpretación contemporánea, no un diagnóstico.</p>
-      </div>
-    </section>
-
-    <section class="scene chakra-scene" id="chakras" data-scene="chakras" aria-labelledby="chakra-heading">
-      <div class="chakra-header reveal">
-        <span class="eyebrow">SIETE CENTROS / SIETE PREGUNTAS</span>
-        <h2 id="chakra-heading">Un mapa para<br><em>seguir observando.</em></h2>
-      </div>
-      <div class="chakra-list">
-        <button class="chakra-item" data-chakra="0"><span class="chakra-number">01</span><span class="chakra-name">MŪLĀDHĀRA <small>RAÍZ</small></span><span class="chakra-arrow">↗</span></button>
-        <button class="chakra-item" data-chakra="1"><span class="chakra-number">02</span><span class="chakra-name">SVĀDHIṢṬHĀNA <small>SACRO</small></span><span class="chakra-arrow">↗</span></button>
-        <button class="chakra-item" data-chakra="2"><span class="chakra-number">03</span><span class="chakra-name">MAṆIPŪRA <small>PLEXO SOLAR</small></span><span class="chakra-arrow">↗</span></button>
-        <button class="chakra-item" data-chakra="3"><span class="chakra-number">04</span><span class="chakra-name">ANĀHATA <small>CORAZÓN</small></span><span class="chakra-arrow">↗</span></button>
-        <button class="chakra-item" data-chakra="4"><span class="chakra-number">05</span><span class="chakra-name">VIŚUDDHA <small>GARGANTA</small></span><span class="chakra-arrow">↗</span></button>
-        <button class="chakra-item" data-chakra="5"><span class="chakra-number">06</span><span class="chakra-name">ĀJÑĀ <small>TERCER OJO</small></span><span class="chakra-arrow">↗</span></button>
-        <button class="chakra-item" data-chakra="6"><span class="chakra-number">07</span><span class="chakra-name">SAHASRĀRA <small>CORONA</small></span><span class="chakra-arrow">↗</span></button>
-      </div>
-      <p class="chakra-footnote">Pulsa cualquier centro para descubrir su pregunta. También puedes continuar bajando.</p>
-    </section>
-
-    <section class="scene chapter chapter-center ending" id="integracion" data-scene="integrate">
-      <div class="copy reveal">
-        <span class="eyebrow">V / INTEGRACIÓN</span>
-        <h2>No soy una<br>forma <em>terminada.</em></h2>
-        <p>Quizás comprenderme no sea encontrar una sola definición, sino aprender a habitar todas las partes que continúan cambiando.</p>
-        <a class="return-link" href="#inicio">VOLVER AL ORIGEN ↗</a>
-      </div>
-      <footer>ECOSISTEMA DEL SER <span>UNA EXPLORACIÓN ABIERTA</span></footer>
-    </section>
-  </main>
-
-  <aside class="detail-panel" id="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detail-title" aria-hidden="true" inert>
-    <button id="detail-close" class="detail-close" aria-label="Cerrar detalle">×</button>
-    <div class="detail-body">
-      <p id="detail-kicker" class="eyebrow"></p>
-      <h2 id="detail-title"></h2>
-      <p id="detail-description"></p>
-      <p id="detail-question" class="detail-question"></p>
-      <p class="detail-note">Esta experiencia propone preguntas, no respuestas definitivas.</p>
+<main>
+<div class="avatar-expansion" hidden aria-hidden="true"><canvas width="650" height="470"></canvas></div>
+<section class="hero" id="inicio" aria-labelledby="site-title">
+<h1 id="site-title">Ecosistema del Ser</h1>
+<nav aria-label="Recorrido"><a href="#nacimiento">Nacimiento</a><span>Observación</span><span>Pausa</span><span>Transformación</span><span>Integración</span></nav>
+<p class="hero-question">¿Cuánto de lo que eres es aquello que has aprendido a ser?</p>
+<figure class="avatar"><canvas width="650" height="470" tabindex="0" aria-label="Avatar de siete colores. Arrastra o usa las flechas para moverlo."></canvas></figure>
+<div class="hero-controls"><a href="#nacimiento" aria-label="Comenzar el recorrido"><svg class="arrow-icon" viewBox="0 0 24 32" width="24" height="32" fill="none" aria-hidden="true"><path d="M12 3v25m-5-6 5 6 5-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+</section>
+<section class="stage stage-nacimiento" id="nacimiento" aria-labelledby="birth-label"><div class="birth-color-intro"><p class="birth-label" id="birth-label">NACIMIENTO</p><h2 class="birth-title">¿Quién soy?</h2></div></section>
+<section class="color-chapter" aria-label="El cuestionamiento">
+  <div class="color-scene">
+    <p class="color-copy color-copy-left">Hay cierta extrañeza en la seguridad con la que nos definimos, como si en un puñado de palabras pudiera caber todo lo que somos.</p>
+    <p class="color-copy color-copy-right">Nos reconocemos en certezas que hemos recogido a lo largo de la vida, sin preguntarnos demasiado en qué momento comenzaron a pertenecernos.</p>
+    <div class="color-strip" id="color-strip" tabindex="0" role="region" aria-label="Colores del avatar. Desplázate horizontalmente para explorar.">
+      <div class="color-track"><button type="button" class="color-orb" aria-label="Rojo · Existir" style="--orb:#ed4060"></button><button type="button" class="color-orb" aria-label="Naranja · Sentir" style="--orb:#f38a46"></button><button type="button" class="color-orb" aria-label="Amarillo · Elegir" style="--orb:#f3cc52"></button><button type="button" class="color-orb" aria-label="Verde · Amar" style="--orb:#9fbd69"></button><button type="button" class="color-orb" aria-label="Turquesa · Expresar" style="--orb:#61c9c6"></button><button type="button" class="color-orb" aria-label="Índigo · Percibir" style="--orb:#5369c5"></button><button type="button" class="color-orb" aria-label="Violeta · Trascender" style="--orb:#a57bcc"></button></div>
     </div>
-  </aside>
-  <div id="panel-backdrop" class="panel-backdrop" hidden></div>
-  <noscript><p class="noscript">La experiencia visual requiere JavaScript, pero puedes leer todo el relato desplazándote por esta página.</p></noscript>
+    <button class="color-arrow color-arrow-left" type="button" data-direction="-1" aria-controls="color-strip" aria-label="Ver colores a la izquierda"><svg class="arrow-icon" viewBox="0 0 24 32" width="24" height="32" fill="none" aria-hidden="true"><path d="M12 3v25m-5-6 5 6 5-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button class="color-arrow color-arrow-right" type="button" data-direction="1" aria-controls="color-strip" aria-label="Ver colores a la derecha"><svg class="arrow-icon" viewBox="0 0 24 32" width="24" height="32" fill="none" aria-hidden="true"><path d="M12 3v25m-5-6 5 6 5-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  </div>
+</section>
+<section class="root-chapter" aria-label="Raíces" hidden>
+  <div class="root-scene">
+    <button class="chakra-back" type="button">back</button>
+    <div class="root-orb" aria-hidden="true">
+      
+    </div>
+    <div class="root-orb root-tint" aria-hidden="true" style="--a:#c76026;--b:#e68346;--c:#efa473;--d:#f8c9a4"></div>
+    <div class="root-orb root-tint" aria-hidden="true" style="--a:#c29c24;--b:#dfb733;--c:#eccd64;--d:#f8e4a0"></div>
+    <div class="root-orb root-tint" aria-hidden="true" style="--a:#64873c;--b:#82a64f;--c:#a6bc70;--d:#cbdc9d"></div>
+    <div class="root-orb root-tint" aria-hidden="true" style="--a:#329994;--b:#51bab8;--c:#85cfce;--d:#b4e5e1"></div>
+    <div class="root-orb root-tint" aria-hidden="true" style="--a:#4053a4;--b:#586dbd;--c:#7387ce;--d:#acb9e8"></div>
+    <div class="root-orb root-tint" aria-hidden="true" style="--a:#7950aeb5;--b:#a67bd1a8;--c:#b59bdd9e;--d:#dbc7ec8c"></div>
+    <canvas class="reading-avatar" width="650" height="470" aria-hidden="true"></canvas>
+        <div class="root-copy transcend-copy">
+      <p>Qué paradoja haber buscado mi esencia<br>
+      mientras defendía los límites de aquello que creía ser,<br>
+      sin imaginar que, más allá de mis certezas,<br>
+      habitaban otras formas de mi propia existencia.</p>
+      <p>Y fue allí, entre las grietas de lo que creía conocer,<br>
+      donde comenzó a florecer una nueva manera de habitarme.<br>
+      No como quien descubre una tierra desconocida,<br>
+      sino como quien reconoce, por primera vez,<br>
+      la inmensidad de la tierra que siempre le perteneció.</p>
+    </div>
+      <article class="chakra-reading" data-blank hidden aria-label="Mūlādhāra — Existir · Scroll 1"></article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 2"><p>Respira, las veces que sea necesario</p></article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 3"><p>Rojo como la tierra, Mūlādhāra significa raíz y sostén. Habita en la base de la columna y simboliza la seguridad y la pertenencia. Su mantra es LAM.</p></article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 4"><p>Volvamos a nuestras raíces. Descubramos cuánto podemos crecer sin dejar de pertenecernos.</p></article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 5">
+      
+      
+      <p>Deja al mundo continuar sin ti durante unos instantes.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 6">
+      
+      
+      <p>Descansa.</p><p>Siente la delicadeza con la que la tierra recibe tu peso.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 7">
+      
+      
+      <p>Imagina unas raíces que nacen bajo tu piel y te acompañan allí donde vas.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 8">
+      
+      
+      <p>Quizás pertenecer sea aprender a sentirte en casa dentro de ti.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 9">
+      
+      
+      <p><em>Soy mi propia morada, la tierra en la que puedo florecer.</em></p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 10">
+      
+      
+      <p>¿Cuánto de mí he modificado para sentir que pertenezco?</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 11">
+      
+      
+      <p>Antes de aprender a reconocernos, aprendimos a ser reconocidos. Descubrimos qué gestos nos acercaban a otros, qué palabras despertaban afecto y qué partes de nuestra naturaleza convenía reservar. No hay ingenuidad en ello, sino una profunda necesidad humana de pertenecer. Lo interesante es descubrir que, con el tiempo, podemos dejar de necesitar algunas de aquellas formas. Que nuestras raíces expliquen de dónde venimos no significa que deban determinar hacia dónde crecemos.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 12">
+      
+      
+      <p>Después de contemplar tus raíces, permanece un instante junto a ellas.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 13">
+      
+      
+      <p>Recibe con ternura las formas que alguna vez adoptaste para pertenecer. Fueron tu manera de encontrar un lugar en el mundo.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Mūlādhāra — Existir · Scroll 14">
+      
+      
+      <p>Permítete recorrer tu propia tierra, observar sus raíces y descubrir que también puedes pertenecer sin modificar tu naturaleza.</p>
+    </article>
+    <article class="chakra-reading" data-blank hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 1"></article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 2"><p>Respira, las veces que sea necesario</p></article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 3"><p>Naranja como la luz sobre el agua, Svādhiṣṭhāna significa la propia morada. Habita en la región pélvica y simboliza la sensibilidad, el deseo y la creatividad. Su mantra es VAM.</p></article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 4"><p>Exploremos las aguas que nos habitan y aquello que todavía podemos permitirnos sentir.</p></article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 5">
+      
+      
+      <p>Deja descansar las explicaciones. No todo lo que sientes necesita un nombre.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 6">
+      
+      
+      <p>Respira.</p><p>Percibe ese pequeño oleaje que nace en tu abdomen.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 7">
+      
+      
+      <p>Permite que tus emociones encuentren en ti una orilla donde descansar.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 8">
+      
+      
+      <p>También el mar conoce la tormenta sin renunciar a su belleza.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 9">
+      
+      
+      <p><em>Abrazo las aguas que me habitan y la libertad de sentirlas.</em></p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 10">
+      
+      
+      <p>¿Qué partes de mi sensibilidad podría comenzar a recibir con ternura?</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 11">
+      
+      
+      <p>Resulta curioso que deseemos experimentar la vida en toda su profundidad y, al mismo tiempo, intentemos protegernos de aquello que nos permite sentirla. Quisiéramos conservar el asombro sin conocer la incertidumbre, amar sin exponernos a la ausencia. Pero nuestra sensibilidad no siempre distingue entre aquello que nos conmueve y aquello que nos duele. Quizás aprender a sentir consista en dejar de considerar nuestras emociones como obstáculos y comenzar a reconocerlas como parte del lenguaje con el que la vida nos habla.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 12">
+      
+      
+      <p>Deja que aquello que acabas de reconocer repose dentro de ti.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 13">
+      
+      
+      <p>No te apresures a abrir las aguas que alguna vez necesitaste contener. También la sensibilidad merece su propio tiempo.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Svādhiṣṭhāna — Sentir · Scroll 14">
+      
+      
+      <p>Navega tus aguas con curiosidad. Date el permiso de sentirlas sin exigirles que sean siempre tranquilas.</p>
+    </article>
+    <article class="chakra-reading" data-blank hidden aria-label="Maṇipūra — Elegir · Scroll 1"></article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 2"><p>Respira, las veces que sea necesario</p></article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 3"><p>Amarillo como el fuego, Maṇipūra significa ciudad de las joyas. Habita en el abdomen y simboliza la voluntad, la autonomía y la transformación. Su mantra es RAM.</p></article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 4"><p>Contemplemos aquello que nos enciende y descubramos cuánto de ese fuego nos pertenece.</p></article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 5">
+      
+      
+      <p>Olvida por un instante quién has intentado ser para los ojos del mundo.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 6">
+      
+      
+      <p>Regresa.</p><p>Siente el movimiento de la vida en el centro de tu abdomen.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 7">
+      
+      
+      <p>Escucha aquello que todavía deseas cuando nadie te contempla.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 8">
+      
+      
+      <p>Qué hermoso sería vivir para aquello que nos enciende, sin consumirnos intentando iluminar a otros.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 9">
+      
+      
+      <p><em>Que mis pasos nazcan del amor por aquello que deseo vivir.</em></p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 10">
+      
+      
+      <p>¿Qué deseos podría escuchar si dejara descansar la necesidad de demostrar?</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 11">
+      
+      
+      <p>Hay deseos que nacen de nuestra curiosidad y otros que nacen de la necesidad de ser reconocidos. A veces convivimos tanto tiempo con ambos que resulta difícil distinguirlos. Podemos alcanzar aquello que alguna vez soñamos y descubrir que la satisfacción dependía, en gran medida, de quién estuviera allí para contemplarlo. Quizás la verdadera libertad no resida únicamente en nuestra capacidad de elegir, sino en comprender desde dónde elegimos. En descubrir qué merece nuestro fuego, incluso cuando nadie presencia su luz.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 12">
+      
+      
+      <p>Deja descansar, por un instante, aquello que siempre has intentado alcanzar.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 13">
+      
+      
+      <p>Contempla con cariño el esfuerzo que te ha traído hasta aquí, incluso cuando nació de la necesidad de ser reconocido.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Maṇipūra — Elegir · Scroll 14">
+      
+      
+      <p>Observa aquello que enciende tu curiosidad. Permítete explorar deseos que no necesiten más propósito que el placer de vivirlos.</p>
+    </article>
+    <article class="chakra-reading" data-blank hidden aria-label="Anāhata — Amar · Scroll 1"></article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 2"><p>Respira, las veces que sea necesario</p></article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 3"><p>Verde como la primavera, Anāhata evoca el sonido que nace sin ser golpeado. Habita en el pecho y, vinculado al aire, simboliza el amor y la compasión. Su mantra es YAM.</p></article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 4"><p>Recorramos los jardines de nuestros afectos. Descubramos cuánto de su ternura podemos sembrar en nosotros.</p></article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 5">
+      
+      
+      <p>Deja descansar todos los nombres que llevas escritos dentro del pecho.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 6">
+      
+      
+      <p>Acércate.</p><p>Posa suavemente una mano sobre tu corazón, si lo deseas.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 7">
+      
+      
+      <p>Recuerda la ternura con la que has amado. Permite que algo de ella regrese a ti.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 8">
+      
+      
+      <p>Entre todas las existencias que merecen tu amor, también se encuentra la tuya.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 9">
+      
+      
+      <p><em>Que también mis propios jardines conozcan la primavera.</em></p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 10">
+      
+      
+      <p>¿Cómo podría amarme con la misma ternura con la que he aprendido a amar a otros?</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 11">
+      
+      
+      <p>Cuando conocemos la historia de alguien, sus contradicciones adquieren otros significados. Comprendemos sus temores, encontramos humanidad en sus errores y aprendemos a mirar más allá de sus actos. Qué extraño que, siendo nuestra propia historia la que mejor conocemos, podamos llegar a contemplarnos con tanta severidad. Quizás exista una forma más coherente de entender el amor: aquella en la que la comprensión que ofrecemos al mundo no termina precisamente donde comienza nuestra propia existencia.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 12">
+      
+      
+      <p>Permanece cerca de aquello que estas palabras han despertado en tu pecho.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 13">
+      
+      
+      <p>Recibe tus propias contradicciones con la delicadeza con la que recibirías las de alguien a quien amas.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Anāhata — Amar · Scroll 14">
+      
+      
+      <p>Recorre tus propios jardines con la ternura con la que has recorrido los de otros. Permítete también ser destino de tu amor.</p>
+    </article>
+    <article class="chakra-reading" data-blank hidden aria-label="Viśuddha — Expresar · Scroll 1"></article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 2"><p>Respira, las veces que sea necesario</p></article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 3"><p>Celeste como la amplitud del cielo, Viśuddha significa purificación. Habita en la garganta y, vinculado al espacio, simboliza la expresión y la autenticidad. Su mantra es HAM.</p></article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 4"><p>Adentrémonos en nuestros silencios. Quizás encontremos palabras que todavía desean conocer el aire.</p></article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 5">
+      
+      
+      <p>Deja descansar las palabras con las que intentas ser comprendido.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 6">
+      
+      
+      <p>Escucha.</p><p>Relaja la mandíbula y siente el aire que atraviesa tu garganta.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 7">
+      
+      
+      <p>Reconoce aquellas palabras que han envejecido bajo tu piel.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 8">
+      
+      
+      <p>Hay libertad en escuchar nuestra voz antes de imaginar los oídos del mundo.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 9">
+      
+      
+      <p><em>Que mi voz conserve la delicadeza y la libertad de mi naturaleza.</em></p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 10">
+      
+      
+      <p>¿Qué encontraría mi voz si pudiera expresarse sin temor a la mirada ajena?</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 11">
+      
+      
+      <p>Entre aquello que sentimos y aquello que pronunciamos existe un espacio habitado por nuestras experiencias. Allí viven las palabras que alguna vez no fueron comprendidas, el temor a herir y el deseo de conservar ciertos afectos. Aprendemos a anticipar la mirada de otros hasta el punto de que, a veces, dejamos de escuchar nuestra propia voz. Quizás expresarnos con libertad no signifique decirlo todo, sino aprender a distinguir entre los silencios que elegimos y aquellos que hemos aprendido a necesitar.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 12">
+      
+      
+      <p>Deja que tus palabras permanezcan un instante en el silencio.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 13">
+      
+      
+      <p>Comprende con ternura las veces que elegiste callar. Tu voz también tiene una historia.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Viśuddha — Expresar · Scroll 14">
+      
+      
+      <p>Escucha las palabras que nacen dentro de ti. Permíteles encontrar su lugar en el mundo, a su propio tiempo.</p>
+    </article>
+    <article class="chakra-reading" data-blank hidden aria-label="Ājñā — Percibir · Scroll 1"></article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 2"><p>Respira, las veces que sea necesario</p></article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 3"><p>Índigo como el anochecer, Ājñā significa dirección o mandato. Habita en el entrecejo y simboliza la percepción, la intuición y el discernimiento. Su mantra es OM.</p></article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 4"><p>Contemplemos la historia que habita en nuestros ojos y los horizontes que aún podemos descubrir.</p></article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 5">
+      
+      
+      <p>Deja descansar los ojos con los que has aprendido a interpretar la vida.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 6">
+      
+      
+      <p>Observa.</p><p>Permite que tus pensamientos atraviesen el silencio.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 7">
+      
+      
+      <p>Contémplalos como nubes que pasan sin definir la inmensidad del cielo.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 8">
+      
+      
+      <p>Incluso lo familiar puede maravillarnos cuando aprendemos a mirarlo nuevamente.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 9">
+      
+      
+      <p><em>Que la memoria de lo vivido nunca me prive del asombro de lo desconocido.</em></p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 10">
+      
+      
+      <p>¿Desde qué experiencias he aprendido a interpretar el mundo?</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 11">
+      
+      
+      <p>Nunca contemplamos el mundo por primera vez. Incluso frente a lo desconocido, nos acompañan las huellas de aquello que hemos vivido. Una palabra puede despertar recuerdos distintos en cada existencia; un mismo silencio puede significar refugio para unos y ausencia para otros. Comprender esta diversidad nos invita a desconfiar, con delicadeza, de nuestras propias certezas. Quizás ampliar nuestra mirada no consista en abandonar lo que conocemos, sino en reconocer que la realidad siempre puede ser más extensa que nuestra experiencia de ella.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 12">
+      
+      
+      <p>Deja descansar las certezas que acabas de contemplar.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 13">
+      
+      
+      <p>No juzgues los ojos con los que alguna vez miraste el mundo. Aprendieron a hacerlo desde la historia que les pertenecía.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Ājñā — Percibir · Scroll 14">
+      
+      
+      <p>Lleva esta pregunta contigo. Observa lo cotidiano con curiosidad y permítete descubrir otros paisajes en aquello que creías conocer.</p>
+    </article>
+    <article class="chakra-reading" data-blank hidden aria-label="Sahasrāra — Trascender · Scroll 1"></article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 2"><p>Respira, las veces que sea necesario</p></article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 3"><p>Violeta como el misterio del universo, Sahasrāra evoca el loto de mil pétalos. Habita en la coronilla y simboliza la conciencia, la unidad y la trascendencia.</p></article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 4"><p>Contemplemos aquello que nos reúne y la inmensidad de una existencia que nunca termina de revelarse.</p></article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 5">
+      
+      
+      <p>Deja descansar todas las palabras con las que has intentado definirte.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 6">
+      
+      
+      <p>Permanece.</p><p>Percibe tu piel, el aire y la vida que sucede dentro de ti.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 7">
+      
+      
+      <p>Hay algo de la tierra en tu cuerpo y algo del universo en tu manera de existir.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 8">
+      
+      
+      <p>Contémplate con la misma admiración con la que contemplas el mar. No necesitas comprender tu inmensidad para reconocer su belleza.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 9">
+      
+      
+      <p><em>Celebro lo que soy y recibo con ternura todo aquello que todavía está por florecer en mí.</em></p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 10">
+      
+      
+      <p>¿Qué nuevas formas de existir podrían florecer si me permitiera no conocerme por completo?</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 11">
+      
+      
+      <p>Qué hermosa paradoja dedicar parte de nuestra existencia a descubrir quiénes somos y encontrar, en ese mismo recorrido, la libertad de dejar de definirnos. Llevamos dentro la memoria de lo vivido, las formas que aprendimos para pertenecer, los afectos que nos transformaron y las certezas que alguna vez nos sostuvieron. Todo ello nos constituye, pero nada tiene por qué contenernos por completo. Quizás conocernos sea aprender a contemplar nuestra existencia como contemplamos la naturaleza: con admiración por aquello que permanece, ternura por aquello que cambia y asombro ante todo lo que todavía está por nacer.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 12">
+      
+      
+      <p>Deja reposar todo aquello que has descubierto. No necesitas convertirlo en una nueva definición de ti.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 13">
+      
+      
+      <p>Contempla con ternura las distintas formas que ha adquirido tu existencia. Cada una pertenece a una estación de tu historia.</p>
+    </article>
+    <article class="chakra-reading" hidden aria-label="Sahasrāra — Trascender · Scroll 14">
+      
+      
+      <p>Continúa explorando la inmensidad de tu existencia sin la prisa de definirla. Date el permiso de pertenecer a lo que eres y a todo aquello que todavía puedes llegar a ser.</p>
+    </article>
+  </div>
+</section>
+</main>
+<script>
+const heading=document.querySelector('h1');
+const titleRange=document.createRange();
+titleRange.selectNodeContents(heading);
+function fitTitle(){
+  const width=titleRange.getBoundingClientRect().width;
+  if(width) heading.style.setProperty('--title-size',parseFloat(getComputedStyle(heading).fontSize)*Math.max(1,heading.clientWidth-2)/width+'px');
+}
+new ResizeObserver(fitTitle).observe(document.querySelector('.hero'));
+fitTitle();
+document.fonts.ready.then(()=>{fitTitle();readingViewport=null;updateExpansion();});
+const palette=[[237,64,96],[243,138,70],[243,204,82],[159,189,105],[97,201,198],[83,105,197],[165,123,204]];
+const motion=matchMedia('(prefers-reduced-motion: reduce)');
+let time=0, previous=0;
+const states=[...document.querySelectorAll('.avatar canvas')].map((canvas,index)=>{
+  const state={canvas,ctx:canvas.getContext('2d'),index,x:0,y:0,goalX:0,goalY:0,visible:true,drag:null};
+  canvas.addEventListener('pointermove',event=>{
+    if(state.drag && event.pointerId===state.drag.id){
+      state.goalX+=(event.clientX-state.drag.x)*.012;
+      state.goalY+=(event.clientY-state.drag.y)*.012;
+      state.drag={id:event.pointerId,x:event.clientX,y:event.clientY};
+    }else if(!state.drag && event.pointerType==='mouse' && !motion.matches){
+      const box=canvas.getBoundingClientRect();
+      state.goalX=((event.clientX-box.left)/box.width-.5)*(index===0?2.4:1.45);
+      state.goalY=((event.clientY-box.top)/box.height-.5)*(index===0?1.8:1.1);
+    }
+  });
+  canvas.addEventListener('pointerdown',event=>{
+    if(state.drag || event.button!==0) return;
+    state.drag={id:event.pointerId,x:event.clientX,y:event.clientY};
+    canvas.setPointerCapture(event.pointerId);
+  });
+  canvas.addEventListener('lostpointercapture',()=>{state.drag=null;});
+  canvas.addEventListener('keydown',event=>{
+    const directions={ArrowLeft:[-.22,0],ArrowRight:[.22,0],ArrowUp:[0,-.22],ArrowDown:[0,.22]};
+    const change=directions[event.key];
+    if(!change)return;
+    event.preventDefault();
+    state.goalX+=change[0];
+    state.goalY+=change[1];
+  });
+  return state;
+});
+const observer=new IntersectionObserver(entries=>{
+  for(const entry of entries) states.find(state=>state.canvas===entry.target).visible=entry.isIntersecting;
+});
+states.forEach(state=>observer.observe(state.canvas));
+function draw(state){
+  const {canvas,ctx,index,tint}=state;
+  if(!ctx)return;
+  const w=canvas.width,h=canvas.height;
+  ctx.clearRect(0,0,w,h);
+  state.x+=(state.goalX-state.x)*.075;
+  state.y+=(state.goalY-state.y)*.075;
+  const phase=time*(index===0?1.65:index===1?.3:1)+index*.75;
+  const yaw=state.x+phase*.26,pitch=state.y+.23;
+  const breathing=1+(index===0?.13:.07)*Math.sin(phase*1.35);
+  const lobes=palette.map((color,i)=>{
+    const angle=i*2.39996+phase*.28;
+    const spread=i===0?.10:.32+i*.052+(index===0?.13*Math.sin(phase*1.3+i):0);
+    const x=Math.cos(angle)*spread,y=Math.sin(angle)*spread,z=Math.sin(i*1.8+phase*.65)*.55;
+    const px=x*Math.cos(yaw)+z*Math.sin(yaw),pz=z*Math.cos(yaw)-x*Math.sin(yaw);
+    return {color,i,x:px,y:y*Math.cos(pitch)-pz*Math.sin(pitch),z:pz};
+  }).sort((a,b)=>a.z-b.z);
+  const shapes=lobes.map(({i,color,x,y,z})=>({
+    i,color,
+    x:x*238,
+    y:y*(index===0?176:197),
+    r:(i===0?129:153-i*4)*(1+z*.16)*breathing*(index===0?1.12:1),
+    angle:i*.59+phase*.35,
+    sx:1.08+.19*Math.sin(phase+i),
+    sy:.86+.11*Math.cos(phase+i*.7)
+  }));
+  // Fit the full rotated silhouette with one scale so its proportions stay intact.
+  const colorGrowth=index===0?1.09:1;
+  let extentX=230, extentY=230, colorExtentX=230, colorExtentY=230;
+  for(const {x,y,r,angle,sx,sy} of shapes){
+    const c=Math.cos(angle), s=Math.sin(angle);
+    const rx=r*Math.hypot(sx*c,sy*s);
+    const ry=r*Math.hypot(sx*s,sy*c);
+    extentX=Math.max(extentX,Math.abs(x)+rx);
+    extentY=Math.max(extentY,Math.abs(y)+ry);
+    colorExtentX=Math.max(colorExtentX,Math.abs(x)+rx*colorGrowth);
+    colorExtentY=Math.max(colorExtentY,Math.abs(y)+ry*colorGrowth);
+  }
+  ctx.save();
+  ctx.translate(w/2,h/2);
+  const fit=Math.min(1,(w/2-8)/extentX,(h/2-8)/extentY);
+  const colorFit=Math.min(1,(w/2-8)/colorExtentX,(h/2-8)/colorExtentY);
+  ctx.save();
+  ctx.scale(colorFit,colorFit);
+  for(const {i,color,x,y,r,angle,sx,sy} of shapes){
+    ctx.save();
+    ctx.translate(x,y);
+    ctx.rotate(angle);
+    ctx.scale(sx*colorGrowth,sy*colorGrowth);
+    const gradient=ctx.createRadialGradient(-r*.18,-r*.14,r*.035,0,0,r);
+    const rgb=(tint?tint.map(channel=>Math.round(channel+(255-channel)*i*.035)):color).join(',');
+    gradient.addColorStop(0,'rgba('+rgb+',.97)');
+    gradient.addColorStop(.35,'rgba('+rgb+',.78)');
+    gradient.addColorStop(.72,'rgba('+rgb+',.31)');
+    gradient.addColorStop(1,'rgba('+rgb+',0)');
+    ctx.fillStyle=gradient;
+    ctx.fillRect(-r,-r,r*2,r*2);
+    ctx.restore();
+  }
+  ctx.restore();
+  ctx.save();
+  ctx.scale(fit,fit);
+  ctx.globalAlpha=tint?0:(index===0?coverAxisOpacity:1);
+  ctx.lineWidth=index===0?.9:.7;
+  if(index===0) ctx.filter='blur(1px)';
+  const axisCount=index===0?7:3;
+  for(let i=0;i<axisCount;i++){
+    ctx.beginPath();
+    const angle=phase*.19+i*Math.PI/axisCount+state.x*.35;
+    const radius=84+5*Math.cos(i*2*Math.PI/axisCount);
+    const depth=39+4*Math.sin(i*2*Math.PI/axisCount);
+    ctx.ellipse(0,0,radius,depth,angle,0,Math.PI*2);
+    ctx.strokeStyle=index===0?'rgba(0,0,0,.21)':'rgba(52,40,70,.15)';
+    ctx.stroke();
+  }
+  ctx.restore();
+  ctx.restore();
+}
+const expansion=document.querySelector('.avatar-expansion');
+const expansionCanvas=expansion.querySelector('canvas');
+const expansionContext=expansionCanvas.getContext('2d');
+const coverAvatar=states[0].canvas.parentElement;
+const birth=document.querySelector('#nacimiento');
+const birthIntro=birth.querySelector('.birth-color-intro');
+const birthLabel=document.querySelector('#birth-label');
+const birthTitle=birthIntro.querySelector('.birth-title');
+let coverAxisOpacity=1;
+const colorChapter=document.querySelector('.color-chapter');
+const colorScene=colorChapter.querySelector('.color-scene');
+const colorStrip=colorScene.querySelector('.color-strip');
+const colorCopy=colorScene.querySelectorAll('.color-copy');
+const colorArrows=colorScene.querySelectorAll('.color-arrow');
+for(const arrow of colorArrows){
+  arrow.addEventListener('click',()=>{
+    colorStrip.scrollBy({left:Number(arrow.dataset.direction)*colorStrip.clientWidth*.30,behavior:motion.matches?'instant':'smooth'});
+  });
+}
+const clampUnit=value=>Math.max(0,Math.min(1,value));
+const colorOrbs=[...colorStrip.querySelectorAll('.color-orb')];
+const morphLayer=document.createElement('div');
+morphLayer.className='color-morph';
+morphLayer.hidden=true;
+morphLayer.setAttribute('aria-hidden','true');
+expansion.after(morphLayer);
+function decorativeOrb(orb){
+  const shape=document.createElement('span');
+  shape.className='color-orb';
+  shape.style.setProperty('--orb',orb.style.getPropertyValue('--orb'));
+  return shape;
+}
+const movingOrbs=colorOrbs.map(orb=>morphLayer.appendChild(decorativeOrb(orb)));
+let morphProgress=0;
+
+function updateColorMorph(progress){
+  morphProgress=progress;
+  colorScene.style.setProperty('--color-wash',motion.matches?1:clampUnit((progress-.28)/.72));
+  const active=!motion.matches && progress>0 && progress<1;
+  morphLayer.hidden=!active;
+  for(const arrow of colorArrows) arrow.hidden=active || (!motion.matches && progress<1);
+  colorStrip.inert=!motion.matches && progress<1;
+  colorStrip.style.opacity=motion.matches?1:clampUnit((progress-.82)/.18);
+  if(!active)return;
+  for(const [index,orb] of colorOrbs.entries()){
+    const target=orb.getBoundingClientRect();
+    const moving=movingOrbs[index];
+    const fraction=clampUnit((progress-index*.012)/.90);
+    const ease=fraction*fraction*(3-2*fraction);
+    const angle=index*2.39996;
+    const originX=innerWidth*(.50+.085*Math.cos(angle));
+    const originY=innerHeight*(.50+.075*Math.sin(angle));
+    const x=originX+(target.left+target.width/2-originX)*ease;
+    const y=originY+(target.top+target.height/2-originY)*ease;
+    moving.style.transform='translate('+(x-target.width/2)+'px,'+(y-target.height/2)+'px) scale('+(1+1.65*(1-ease))+')';
+    moving.style.opacity=clampUnit(progress/.24)*(1-clampUnit((progress-.82)/.18));
+  }
+}
+
+colorScene.addEventListener('pointermove',event=>{
+  if(event.target.closest('.color-arrow, .color-orb') || event.pointerType==='touch' || morphProgress<1 && !motion.matches)return;
+  const bounds=colorScene.getBoundingClientRect();
+  const fraction=clampUnit((event.clientX-bounds.left)/bounds.width);
+  colorStrip.scrollLeft=(colorStrip.scrollWidth-colorStrip.clientWidth)*fraction;
+});
+colorStrip.addEventListener('keydown',event=>{
+  if(event.key!=='ArrowLeft' && event.key!=='ArrowRight')return;
+  event.preventDefault();
+  colorStrip.scrollLeft+=(event.key==='ArrowLeft'?-1:1)*colorStrip.clientWidth*.35;
+});
+
+const rootChapter=document.querySelector('.root-chapter');
+const rootScene=rootChapter.querySelector('.root-scene');
+const rootOrb=rootScene.querySelector('.root-orb');
+const rootColors=[rootOrb,...rootScene.querySelectorAll('.root-tint')];
+const chakraReadings=[...rootScene.querySelectorAll('.chakra-reading')];
+const readingCount=chakraReadings.length/rootColors.length;
+let currentReading=null;
+let readingViewport;
+const readingCanvas=rootScene.querySelector('.reading-avatar');
+const readingAvatar={canvas:readingCanvas,ctx:readingCanvas.getContext('2d'),index:0,x:0,y:0,goalX:0,goalY:0,tint:null};
+const readingPath=[
+  [.55,.50,.2,.32],[.52,.51,.25,.34],
+  [.70,.38,.11,.42],[.34,.59,.52,.27],
+  [.73,.31,.11,.54],[.27,.41,.57,.57],[.31,.70,.54,.25],[.73,.68,.12,.24],
+  [.69,.32,.13,.62],[.26,.45,.56,.42],[.77,.57,.09,.22],[.64,.74,.15,.37],
+  [.27,.65,.55,.25],[.72,.37,.13,.56]
+];
+let readingPresence=1;
+let readingX=null,readingY=null,readingTargetX=0,readingTargetY=0;
+let returningToStrip=false;
+let selectedColor=0;
+const redOrb=colorOrbs[0];
+const flyingRed=rootOrb.cloneNode(true);
+const rootFlightLayer=document.createElement('div');
+rootFlightLayer.className='root-flight-layer';
+rootFlightLayer.hidden=true;
+rootFlightLayer.setAttribute('aria-hidden','true');
+const flyingStripOrb=decorativeOrb(redOrb);
+flyingStripOrb.style.position='absolute';
+flyingStripOrb.style.left='0';
+flyingStripOrb.style.top='0';
+rootFlightLayer.append(flyingStripOrb,flyingRed);
+expansion.after(rootFlightLayer);
+
+function rootReadingStep(){
+  return Math.max(1,(rootChapter.offsetHeight-rootScene.offsetHeight)/(readingCount-.5));
+}
+
+for(const [index,orb] of colorOrbs.entries()){
+  const destination=chakraReadings[index*readingCount];
+  destination.tabIndex=-1;
+  orb.addEventListener('click',()=>{
+    returningToStrip=false;
+    nextReadingAt=performance.now()+650;
+    selectedColor=index;
+    rootChapter.hidden=false;
+    updateRootScene();
+    const start=scrollY+rootChapter.getBoundingClientRect().top;
+    const offset=rootReadingStep()*.5;
+    scrollTo({top:start+offset,behavior:'instant'});
+    updateExpansion();
+    destination.focus({preventScroll:true});
+  });
+}
+
+function inColorDetail(){
+  const {top,bottom}=rootChapter.getBoundingClientRect();
+  return top<=-innerHeight*.22 && bottom>0;
+}
+
+function returnToColorStrip(){
+  cancelAnimationFrame(readingAdvanceFrame);
+  readingAdvanceFrame=0;
+  returningToStrip=true;
+  const top=scrollY+colorChapter.getBoundingClientRect().top+innerHeight*.46;
+  scrollTo({top,behavior:motion.matches?'instant':'smooth'});
+  colorStrip.focus({preventScroll:true});
+}
+
+rootScene.querySelector('.chakra-back').addEventListener('click',returnToColorStrip);
+
+let readingAdvanceFrame=0;
+let forwardWheelEnd;
+let forwardWheelActive=false;
+let nextReadingAt=0;
+
+function advanceReading(){
+  const start=scrollY;
+  const chapterStart=start+rootChapter.getBoundingClientRect().top;
+  const step=rootReadingStep();
+  const index=Math.floor(Math.max(0,(start-chapterStart)/step)+.0001);
+  if(index>=readingCount-1 || readingAdvanceFrame || performance.now()<nextReadingAt)return;
+  const target=chapterStart+(index+1.5)*step;
+  const duration=motion.matches?0:850;
+  const began=performance.now();
+  nextReadingAt=began+duration+650;
+  if(!duration){scrollTo({top:target,behavior:'instant'});return;}
+  function advance(now){
+    const progress=clampUnit((now-began)/duration);
+    const ease=progress*progress*(3-2*progress);
+    scrollTo({top:start+(target-start)*ease,behavior:'instant'});
+    readingAdvanceFrame=progress<1?requestAnimationFrame(advance):0;
+  }
+  readingAdvanceFrame=requestAnimationFrame(advance);
+}
+
+let returningWithWheel=false;
+let wheelEnd;
+addEventListener('wheel',event=>{
+  if(event.ctrlKey || !event.deltaY || Math.abs(event.deltaX)>Math.abs(event.deltaY))return;
+  if(event.deltaY>0){
+    if(!inColorDetail() || !event.cancelable)return;
+    if(event.target instanceof Element){
+      const copy=event.target.closest('.chakra-reading');
+      if(copy && copy.scrollTop+copy.clientHeight<copy.scrollHeight-2)return;
+    }
+    event.preventDefault();
+    if(!forwardWheelActive)advanceReading();
+    forwardWheelActive=true;
+    clearTimeout(forwardWheelEnd);
+    forwardWheelEnd=setTimeout(()=>{forwardWheelActive=false;},220);
+    return;
+  }
+  if(!returningWithWheel && !inColorDetail())return;
+  event.preventDefault();
+  if(!returningWithWheel)returnToColorStrip();
+  returningWithWheel=true;
+  clearTimeout(wheelEnd);
+  wheelEnd=setTimeout(()=>{returningWithWheel=false;},200);
+},{passive:false});
+
+addEventListener('keydown',event=>{
+  const up=event.key==='ArrowUp' || event.key==='PageUp' || (event.key===' ' && event.shiftKey);
+  if(!up || event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || !inColorDetail())return;
+  if(event.target instanceof Element && event.target.closest('input, textarea, select, button, [contenteditable]'))return;
+  event.preventDefault();
+  returnToColorStrip();
+});
+
+let detailTouchStart=null;
+addEventListener('touchstart',event=>{
+  detailTouchStart=event.touches.length===1 && inColorDetail()?event.touches[0].clientY:null;
+},{passive:true});
+addEventListener('touchend',event=>{
+  const start=detailTouchStart;
+  detailTouchStart=null;
+  if(start!==null && event.changedTouches[0].clientY-start>45)returnToColorStrip();
+},{passive:true});
+addEventListener('touchcancel',()=>{detailTouchStart=null;},{passive:true});
+
+function updateRootScene(){
+  const top=rootChapter.getBoundingClientRect().top;
+  if(returningToStrip && top>=innerHeight*.10){
+    rootChapter.hidden=true;
+    returningToStrip=false;
+  }
+  if(rootChapter.hidden){
+    rootFlightLayer.hidden=true;
+    redOrb.style.opacity=1;
+    if(currentReading){currentReading.hidden=true;currentReading=null;}
+    rootScene.classList.remove('is-reading','is-blank');
+    readingX=null;
+    return;
+  }
+  const progress=motion.matches?1:clampUnit((innerHeight*.10-top)/(innerHeight*.32));
+  const zoom=progress*progress*(3-2*progress);
+  const inFlight=selectedColor===0 && progress>0 && progress<1;
+  rootFlightLayer.hidden=!inFlight;
+  rootOrb.style.visibility=selectedColor===0 && progress===1?'':'hidden';
+  redOrb.style.opacity=motion.matches || selectedColor!==0?1:1-clampUnit(progress/.16);
+  if(inFlight){
+    const source=redOrb.getBoundingClientRect();
+    const target=rootOrb.getBoundingClientRect();
+    const fromX=Math.max(-source.width/2,Math.min(innerWidth+source.width/2,source.left+source.width/2));
+    const fromY=source.top+source.height/2;
+    const x=fromX+(target.left+target.width/2-fromX)*zoom;
+    const y=fromY+(target.top+target.height/2-fromY)*zoom;
+    const width=source.width+(target.width-source.width)*zoom;
+    const height=source.height+(target.height-source.height)*zoom;
+    const blend=clampUnit((progress-.15)/.65);
+    flyingStripOrb.style.opacity=clampUnit(progress/.16)*(1-blend);
+    flyingStripOrb.style.transform='translate('+(x-source.width/2)+'px,'+(y-source.height/2)+'px) scale('+(width/source.width)+','+(height/source.height)+')';
+    flyingRed.style.width=target.width+'px';
+    flyingRed.style.opacity=blend;
+    flyingRed.style.transform='translate('+(x-target.width/2)+'px,'+(y-target.height/2)+'px) scale('+(width/target.width)+','+(height/target.height)+')';
+  }
+  const chapterIndex=selectedColor;
+  const chapterTime=Math.min(readingCount-.5,Math.max(0,-top/rootReadingStep()));
+  const readingIndex=Math.floor(chapterTime);
+  const reading=chakraReadings[chapterIndex*readingCount+readingIndex];
+  if(reading!==currentReading || (reading && readingViewport!==innerWidth+':'+innerHeight)){
+    readingViewport=innerWidth+':'+innerHeight;
+    if(currentReading)currentReading.hidden=true;
+    if(reading)reading.hidden=false;
+    currentReading=reading;
+    rootScene.classList.toggle('is-reading',Boolean(reading));
+    rootScene.classList.toggle('is-blank',reading.hasAttribute('data-blank'));
+    if(reading){
+      const width=rootScene.clientWidth,height=rootScene.clientHeight;
+      const mobile=width<=640;
+      const [,,textX,textY]=readingPath[readingIndex];
+      const length=reading.textContent.trim().length;
+      const long=length>220;
+      const span=mobile?.89:long?.82:.88;
+      const left=Math.max(.035,Math.min(1-span-.035,(1-span)/2+(textX-.33)*.20));
+      const textTop=Math.max(.16,Math.min(long?.30:.46,.13+textY*.55));
+      reading.style.setProperty('--reading-width',span*100+'%');
+      reading.style.setProperty('--reading-left',left*100+'%');
+      reading.style.setProperty('--reading-top',textTop*100+'%');
+      const headingSize=parseFloat(getComputedStyle(birthLabel).fontSize);
+      const maxSize=long?Math.min(headingSize*.72,height*.065):headingSize;
+      let low=Math.min(14,maxSize),high=maxSize;
+      for(let pass=0;pass<8;pass++){
+        const size=(low+high)/2;
+        reading.style.setProperty('--reading-size',size+'px');
+        if(reading.scrollHeight<=reading.clientHeight+1 && reading.scrollWidth<=reading.clientWidth+1) low=size;
+        else high=size;
+      }
+      reading.style.setProperty('--reading-size',low+'px');
+      readingAvatar.tint=palette[chapterIndex];
+    }else{
+      readingX=null;
+    }
+  }
+  if(reading){
+    const width=rootScene.clientWidth,height=rootScene.clientHeight;
+    const route=motion.matches?readingIndex:Math.min(readingCount-1,Math.max(0,chapterTime-.5));
+    const stop=Math.floor(route);
+    const [fromX,fromY]=readingPath[stop];
+    const [toX,toY]=readingPath[Math.min(stop+1,readingCount-1)];
+    const t=route-stop;
+    const overlap=motion.matches?0:Math.sin(t*Math.PI)*.62;
+    const mobile=width<=640;
+    const textCenterX=(reading.offsetLeft+reading.offsetWidth/2)/width;
+    const textCenterY=(reading.offsetTop+reading.offsetHeight/2)/height;
+    const ease=t*t*(3-2*t);
+    const x=fromX+(toX-fromX)*ease;
+    const y=fromY+(toY-fromY)*ease;
+    readingTargetX=width*(x+(textCenterX-x)*overlap)-readingCanvas.offsetWidth/2;
+    const baseY=mobile?Math.max(.56,y):y;
+    readingTargetY=height*(baseY+(textCenterY-baseY)*overlap)-readingCanvas.offsetHeight/2;
+    const fraction=chapterTime-Math.floor(chapterTime);
+    const entry=clampUnit(fraction/.34);
+    const exit=readingIndex===readingCount-1?1:clampUnit((1-fraction)/.16);
+    const eased=1-Math.pow(1-entry,3);
+    readingPresence=motion.matches?1:eased;
+    reading.style.opacity=motion.matches?1:eased*exit;
+    reading.style.filter=motion.matches || eased===1?'none':'blur('+((1-eased)*3)+'px)';
+  }
+  for(const [index,color] of rootColors.entries()){
+    const selected=index===selectedColor;
+    color.style.opacity=Number(selected);
+  }
+}
+
+function updateExpansion(){
+  updateRootScene();
+  const rect=coverAvatar.getBoundingClientRect();
+  const chapter=birth.getBoundingClientRect();
+  const travel=Math.max(1,scrollY+chapter.top);
+  const progress=Math.min(1,Math.max(0,scrollY/travel));
+  const introProgress=-chapter.top/Math.max(1,birthIntro.offsetHeight);
+  const labelProgress=clampUnit((introProgress-.04)/.19);
+  const titleProgress=clampUnit((introProgress-.13)/.31);
+  const labelReveal=labelProgress*labelProgress*(3-2*labelProgress);
+  const titleReveal=titleProgress*titleProgress*(3-2*titleProgress);
+  const titleOffset=motion.matches?0:(1-titleReveal)*innerHeight*.16;
+  const inChakra=!rootChapter.hidden && rootChapter.getBoundingClientRect().top<=0;
+  const chapterName=chakraReadings[selectedColor*readingCount].getAttribute('aria-label').split(' — ')[0];
+  const headingText=inChakra?chapterName:'NACIMIENTO';
+  if(birthLabel.textContent!==headingText)birthLabel.textContent=headingText;
+  birthLabel.style.opacity=inChakra?Number(!currentReading?.hasAttribute('data-blank')):motion.matches?Number(introProgress>.04):labelReveal;
+  birthLabel.style.translate='0 '+(motion.matches?0:(1-labelReveal)*24)+'px';
+  birthTitle.style.opacity=motion.matches?1:titleReveal;
+  birthTitle.style.translate='0 '+titleOffset+'px';
+  const titleBottom=birthTitle.getBoundingClientRect().bottom-titleOffset;
+  // Start the color scene immediately after the title leaves the viewport.
+  const introBottom=birthIntro.getBoundingClientRect().bottom;
+  colorChapter.style.marginTop=(-Math.max(0,introBottom-titleBottom))+'px';
+  const chapterProgress=-colorChapter.getBoundingClientRect().top/innerHeight;
+  const morph=clampUnit((chapterProgress+.08)/.40);
+  updateColorMorph(morph);
+  for(const [index,paragraph] of colorCopy.entries()){
+    const reveal=motion.matches?1:clampUnit((chapterProgress-.08-index*.10)/.24);
+    paragraph.style.opacity=reveal;
+    paragraph.style.transform='translateY('+((1-reveal)*55)+'px)';
+  }
+  const active=!motion.matches && !!expansionContext && progress>0 && morph<.82;
+  coverAxisOpacity=active?Math.max(0,1-progress*6):1;
+  expansion.hidden=!active;
+  coverAvatar.classList.toggle('is-expanding',active);
+  if(!active)return;
+  const ease=progress*progress*(3-2*progress);
+  const width=rect.width;
+  const height=rect.height;
+  const targetScale=1.9*Math.max(innerWidth/width,innerHeight/height);
+  const scale=1+(targetScale-1)*ease;
+  const x=rect.left+width/2+(innerWidth/2-rect.left-width/2)*ease;
+  const y=rect.top+height/2+(innerHeight/2-rect.top-height/2)*ease;
+  expansionCanvas.style.width=width+'px';
+  expansionCanvas.style.height=height+'px';
+  expansionCanvas.style.transform='translate('+(x-width/2)+'px,'+(y-height/2)+'px) scale('+scale+')';
+  expansion.style.opacity=1-clampUnit((morph-.10)/.72);
+}
+
+addEventListener('scroll',updateExpansion,{passive:true});
+addEventListener('resize',updateExpansion);
+new ResizeObserver(updateExpansion).observe(document.querySelector('.hero'));
+motion.addEventListener('change',updateExpansion);
+updateExpansion();
+
+function animate(now){
+  if(!motion.matches && previous) time+=Math.min(.04,(now-previous)/1000);
+  previous=now;
+  for(const state of states) if(state.visible || (state.index===0 && !expansion.hidden)) draw(state);
+  if(!expansion.hidden){
+    expansionContext.clearRect(0,0,expansionCanvas.width,expansionCanvas.height);
+    expansionContext.drawImage(states[0].canvas,0,0);
+  }
+  if(currentReading){
+    readingX=readingX===null || motion.matches?readingTargetX:readingX+(readingTargetX-readingX)*.065;
+    readingY=readingY===null || motion.matches?readingTargetY:readingY+(readingTargetY-readingY)*.065;
+    const sway=motion.matches?0:Math.sin(time*.83)*12;
+    const lift=motion.matches?0:Math.cos(time*.72)*14;
+    readingCanvas.style.transform='translate('+(readingX+sway)+'px,'+(readingY+lift)+'px)';
+    const entryOffset=(1-readingPresence)*72;
+    const textSway=Math.sin(time*.72)*28;
+    const textLift=Math.cos(time*.61)*19;
+    currentReading.style.transform=motion.matches?'none':'translate('+textSway+'px,'+(entryOffset+textLift)+'px)';
+    if(!currentReading.hasAttribute('data-blank'))draw(readingAvatar);
+  }
+  requestAnimationFrame(animate);
+}
+requestAnimationFrame(animate);
+</script>
 </body>
 </html>

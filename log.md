@@ -50,6 +50,12 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 - **Pendents/incidències:** validar el contrast i la percepció de la paleta en pantalla; **el codi HTML/CSS/JS encara no s'ha modificat**.
 
 
+## 2026-11-25 — Prototipo v0.5 y recorridos por color
+
+- Sincronizados el prototipo y el guion con los siete recorridos de 14 escenas.
+- Documentadas la franja de selección, las transiciones, la respiración inicial y el regreso por BACK.
+- [Tablero actual en Figma](https://www.figma.com/design/u1ID38ofGZoUJnljlHSDDN?node-id=5-4).
+
 ## 2026-11-25 — Narrativa v0.4 simplificada
 - **Canvis:** actualitzats `narrativa.md`, `estructura.md`, `context.md`, `memoria.md`, `criterio.md`, `personalidad.md` i `README.md`. Guió literari complet, cinc etapes, sis moments per chakra, un repte i una pregunta; sense transcripcions privades ni scrolls fixats.
 - **Motiu:** consolidar la simplificació aprovada i eliminar contradiccions de les estructures anteriors.

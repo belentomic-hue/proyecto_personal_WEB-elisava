@@ -1,5 +1,14 @@
 # CRITERIO · Ecosistema del Ser
 
+## Decisión vigente · 2026-11-25 — Recorridos por color
+
+La web empieza en la portada y pasa por Nacimiento hasta la franja de siete colores. Cada círculo abre su propio recorrido de 14 escenas. BACK y el gesto de subir desde la lectura devuelven a la franja. La versión vigente se describe en [narrativa.md](narrativa.md) y [estructura.md](estructura.md). Los chakras operan como un marco simbólico.
+
+---
+
+<details>
+<summary>Referencias y decisiones de iteraciones previas</summary>
+
 ## Decisión vigente · 2026-11-25 — Simplificación narrativa
 
 Esta decisión prevalece sobre cualquier descripción narrativa anterior incompatible. La fuente de textos es narrativa.md v0.4. Cinco etapas: I. Nacimiento (portada con título, apartados y pregunta; reflexión y preguntas; origen e investigación); II. Observación (huellas, mirada ajena, certezas, refugios, paradoja de identidad, descubrimiento y posibilidad); III. Pausa (silencio, respiración, umbral, espiritualidad y experiencia personal con chakras); IV. Transformación (Existir, Sentir, Elegir, Amar, Expresar, Percibir, Trascender); V. Integración (regreso al avatar completo y reflexión breve).
@@ -301,3 +310,5 @@ Las decisiones de tecnología y diseño deben servir a ese propósito.
 **Versión:** 0.3  
 **Fecha:** 2026-11-25  
 **Estado:** Guía de trabajo actualizada, abierta a revisión durante el prototipado.
+
+</details>

@@ -1,5 +1,38 @@
 # ESTRUCTURA · Ecosistema del Ser
 
+**Versión 0.6 · 2026-11-25**
+
+## Recorrido actual
+
+1. **Portada.** Título, pregunta, menú editorial, avatar multicolor y flecha hacia Nacimiento.
+2. **Nacimiento.** Al bajar, el avatar se amplía y aparecen NACIMIENTO y ¿QUIÉN SOY? sobre el color en movimiento.
+3. **Selección.** El avatar se separa en siete esferas. Dos párrafos entran en cascada. Las flechas desplazan la franja. Las esferas crecen al pasar el cursor o recibir foco. El avance vertical se detiene hasta elegir un color.
+4. **Lectura.** Solo aparece el chakra elegido. Se abre con una pantalla blanca con BACK. Después llegan la respiración, la descripción, la invitación y diez escenas de lectura. El recorrido termina en el cierre de ese color.
+5. **Regreso.** BACK o el gesto de subir desde la lectura devuelve a la franja.
+
+## Las 14 escenas por chakra
+
+| Escenas | Contenido |
+| --- | --- |
+| 01–02 | Blanco y «Respira, las veces que sea necesario» |
+| 03–04 | Descripción simbólica e invitación |
+| 05–08 | Entrada, atención, exploración y perspectiva |
+| 09–14 | Afirmación, pregunta, reflexión, pausa, compasión y cierre abierto |
+
+La esfera respira y se desplaza detrás de los textos. Los bloques cambian de posición, se centran en su eje y ajustan el tamaño según la extensión. Se usa Italiana y mayúsculas. El nombre del chakra aparece arriba a la izquierda y BACK arriba a la derecha. La escena en blanco muestra solo BACK.
+
+## Implementación y diseño
+
+- [index.html](index.html) es el prototipo autónomo y se abre directamente en Edge. El HTML, CSS y JavaScript activos están integrados en esa entrada. Los archivos separados corresponden a una iteración anterior.
+- La franja admite flechas, teclado y desplazamiento táctil. En escritorio la rueda avanza una escena por gesto, con una pausa entre lecturas. Se respeta la preferencia de movimiento reducido.
+- El [Figma del recorrido](https://www.figma.com/design/u1ID38ofGZoUJnljlHSDDN?node-id=5-4) tiene las tres escenas de entrada y 98 frames de lectura de 1440 × 1024. Representa estados del scroll.
+- El texto visible está transcrito en [narrativa.md](narrativa.md).
+
+---
+
+<details>
+<summary>Estructura de la iteración anterior</summary>
+
 ## Decisión vigente · 2026-11-25 — Simplificación narrativa
 
 Esta decisión prevalece sobre cualquier descripción narrativa anterior incompatible. La fuente de textos es narrativa.md v0.4. Cinco etapas: I. Nacimiento (portada con título, apartados y pregunta; reflexión y preguntas; origen e investigación); II. Observación (huellas, mirada ajena, certezas, refugios, paradoja de identidad, descubrimiento y posibilidad); III. Pausa (silencio, respiración, umbral, espiritualidad y experiencia personal con chakras); IV. Transformación (Existir, Sentir, Elegir, Amar, Expresar, Percibir, Trascender); V. Integración (regreso al avatar completo y reflexión breve).
@@ -666,3 +699,5 @@ La tecnología debe ponerse al servicio de estas relaciones.
 **Estado:** Base actualizada con la dirección de arte aprobada; detalles abiertos al prototipado.  
 **Publicación en GitHub:** Realizada tras aprobación.  
 **Próxima revisión:** validar principios generales mediante prototipos y resolver decisiones pendientes.
+
+</details>

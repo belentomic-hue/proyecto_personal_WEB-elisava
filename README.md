@@ -1,14 +1,16 @@
 # Ecosistema del Ser
 
-Experiencia web autobiográfica y contemplativa de Elisava: de la identidad aprendida a la identidad consciente.
+Experiencia web autobiográfica y contemplativa de Elisava. Explora cómo aprendemos a definirnos y qué otras formas de habitar nuestra identidad podemos descubrir.
 
-Consultar narrativa.md para el guion vigente, estructura.md para el diseño, referentes.md para dirección de arte, context.md para investigación y memoria.md para decisiones. El prototipo HTML/CSS/JS aún no refleja necesariamente el nuevo guion.
+## Abrir el prototipo
 
-## Decisión vigente · 2026-11-25 — Simplificación narrativa
+Abre [index.html](index.html) en Edge. El recorrido se detiene en la franja de Nacimiento. Elige un color para recorrer sus 14 escenas y pulsa BACK para volver.
 
-Esta decisión prevalece sobre cualquier descripción narrativa anterior incompatible. La fuente de textos es narrativa.md v0.4. Cinco etapas: I. Nacimiento (portada con título, apartados y pregunta; reflexión y preguntas; origen e investigación); II. Observación (huellas, mirada ajena, certezas, refugios, paradoja de identidad, descubrimiento y posibilidad); III. Pausa (silencio, respiración, umbral, espiritualidad y experiencia personal con chakras); IV. Transformación (Existir, Sentir, Elegir, Amar, Expresar, Percibir, Trascender); V. Integración (regreso al avatar completo y reflexión breve).
-Cada chakra integra seis momentos: Descubrir, Sentir, Reconocer, Cultivar, Experimentar (un desafío), Cuestionar (una pregunta final provisional). No exigir microtemas independientes, segundo desafío, afirmación ni testimonios por chakra. No publicar conversaciones privadas ni incorporar otros proyectos. Mostrar reflexiones finales de la investigación. Escritura poética, filosófica, compacta, legible; cada idea nace de la anterior. Estructura aprobada, textos aún revisables. No fijar cantidad de scrolls ni decidir nuevas animaciones o interacción; conservar dirección de arte vigente. Bloqueo y reactivación son metáforas, no diagnósticos; verificar fuentes espirituales antes de publicar.
+## Documentación
 
-## Estado del guion
-
-La versión 0.4 contiene los textos completos de referencia. La estructura está aprobada; redacción, preguntas y fuentes siguen en revisión. El código web no se ha adaptado en esta actualización documental.
+- [Narrativa v0.5](narrativa.md) · guion y textos de cada escena.
+- [Estructura](estructura.md) · navegación, transiciones y avatar.
+- [Contexto](context.md), [memoria](memoria.md) y [criterio](criterio.md) · investigación y decisiones.
+- [Referentes](referentes.md) y [personalidad](personalidad.md) · composición y voz editorial.
+- [Registro de cambios](log.md).
+- [Figma del recorrido]( https://www.figma.com/design/u1ID38ofGZoUJnljlHSDDN?node-id=5-4).

@@ -36,6 +36,12 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-25 — Narrativa v0.4 simplificada
+- **Canvis:** actualitzats `narrativa.md`, `estructura.md`, `context.md`, `memoria.md`, `criterio.md`, `personalidad.md` i `README.md`. Guió literari complet, cinc etapes, sis moments per chakra, un repte i una pregunta; sense transcripcions privades ni scrolls fixats.
+- **Motiu:** consolidar la simplificació aprovada i eliminar contradiccions de les estructures anteriors.
+- **Verificació:** commits confirmats i fitxers rellegits a main.
+- **Pendents/incidències:** polir textos i preguntes, confirmar passatges autobiogràfics, verificar fonts espirituals i adaptar el prototip més endavant. No s'ha modificat el codi ni la direcció visual.
+
 ## 2026-11-24 — Estructura v0.2 alineada con referentes
 - **Canvis:** actualitzat `estructura.md` sense alterar les 21 seccions ni les cinc etapes narratives; establert el fons marfil, el sistema editorial serif/sans/mono, tres composicions i l'avatar de volums orgànics connectats amb transparència variable, fibres elàstiques i llum interna.
 - **Motiu:** reconciliar la proposta antiga fosca amb les decisions visuals aprovades a `referentes.md`.

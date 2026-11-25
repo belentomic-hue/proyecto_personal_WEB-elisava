@@ -1,5 +1,14 @@
 # REFERENTES · Ecosistema del Ser
 
+## Decisión vigente · 2026-11-25 — Recorridos por color
+
+La web empieza en la portada y pasa por Nacimiento hasta la franja de siete colores. Cada círculo abre su propio recorrido de 14 escenas. BACK y el gesto de subir desde la lectura devuelven a la franja. La versión vigente se describe en [narrativa.md](narrativa.md) y [estructura.md](estructura.md). Los chakras operan como un marco simbólico.
+
+---
+
+<details>
+<summary>Referencias y decisiones de iteraciones previas</summary>
+
 **Versión:** 0.3  
 **Fecha:** 2026-11-25  
 **Estado:** Dirección de arte aprobada como base editable; imágenes originales pendientes de incorporación binaria  
@@ -367,3 +376,5 @@ La dirección vigente es **blanco puro y chakras pastel**. Las etapas anteriores
 **Versión:** 0.3  
 **Estado:** Dirección de arte base actualizada; imágenes binaras pendientes de publicación.  
 **Nota editorial:** las referencias externas no son diseños propios y deben acreditarse cuando corresponda.
+
+</details>

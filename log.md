@@ -36,6 +36,13 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-25 — Italiana en mayúsculas para títulos
+- **Canvis:** actualitzats `style.css`, `referentes.md` i `estructura.md` per consolidar **Italiana 400** en majúscules als títols editorials; el web ja carregava la família des de Google Fonts i se n'ha ajustat l'ús als titulars, índex i noms de chakras.
+- **Motiu:** correspondre a l'exemple tipogràfic aportat, sense aplicar majúscules als paràgrafs llargs.
+- **Verificació:** fitxers publicats i selectors CSS llegits després del canvi; confirmada la càrrega de Google Fonts i `text-transform: uppercase`.
+- **Pendents/incidències:** verificar la composició en navegador i pantalles mòbils; el fons i els colors pastel actualitzats encara no s'han aplicat al CSS del prototip.
+
+
 ## 2026-11-25 — Fondo blanco y paleta pastel para los chakras
 - **Canvis:** actualitzats `referentes.md` v0.2, `estructura.md` v0.4 i `memoria.md` v0.4 amb fons blanc `#FFFFFF`, set tons pastel de referència (`#EFA3A3`, `#F6C39A`, `#F6E3A1`, `#BFE3BF`, `#B7D7F2`, `#C7C3E8`, `#DEC6EA`) i halos delicats.
 - **Motiu:** aplicar la nova decisió visual de substituir el marfil i reduir la saturació.

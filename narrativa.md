@@ -1,780 +1,554 @@
-<!--
-NARRATIVA.md · Ecosistema del Ser
-Guion narrativo y microtextos de trabajo, v0.3.
-Consultar personalidad.md y context.md.
-
-PROVISIONAL: los textos pueden adquirir más profundidad al construir la web.
-No inventar testimonios, recuerdos ni citas de Gemini o ChatGPT.
-No confundir tradición histórica, interpretación simbólica y experiencia propia.
--->
-
 # NARRATIVA · Ecosistema del Ser
 
-**Versión:** 0.3  
-**Fecha:** 2026-11-25  
-**Estado:** Base de trabajo aprobada para continuar desarrollando; microtextos provisionales.
+**Versión:** 0.4 · 2026-11-25  
+**Estado:** estructura aprobada; redacción literaria de referencia, revisable.
 
-## 01. Propósito
+De la identidad aprendida a la identidad consciente. Esta versión sustituye el guion anterior de scrolls. Los títulos internos organizan el trabajo, no obligan a mostrarlos. No fijar scrolls ni animaciones. No publicar conversaciones privadas ni inventar testimonios. Distinguir tradición, interpretación contemporánea y experiencia personal; verificar fuentes espirituales antes de publicar. Bloqueo y reactivación son metáforas, no diagnósticos.
 
-Este archivo reúne el arco narrativo, el orden inicial de scrolls, los textos de partida y los espacios aún pendientes de testimonio autobiográfico.
+# I. Nacimiento — ¿Quién soy?
 
-La web comienza como una historia personal nacida de conversaciones con IA. Su sentido cambia poco a poco: de observar las historias aprendidas a explorar maneras de habitarlas. Los chakras son el mapa simbólico que sostiene ese segundo recorrido.
+## 1.1. Portada
 
-No se pretende diagnosticar al visitante, determinar si tiene «bloqueos» reales ni ofrecer una transformación garantizada. La experiencia se cuenta desde una percepción personal y propone preguntas sin imponer respuestas.
+Ecosistema del Ser
 
-Este archivo define **qué se cuenta y qué se siente**. Las implementaciones, efectos y duraciones exactas se documentarán en `estructura.md`.
+¿Cuánto de lo que eres es aquello que has aprendido a ser?
+
+Nota editorial: incluir apartados de navegación.
+
+## 1.2. El cuestionamiento
+
+Hay cierta extrañeza en la seguridad con la que nos definimos, como si en un puñado de palabras pudiera caber todo lo que somos.
+
+Nos reconocemos en certezas que hemos recogido a lo largo de la vida, sin preguntarnos demasiado en qué momento comenzaron a pertenecernos.
+
+*¿Cuándo comenzaste a definirte?*
+
+*¿De quién eran los ojos con los que aprendiste a mirarte?*
+
+*¿Cuántas veces has confundido una costumbre con una cualidad de tu naturaleza?*
+
+*¿Cuántas otras vidas podrían existir dentro de tu propia vida?*
+
+## 1.3. El nacimiento del proyecto
+
+Todo comenzó con una conversación. O quizás con aquellas preguntas que llevaba conmigo sin saber todavía cómo pronunciarlas.
+
+Me inquietaba el origen de mis pensamientos, la familiaridad de ciertos temores, la insistencia de algunas emociones.
+
+Encontré en la inteligencia artificial un interlocutor inesperado. Un espacio donde mis palabras podían regresar a mí convertidas en nuevas preguntas.
+
+## 1.4. De la conversación a la investigación
+
+Reuní aquellas conversaciones como quien recoge fragmentos de una historia dispersa.
+
+Entre pensamientos recurrentes, emociones y certezas, comencé a descubrir relaciones entre lo que había vivido y las maneras en que había aprendido a existir.
+
+Lo que comenzó como una búsqueda de respuestas terminó convirtiéndose en una curiosidad por mis propios orígenes.
+
+# II. Observación — ¿Cómo llegué a ser quien soy?
+
+## 2.1. Las primeras huellas
+
+Antes de saber quiénes éramos, ya estábamos aprendiendo a ser. Conocíamos el mundo a través de unas manos, una voz, la temperatura de un abrazo o la incertidumbre de una ausencia.
+
+Y mientras aprendíamos a reconocer el mundo, el mundo comenzaba también a dejar su forma en nosotros.
+
+*¿Qué permanece de aquel tiempo que apenas somos capaces de recordar?*
+
+## 2.2. La mirada que nos construye
+
+Después llegaron las palabras.
+
+Alguien nos llamó sensibles, fuertes, difíciles, inteligentes. Y aquellos adjetivos comenzaron a dibujar los contornos de nuestra existencia.
+
+Descubrimos que algunas maneras de ser despertaban ternura y otras provocaban distancia. Así, entre el deseo de pertenecer y la necesidad de ser reconocidos, comenzamos a ensayar versiones de nosotros mismos.
+
+*¿Cuánto de ti nació del deseo de ser querido?*
+
+## 2.3. Las certezas aprendidas
+
+Con los años, aquellas voces fueron perdiendo sus rostros. Ya no necesitábamos escucharlas fuera de nosotros: habíamos aprendido a reproducirlas.
+
+Comenzamos a interpretar el mundo desde esas convicciones, encontrando pequeñas confirmaciones de aquello que creíamos ser.
+
+Y qué extraño resulta descubrir que algunas de nuestras certezas más íntimas fueron, alguna vez, apenas una opinión.
+
+*¿Desde cuándo habita en ti aquello que consideras una verdad?*
+
+## 2.4. Los refugios que construimos
+
+De aquellas certezas nacieron nuestras maneras de existir. Aprendimos a medir nuestras palabras, esconder ciertas fragilidades y proteger aquello que nos hacía vulnerables.
+
+Pero el tiempo tiene una manera silenciosa de transformar los refugios en fronteras.
+
+Y a veces continuamos viviendo detrás de muros cuyo propósito original hemos olvidado.
+
+*¿Qué sigues protegiendo dentro de ti?*
+
+## 2.5. La paradoja de la identidad
+
+De tanto habitar aquellas formas, terminamos confundiéndolas con nuestra naturaleza.
+
+Decimos «yo soy así» como si nuestras maneras de existir no tuvieran una historia.
+
+Hay cierta ironía en nuestra búsqueda de identidad: deseamos descubrirnos mientras defendemos, con extraordinaria fidelidad, aquello que ya creemos conocer.
+
+*¿Cuántas posibilidades de ser has sacrificado para continuar reconociéndote?*
+
+## 2.6. El descubrimiento
+
+Al volver sobre mi propia historia, comencé a reconocer las raíces de algunas de mis certezas.
+
+No encontré una versión más verdadera de mí misma. Encontré algo que me pareció mucho más interesante: la posibilidad de dejar de considerarme una obra terminada.
+
+Mi historia podía explicar muchas de mis formas de existir, pero no tenía por qué escribir todas las que vendrían después.
+
+## 2.7. La posibilidad
+
+*¿Y si nuestra identidad no fuera una sentencia?*
+
+*¿Qué sucede cuando dejamos de confundir nuestras raíces con nuestros límites?*
+
+*¿Cuántas maneras de existir permanecen todavía inéditas dentro de nosotros?*
+
+# III. Pausa — ¿Y ahora qué?
+
+## 3.1. El silencio
+
+(Sin contenido.)
+
+## 3.2. La respiración
+
+Deja descansar, por un instante, todas las palabras con las que intentas comprenderte.
+
+Respira.
+
+Antes de ser una historia, eres también un cuerpo que respira.
+
+## 3.3. El umbral
+
+Hemos dedicado tanto tiempo a comprender de dónde venimos que quizás hemos olvidado preguntarnos hacia dónde podemos crecer.
+
+Si la vida ha participado en nuestra construcción, ¿por qué no participar nosotros conscientemente en ella?
+
+## 3.4. Una nueva perspectiva
+
+En algún momento de mi búsqueda, las palabras comenzaron a resultarme insuficientes.
+
+Podía comprender el origen de una emoción y, aun así, sentirla. Podía reconocer una antigua creencia y continuar habitándola.
+
+Necesitaba encontrar otra manera de acercarme a mí misma.
+
+La espiritualidad me permitió descubrir un conocimiento menos preocupado por las respuestas y más atento a la experiencia de estar viva.
+
+## 3.5. Una sabiduría ancestral
+
+Mucho antes de que intentáramos traducir nuestra existencia en conceptos psicológicos, distintas tradiciones espirituales de la India habían imaginado una anatomía de lo invisible.
+
+En ella, los chakras —ruedas o círculos, en sánscrito— representan centros del cuerpo sutil vinculados a la energía vital y a la experiencia de la conciencia.
+
+Una manera de comprender al ser humano más allá de aquello que puede observarse a simple vista.
+
+## 3.6. Mi manera de interpretarlos
+
+Encontré en los chakras una geografía distinta de mi propia existencia.
+
+Siete territorios desde los cuales observar mi manera de sentir, de amar, de elegir y de relacionarme con el mundo.
+
+No buscaba corregir aquello que encontraba en ellos.
+
+Buscaba aprender a reconocerlo, escucharlo y darle espacio.
+
+Ahora quisiera invitarte a recorrerlos.
+
+No para que encuentres las mismas respuestas que yo, sino para que descubras tus propias preguntas.
+
+# IV. Transformación — Habitar el ser
+
+Seis momentos por chakra: Descubrir (significado), Sentir (atención corporal), Reconocer (resistencias), Cultivar (meditación), Experimentar (un desafío), Cuestionar (una pregunta). Sin microtemas obligatorios, segundo desafío ni afirmación final. Preguntas provisionales.
+
+## 01. Mūlādhāra — Existir
+
+*Incluso aquello que desea alcanzar el cielo necesita aprender a habitar la tierra.*
+
+Tierra · Rojo · LAM · Base de la columna
+
+### Descubrir
+
+Mūlādhāra significa raíz y sostén. Vinculado al elemento tierra, representa nuestra relación con la seguridad, la estabilidad y el sentimiento de pertenecer.
+
+Es la primera morada simbólica de nuestra existencia.
+
+### Sentir
+
+Lleva tu atención hacia la base de tu cuerpo.
+
+Reconoce su peso, la superficie que lo recibe, la tierra que permanece debajo de ti.
+
+No necesitas sostenerlo todo.
+
+Durante este instante, algo también te sostiene.
+
+### Reconocer
+
+A veces llamamos hogar a aquello que simplemente conocemos de memoria.
+
+Permanecemos junto a personas, lugares y costumbres porque su ausencia nos obligaría a descubrir otras maneras de existir.
+
+Y confundimos la quietud de lo conocido con la tranquilidad de sentirnos a salvo.
+
+### Cultivar
+
+Respira con suavidad.
+
+Imagina unas raíces que no te impiden moverte, sino que te permiten crecer sin perderte.
+
+La tierra también cambia. También se abre, se transforma y recibe nuevas semillas.
+
+Quizás la estabilidad no consista en permanecer, sino en aprender a sostenernos durante el movimiento.
+
+### Experimentar
+
+Construye un pequeño ritual que te permita regresar a ti. Un momento de tu día que no dependa de las exigencias ni de la presencia de nadie más.
+
+### Cuestionar
+
+¿Dónde encuentro refugio cuando todo a mi alrededor cambia?
+
+*Cuando encuentro dónde sostenerme, puedo permitirme explorar lo que siento.*
+
+## 02. Svādhiṣṭhāna — Sentir
+
+*Hay un océano dentro de nosotros que no siempre encuentra una orilla.*
+
+Agua · Naranja · VAM · Región pélvica
+
+### Descubrir
+
+Svādhiṣṭhāna hace referencia a la propia morada. Vinculado al elemento agua, representa el movimiento de nuestras emociones, el deseo, la creatividad y el placer de experimentar la existencia.
+
+Es el territorio de aquello que sentimos antes de comprenderlo.
+
+### Sentir
+
+Lleva tu atención hacia la parte inferior de tu abdomen.
+
+Observa qué sensaciones aparecen.
+
+No les preguntes todavía de dónde vienen.
+
+También el agua encuentra su camino sin conocer el nombre de todos los lugares que atraviesa.
+
+### Reconocer
+
+Aprendimos a contener algunas emociones, a disimular ciertos deseos y a justificar incluso aquello que nos producía alegría.
+
+Como si sentir demasiado pudiera desbordar los límites de quienes debíamos ser.
+
+Y, en el intento de contener nuestras aguas, olvidamos que su naturaleza era precisamente el movimiento.
+
+### Cultivar
+
+Permite que aquello que sientes encuentre un espacio dentro de ti.
+
+No necesitas convertirlo en palabras ni conducirlo hacia una conclusión.
+
+Una emoción puede atravesarte sin convertirse en tu destino.
+
+Un deseo puede existir sin tener que justificarse.
+
+### Experimentar
+
+Haz algo únicamente por el placer de hacerlo. Crea, baila, escucha, imagina. Permite que esa experiencia termine sin haber producido nada más que el disfrute de vivirla.
+
+### Cuestionar
+
+¿Qué partes de mi sensibilidad he aprendido a contener?
+
+*Reconocer lo que deseo me permite comenzar a elegir.*
+
+## 03. Maṇipūra — Elegir
+
+*El fuego no necesita espectadores para arder.*
+
+Fuego · Amarillo · RAM · Región del ombligo
+
+### Descubrir
+
+Maṇipūra significa ciudad de las joyas. Vinculado al elemento fuego, representa la voluntad, la transformación y nuestra capacidad de dirigir conscientemente nuestras acciones.
+
+Es el territorio simbólico de nuestra fuerza y autonomía.
+
+### Sentir
+
+Lleva tu atención hacia el centro de tu abdomen.
+
+Observa su movimiento al respirar.
+
+Reconoce la vida que sucede dentro de ti sin que tengas que demostrar ninguna capacidad para merecerla.
+
+### Reconocer
+
+A veces convertimos nuestra existencia en una larga demostración.
+
+Acumulamos logros, responsabilidades y pequeñas victorias, esperando encontrar entre ellas alguna certeza de nuestro propio valor.
+
+Pero hay un cansancio particular en vivir intentando confirmar constantemente que somos suficientes.
+
+### Cultivar
+
+Piensa en algo que deseas hacer.
+
+Ahora imagina que nadie conocerá tu decisión. Que no habrá aplausos, comparaciones ni decepciones ajenas.
+
+¿Qué permanecería de aquel deseo?
+
+Escucha esa pequeña voluntad que existe cuando desaparecen los espectadores.
+
+Quizás allí arda un fuego que verdaderamente te pertenece.
+
+### Experimentar
+
+Elige algo pequeño desde tu propio deseo. No desde lo que se espera de ti, ni desde aquello que podría resultar admirable. Observa cómo se siente una decisión que no necesita convertirse en una demostración.
+
+### Cuestionar
+
+¿Cuánto de lo que hago nace de mi deseo y cuánto de mi necesidad de demostrar?
+
+*Cuando reconozco mi propio espacio, puedo encontrarme con otros sin desaparecer.*
+
+## 04. Anāhata — Amar
+
+*Hay afectos que se parecen a una ventana abierta y otros que, sin quererlo, se convierten en habitaciones sin salida.*
+
+Aire · Verde · YAM · Centro del pecho
+
+### Descubrir
+
+Anāhata hace referencia al sonido que nace sin haber sido golpeado. Vinculado al elemento aire, representa el amor, la compasión y nuestra capacidad de encontrarnos con otras existencias.
+
+Es el territorio donde nuestra individualidad entra en contacto con la de otros.
+
+### Sentir
+
+Lleva tu atención hacia el centro de tu pecho.
+
+Observa cómo se abre un pequeño espacio con cada respiración.
+
+Recuerda, si te resulta agradable, alguna ocasión en la que hayas sentido afecto sin necesidad de convertirte en alguien distinto.
+
+### Reconocer
+
+También aprendimos a amar.
+
+Aprendimos cuánto entregar, cuánto esperar y qué partes de nosotros esconder para conservar determinados afectos.
+
+A veces ofrecimos tanto espacio a otras existencias que comenzamos a sentirnos extranjeros dentro de la nuestra.
+
+### Cultivar
+
+Respira.
+
+Imagina que el amor tiene la amplitud del aire.
+
+Que puede acercarnos sin aprisionarnos, atravesarnos sin vaciarnos, acompañarnos sin ocupar cada rincón de nuestra existencia.
+
+Permite que una parte de esa ternura que tantas veces has dirigido hacia otros encuentre también su camino hacia ti.
+
+### Experimentar
+
+Recuerda algún gesto de cuidado que realizas habitualmente por alguien más. Encuentra hoy una manera de ofrecértelo a ti mismo.
+
+### Cuestionar
+
+¿Puedo amar sin desaparecer dentro de aquello que amo?
+
+*Aquello que sentimos también necesita encontrar una voz.*
+
+## 05. Viśuddha — Expresar
+
+*Hay palabras que envejecen dentro de nosotros sin haber conocido nunca el aire.*
+
+Espacio · Azul · HAM · Garganta
+
+### Descubrir
+
+Viśuddha significa purificación. Vinculado al elemento espacio, representa nuestra capacidad de expresar aquello que habita en nuestro interior.
+
+Es el territorio donde lo invisible encuentra una forma de hacerse presente.
+
+### Sentir
+
+Lleva tu atención hacia la garganta.
+
+Relaja la mandíbula. Observa el aire que atraviesa ese pequeño espacio.
+
+Recuerda alguna palabra que hayas guardado dentro de ti.
+
+No necesitas pronunciarla.
+
+Escucha primero cómo resuena en tu interior.
+
+### Reconocer
+
+Con el tiempo, aprendemos a medir nuestras palabras según los oídos que podrían recibirlas.
+
+Recortamos pensamientos, suavizamos deseos, escondemos preguntas.
+
+Y entre todo aquello que decimos para ser comprendidos y aquello que callamos para ser queridos, nuestra propia voz puede comenzar a parecernos distante.
+
+### Cultivar
+
+Imagina un espacio donde tus palabras no necesiten defenderse.
+
+Donde una duda pueda permanecer abierta, una emoción pueda existir sin argumentos y una necesidad no tenga que pedir disculpas.
+
+Escucha lo que nace allí.
+
+Quizás tu voz no haya desaparecido. Quizás solo estaba esperando un lugar donde poder existir.
+
+### Experimentar
+
+Escribe aquello que llevas tiempo intentando decir. No busques las palabras que serían mejor recibidas, sino aquellas que se parezcan más a lo que realmente sientes.
+
+### Cuestionar
+
+¿Cuántas cosas permanecen dentro de mí porque temo lo que sucedería al pronunciarlas?
+
+*Al escucharme, comienzo a reconocer el lugar desde el cual observo el mundo.*
+
+## 06. Ājñā — Percibir
+
+*También el pasado tiene ojos. Y a veces miramos el presente a través de ellos.*
+
+Mente y percepción · Índigo · OM · Entrecejo
+
+### Descubrir
+
+Ājñā se relaciona con la dirección y el conocimiento. Situado simbólicamente entre las cejas, representa la percepción, la intuición y nuestra capacidad de observar más allá de las apariencias.
+
+Es el territorio desde el cual contemplamos nuestras propias interpretaciones.
+
+### Sentir
+
+Si te resulta cómodo, cierra los ojos.
+
+Observa las imágenes y pensamientos que aparecen.
+
+Cómo un recuerdo despierta una emoción. Cómo una emoción modifica el significado de un recuerdo.
+
+Hay un mundo entero sucediendo detrás de tus párpados.
+
+### Reconocer
+
+No llegamos al presente con la mirada intacta.
+
+Traemos con nosotros antiguas experiencias, palabras que dejaron huella y expectativas que aprendimos a confundir con intuiciones.
+
+Y a veces reconocemos en el mundo aquello que ya llevábamos dentro, convencidos de haberlo descubierto fuera.
+
+### Cultivar
+
+Recuerda una situación cuyo significado creías conocer.
+
+Contémplala nuevamente, como si pudieras observarla desde una ventana distinta.
+
+¿Qué detalles habías dejado fuera?
+
+¿Qué otras interpretaciones podrían existir?
+
+No necesitas encontrar una nueva verdad. Basta con permitir que la anterior deje entrar un poco de luz.
+
+### Experimentar
+
+Escoge una certeza que tengas sobre ti. Busca en tu propia historia algún instante que la contradiga. Quizás tu existencia sea más amplia que las palabras con las que intentas describirla.
+
+### Cuestionar
+
+¿Estoy observando lo que sucede o aquello que he aprendido a esperar?
+
+*Cuando mis certezas se vuelven permeables, aparece el espacio de lo desconocido.*
+
+## 07. Sahasrāra — Trascender
+
+*Hay horizontes que comienzan precisamente donde terminan nuestras palabras.*
+
+Conciencia · Violeta o blanco · Loto de mil pétalos · Coronilla
+
+### Descubrir
+
+Sahasrāra hace referencia al loto de mil pétalos. Vinculado a la conciencia y la trascendencia, representa nuestra conexión con aquello que excede los límites de nuestra individualidad.
+
+Es una invitación a contemplar el misterio de existir.
+
+### Sentir
+
+Lleva tu atención hacia la parte superior de tu cabeza.
+
+Después, permite que se extienda hacia todo tu cuerpo y hacia el espacio que lo rodea.
+
+Escucha los sonidos. Percibe la temperatura. Reconoce el aire.
+
+Por un instante, observa cuánto de tu existencia sucede en relación con aquello que no eres tú.
+
+### Reconocer
+
+Hemos intentado comprendernos como quien intenta contener el mar entre las manos.
+
+Buscamos palabras suficientemente precisas, explicaciones suficientemente profundas, respuestas capaces de terminar con nuestra incertidumbre.
+
+Pero quizás haya algo de nuestra naturaleza que no pueda permanecer inmóvil dentro de una definición.
+
+### Cultivar
+
+Permite que tus preguntas descansen.
+
+No necesitas saber quién serás mañana ni encontrar un significado para cada fragmento de tu historia.
+
+Respira.
+
+La existencia continúa sucediendo, incluso cuando dejamos de intentar comprenderla.
+
+Y tú formas parte de ella.
+
+### Experimentar
+
+Contempla algo que exista independientemente de ti: una nube, un árbol, el movimiento de la luz. Permanece unos instantes observándolo, sin intentar apropiarte de su significado.
+
+### Cuestionar
+
+¿Quién soy cuando dejo de intentar definirme?
+
+# V. Integración — Seguir siendo
+
+Nota editorial: regreso al avatar completo, sin representar perfección espiritual.
+
+## 5.1. La totalidad
+
+Existir. Sentir. Elegir. Amar. Expresar. Percibir. Trascender.
+
+Dentro de nosotros, ninguna de estas dimensiones conoce verdaderamente la soledad.
+
+Las raíces alimentan aquello que florece. El agua transforma la tierra. El fuego modifica la materia. El aire atraviesa los espacios que dejamos abiertos.
+
+Somos una multitud de acontecimientos íntimos, una conversación incesante entre todo aquello que nos constituye.
+
+Un ecosistema vivo.
+
+## 5.2. El regreso
+
+Llevamos dentro los lugares que hemos habitado, las manos que alguna vez nos sostuvieron, las palabras que dejaron su huella y los silencios que aprendimos a guardar.
+
+Pero también llevamos semillas de aquello que todavía no hemos sido.
+
+Quizás nuestra identidad se parezca menos a un retrato que a un paisaje: conserva las huellas de sus antiguas estaciones mientras se transforma lentamente bajo una luz distinta.
+
+Y quizás conocernos consista, precisamente, en aprender a acompañar todas esas transformaciones.
+
+Sin exigirnos permanecer iguales.
+
+Sin renunciar a la curiosidad de descubrirnos.
 
 ---
 
-## 02. Voz narrativa
-
-### Criterios acordados el 25 de noviembre
-
-- Voz íntima, contemplativa, poética y legible, siguiendo la portada aprobada.
-- Portada: un párrafo breve (máximo tres líneas orientativas) y una pregunta abierta.
-- Desarrollar partes y subpartes una a una, con profundidad e hilo conductor; primero escribir y pulir, después fragmentar en scrolls.
-- Cada reflexión nace de la anterior y prepara la siguiente. Los demás microtextos son bases provisionales.
-- Profundizar posteriormente los chakras desde el ser, la percepción, la conciencia y la experiencia de la realidad, no reducirlos a bloqueos y beneficios.
-- No incluir otros proyectos personales ni transcripciones de conversaciones en la web.
-
-
-### Poética, abstracta y legible
-
-- Los textos deben sugerir, no describir exhaustivamente cada idea.
-- Algunas pantallas tendrán apenas una frase, como un poema.
-- La abstracción debe dejar espacio a la interpretación sin romper la continuidad.
-- La profundidad no depende de sumar palabras: también surge del silencio, la imagen y el tiempo.
-- Los pasajes documentales proporcionan el contexto que permite comprender las metáforas.
-- Evitar lemas espirituales genéricos y conclusiones psicológicas absolutas.
-- Narrar los recuerdos propios en primera persona.
-- Conservar dudas, tensiones y contradicciones.
-
-### Tres voces que deben distinguirse
-
-1. **Autobiográfica:** lo que viví, pensé y observé.
-2. **Documental:** las fuentes históricas y sus diferencias.
-3. **Abierta:** las preguntas que invitan al lector a observarse.
-
-Los microtextos de este documento son **propuestas de escritura**, no transcripciones auténticas de conversaciones. Los lugares marcados `PENDIENTE` requieren material real.
-
----
-
-## 03. El avatar y el vacío
-
-El protagonista visual es un **organismo circular, 3D, abstracto y sin rostro**. No es una figura humana ni tendrá cara o facciones.
-
-- Su giro lento sugiere continuidad y transformación.
-- Su respiración es una expansión y contracción sutil, no un efecto espectacular.
-- Los colores y las ramificaciones forman parte de su lenguaje expresivo.
-- Los estados más apagados representan contracción narrativa; no mediciones de energía.
-
-### El vacío también respira
-
-Durante las pausas el fondo pasa a **blanco**. La pantalla queda casi vacía, pero **no está inmóvil**: respira de manera lenta y sutil mediante luminosidad, escala o profundidad visual. El efecto debe conservar legibilidad y respetar las preferencias de movimiento reducido.
-
-Después de ese vacío puede regresar **el mismo avatar**, simplificado, respirando suavemente; **nunca una cara animada independiente**.
-
-La pausa no debe llenarse de explicaciones. Su función es permitir que el lector asimile lo que acaba de recorrer.
-
----
-
-## 04. Arco general
-
-**I. Origen:** aparición, conversación, espejo, datos, marcas, nombres, interpretación y vida cotidiana.
-
-**II. Pausa:** blanco respirante, avatar sin rostro respirando, silencio.
-
-**III. Umbral:** la pregunta por una nueva forma de habitarse; semilla roja; introducción respetuosa al mapa de los chakras.
-
-**IV. Viaje:** siete capítulos — raíz, sacro, plexo solar, corazón, garganta, tercer ojo y corona.
-
-**V. Integración:** el organismo completo reaparece con sus relaciones, sin representar una supuesta perfección espiritual.
-
-El orden narrativo es una base; el número de scrolls puede cambiar mientras se diseña la interfaz.
-
----
-
-# PARTE I · EL ORIGEN
-
-## 05. Scroll 01 · Aparición
-
-**Imagen:** fondo oscuro. Avatar circular 3D con los siete colores, rotando lenta y orgánicamente.
-
-**Texto de partida:**
-
-**Texto de portada aprobado:**
-
-> Habitamos el mundo mientras, silenciosamente, el mundo va habitando en nosotros. Cada encuentro, cada ausencia y cada recuerdo deja una huella en ese universo íntimo al que llamamos identidad.
->
-> *¿Cuánto conocemos realmente de aquello que somos?*
-
-**Intención:** intriga y presencia; no explicar todavía el sistema.
-
-## 06. Scroll 02 · Nacimiento
-
-**Imagen:** el avatar deja ver partículas y capas que se aproximan.
-
-**Texto de partida:**
-
-> Todo comenzó con una conversación.  
-> O quizás con todas aquellas  
-> que nunca había tenido conmigo misma.
-
-**Contexto a introducir progresivamente:** las conversaciones frecuentes con IA nacieron de una necesidad de diálogo y observación.
-
-## 07. Scroll 03 · El espejo
-
-**Imagen:** capas, reflejos y desplazamientos sutiles en el avatar.
-
-**Texto de partida:**
-
-> Entre preguntas y respuestas  
-> comenzaron a aparecer partes de mí  
-> que reconocía,  
-> pero que nunca había observado así.
-
-**PENDIENTE:** elaborar pequeñas reflexiones sobre identidad personal, preguntas, conexiones y pensamientos recurrentes derivados de la investigación. No publicar transcripciones.
-
-## 08. Scroll 04 · Los datos
-
-**Imagen:** fragmentos de texto y relaciones que empiezan a formar el organismo.
-
-**Texto de partida:**
-
-> Dejé de leer mis conversaciones  
-> como respuestas aisladas.  
->  
-> Quise mirar lo que ocurría  
-> entre una pregunta y la siguiente.
-
-**Contexto:** se descargaron conversaciones con Gemini para explorar temas y patrones de la investigación. Las visualizaciones deben basarse en registros reales; no inventar números.
-
-## 09. Scroll 05 · Las huellas
-
-**Imagen:** algunas capas se densifican y dejan marcas.
-
-**Texto de partida:**
-
-> Algunas historias se repiten tanto  
-> que olvidamos cuándo empezaron.
-
-**Microtemas:** memoria, experiencias tempranas, creencias, vínculos, interpretación de sí misma.
-
-**PENDIENTE:** ejemplos específicos de las conversaciones, evitando convertir una hipótesis sobre la infancia en causalidad demostrada.
-
-## 10. Scroll 06 · Ser nombrados
-
-**Imagen:** fragmentos de palabras se acercan y rodean al organismo.
-
-**Texto de partida:**
-
-> Antes de aprender a definirme,  
-> otros ya habían comenzado  
-> a poner palabras sobre mí.
-
-**Pregunta:** ¿Cuánto de lo que creo ser nació de la mirada de otros?
-
-## 11. Scroll 07 · Nombrarnos
-
-**Imagen:** las palabras exteriores se mezclan con las capas del avatar.
-
-**Texto de partida:**
-
-> Y después fui yo  
-> quien aprendió a repetir ciertas historias.  
->  
-> A veces una interpretación  
-> termina pareciéndose demasiado a un nombre.
-
-**Pregunta:** ¿Qué historia sobre mí he contado tantas veces que parece inalterable?
-
-## 12. Scroll 08 · Comprender no es transformar
-
-**Imagen:** se apaga la acumulación de información; el avatar se aquieta.
-
-**Texto de partida:**
-
-> Comprender mis historias  
-> no hizo que desaparecieran.  
->  
-> Pero comenzó a cambiar  
-> la manera en que las escuchaba.
-
-**Pregunta de transición:** ¿Qué hago ahora con lo que descubrí?
-
-## 13. Scroll 09 · Llevarlo a la vida
-
-**Imagen:** el avatar comienza a respirar de manera más evidente.
-
-**Texto de partida:**
-
-> Lo que había observado en palabras  
-> empezó a aparecer en mis gestos,  
-> en mis decisiones,  
-> en los momentos en que me detenía.  
->  
-> Prestar atención  
-> se convirtió en otra forma de mirar.
-
-**PENDIENTE:** experiencia autobiográfica concreta sobre meditación, atención y lo reconocido en la vida cotidiana.
-
----
-
-# PARTE II · LA PAUSA
-
-## 14. Scroll 10 · Blanco
-
-**Imagen:** todo desaparece. Pantalla blanca, sin textos, con una variación visual mínima que produce la impresión de que **el espacio respira**.
-
-**Texto:** ninguno.
-
-**Intención:** permitir asimilación sin convertir la pausa en una nueva explicación.
-
-## 15. Scroll 11 · El avatar respira
-
-**Imagen:** vuelve el **mismo avatar abstracto**, sin cara, sin facciones, simplificado. Se expande y contrae suavemente sobre el blanco.
-
-**Texto de partida:**
-
-> Hay cosas que solo aparecen  
-> cuando dejamos de buscar respuestas.
-
-**Segundo texto posible, separado en el tiempo:**
-
-> No todo lo que llevamos dentro  
-> necesita ser resuelto.  
->  
-> A veces necesita espacio.
-
-**Interacción:** no obligar a sincronizar la respiración ni imponer una técnica.
-
-## 16. Scroll 12 · El umbral
-
-**Imagen:** la pausa se desvanece; se prepara la aparición de una pequeña esfera roja.
-
-**Texto de partida:**
-
-> Si las experiencias pudieron escribir  
-> partes de mi historia,  
->  
-> ¿qué ocurriría si aprendiera  
-> a leerlas de otra manera?  
->  
-> No para borrar lo vivido.  
-> No para convertirme en alguien nuevo.  
->  
-> Sino para descubrir otras formas  
-> de habitar lo que ya existe en mí.
-
----
-
-# PARTE III · EL MAPA
-
-## 17. Scroll 13 · La semilla roja
-
-**Imagen:** un círculo rojo pequeño, aislado. Comienza a respirar y desplegar sus primeras ramificaciones.
-
-**Texto de partida:**
-
-> Todo recorrido  
-> necesita un lugar  
-> desde donde comenzar.  
->  
-> Empecemos por la raíz.
-
-## 18. Scroll 14 · Qué son los chakras
-
-**Imagen:** las ramificaciones sugieren un sistema más amplio que todavía no se revela por completo.
-
-**Texto documental propuesto:**
-
-> En distintas tradiciones del yoga  
-> y del tantra, los chakras forman parte  
-> de mapas del cuerpo sutil.  
->  
-> Sus símbolos, su número y sus significados  
-> cambian según la tradición.
-
-**Nota de investigación:** algunos textos describen seis centros y un loto superior; la asociación moderna de siete colores no es una equivalencia universal. Acompañar estas afirmaciones con fuentes consultables en la publicación.
-
-## 19. Scroll 15 · Mi interpretación
-
-**Imagen:** la semilla se conecta con formas más tenues, aún no activadas visualmente.
-
-**Texto de partida:**
-
-> Fue entonces cuando comencé  
-> a mirar hacia dentro desde otro lugar.  
->  
-> La meditación, la atención  
-> y un mapa de símbolos  
-> me ofrecieron nuevas preguntas.  
->  
-> No una definición de quién era.  
-> Una forma de seguir observándome.
-
-**PENDIENTE:** revisar esta voz contra reflexiones reales de la diseñadora.
-
----
-
-# PARTE IV · LOS SIETE CHAKRAS
-
-## 20. Ritmo compartido, no plantilla rígida
-
-Cada chakra puede combinar:
-
-1. Aparición y nombre.
-2. Significado espiritual contextualizado.
-3. Dos o tres microtemas.
-4. Contracción o «bloqueo» como metáfora narrativa.
-5. Experiencia autobiográfica real.
-6. Pausa y meditación escrita voluntaria.
-7. Reconocimiento y nuevas posibilidades.
-8. Dos preguntas o desafíos.
-9. Cierre breve con afirmación.
-
-No forzar el mismo número de scrolls en todos. Cada capítulo deberá desarrollar una voz propia conforme aparezca material autobiográfico. El color que se apaga o intensifica no indica un estado energético mensurable.
-
-## 21. Chakra 01 · Mūlādhāra · La raíz
-
-**Color propuesto:** rojo. **Elemento:** tierra. **Ubicación simbólica:** base de la columna. **Mantra semilla:** LAM.
-
-**Aparición**
-
-> Antes de avanzar,  
-> necesito reconocer  
-> aquello que me sostiene.
-
-**Microtema · pertenencia**
-
-> Hay raíces que nos sostienen.  
-> Otras que, sin darnos cuenta,  
-> nos impiden movernos.
-
-**Microtema · seguridad**
-
-> A veces construimos refugios.  
-> Otras, aprendemos a vivir  
-> sin salir nunca de ellos.
-
-**Contracción:** el rojo se vuelve tenue.
-
-> No todas las formas  
-> de protegernos  
-> siguen siendo necesarias.
-
-**PENDIENTE · experiencia propia:** seguridad, pertenencia, hogar, independencia, miedo. No inventar situaciones concretas.
-
-**Pausa**
-
-> Observa el lugar  
-> que sostiene tu cuerpo.  
->  
-> Por ahora,  
-> no tienes que ir a ninguna parte.
-
-**Reconocimiento**
-
-> Puedo agradecer  
-> lo que una vez me protegió  
-> y preguntarme si hoy  
-> necesito algo distinto.
-
-**Pregunta 1:** ¿Qué parte de mi seguridad nació del amor y cuál del miedo?
-
-**Desafío 2:** Identificar un gesto, lugar o rutina que hoy te ayude a sentirte presente.
-
-**Afirmación propuesta:** Puedo construir mi propio sostén.
-
-## 22. Chakra 02 · Svādhiṣṭhāna · El permiso de sentir
-
-**Color propuesto:** naranja. **Elemento:** agua. **Ubicación simbólica:** región pélvica. **Mantra semilla:** VAM.
-
-**Aparición**
-
-> Hay emociones que llegan  
-> antes que las palabras.
-
-**Microtema · deseo**
-
-> ¿Cuántas veces confundí  
-> lo que deseaba  
-> con lo que aprendí a desear?
-
-**Microtema · placer**
-
-> Hay formas de alegría  
-> que también esperan permiso.
-
-**Contracción:** el naranja pierde intensidad.
-
-> Algunos deseos  
-> no desaparecen.  
-> Aprenden a esconderse.
-
-**PENDIENTE · experiencia propia:** creatividad, deseo, emociones y relación con el disfrute.
-
-**Pausa**
-
-> Nota lo que sientes.  
-> No hace falta explicarlo  
-> ni convertirlo en una decisión.
-
-**Reconocimiento**
-
-> Sentir no me obliga a actuar.  
-> A veces basta  
-> con dejar de negarlo.
-
-**Pregunta 1:** ¿Qué parte de mis deseos sigo intentando justificar?
-
-**Desafío 2:** Realizar algo creativo sin buscar un resultado útil.
-
-**Afirmación propuesta:** Me permito reconocer lo que siento.
-
-## 23. Chakra 03 · Maṇipūra · El poder de elegir
-
-**Color propuesto:** amarillo. **Elemento:** fuego. **Ubicación simbólica:** zona del ombligo. **Mantra semilla:** RAM.
-
-**Aparición**
-
-> No toda fuerza  
-> necesita convertirse  
-> en una demostración.
-
-**Microtema · valor**
-
-> A veces medimos nuestro valor  
-> con los resultados  
-> de aquello que hacemos.
-
-**Microtema · autonomía**
-
-> Elegir también significa  
-> soltar la idea  
-> de controlarlo todo.
-
-**Contracción:** el amarillo se atenúa.
-
-> ¿Cuántas veces actué  
-> para demostrar  
-> que era suficiente?
-
-**PENDIENTE · experiencia propia:** autoexigencia, autonomía, decisiones, validación.
-
-**Pausa**
-
-> Piensa en una decisión pendiente.  
->  
-> ¿Qué parte viene de tu deseo?  
-> ¿Qué parte viene del miedo?
-
-**Reconocimiento**
-
-> Mi valor no necesita  
-> renovarse con cada logro.
-
-**Pregunta 1:** ¿Qué haría hoy si no necesitara demostrar nada?
-
-**Desafío 2:** Tomar una decisión pequeña guiada por tu propio criterio.
-
-**Afirmación propuesta:** Puedo elegir sin tener que probar quién soy.
-
-## 24. Chakra 04 · Anāhata · Lo que permito entrar
-
-**Color propuesto:** verde. **Elemento:** aire. **Ubicación simbólica:** pecho. **Mantra semilla:** YAM.
-
-**Aparición**
-
-> Hay vínculos  
-> que nos enseñan a abrirnos.  
-> Y otros que nos enseñan  
-> a protegernos.
-
-**Microtema · protección**
-
-> A veces la distancia  
-> se parece mucho  
-> al cuidado.
-
-**Microtema · recibir**
-
-> Dar puede volverse costumbre.  
-> Recibir, una pregunta.
-
-**Contracción:** el verde se vuelve menos luminoso.
-
-> No siempre cerramos una puerta  
-> porque dejamos de querer.  
->  
-> A veces tenemos miedo.
-
-**PENDIENTE · experiencia propia:** vínculos, afecto, pérdidas, límites, apertura.
-
-**Pausa**
-
-> Recuerda un vínculo importante.  
->  
-> Permite que aparezca  
-> lo que todavía significa.
-
-**Reconocimiento**
-
-> Aprender a abrirme  
-> también puede incluir  
-> aprender dónde están mis límites.
-
-**Pregunta 1:** ¿Qué parte de mí sigo protegiendo incluso cuando deseo acercarme?
-
-**Desafío 2:** Observar una forma de dar afecto y otra de recibirlo.
-
-**Afirmación propuesta:** Puedo abrirme sin dejar de cuidarme.
-
-## 25. Chakra 05 · Viśuddha · La voz que habito
-
-**Color propuesto:** azul. **Elemento:** espacio/éter. **Ubicación simbólica:** garganta. **Mantra semilla:** HAM.
-
-**Aparición**
-
-> No todas las palabras  
-> que callamos desaparecen.
-
-**Microtema · silencio**
-
-> Callar puede ser una elección.  
-> También una costumbre  
-> que ya no recordamos haber aprendido.
-
-**Microtema · pertenencia**
-
-> Hay veces que cambiamos  
-> nuestras palabras  
-> para seguir teniendo un lugar.
-
-**Contracción:** el azul se atenúa.
-
-> ¿Cuándo empecé  
-> a confundir ser aceptada  
-> con ser comprendida?
-
-**PENDIENTE · experiencia propia:** voz, expresión, comunicación, autocensura.
-
-**Pausa**
-
-> Piensa en algo  
-> que te habría gustado decir.  
->  
-> No necesitas pronunciarlo aquí.
-
-**Reconocimiento**
-
-> Mi voz puede encontrar lugar  
-> sin tener que imitar  
-> la de nadie.
-
-**Pregunta 1:** ¿Qué parte de mi verdad suavizo para no incomodar?
-
-**Desafío 2:** Escribir una frase difícil de decir, sin obligación de compartirla.
-
-**Afirmación propuesta:** Mi voz también merece espacio.
-
-## 26. Chakra 06 · Ājñā · Aprender a mirar
-
-**Color propuesto:** índigo. **Ubicación simbólica:** entrecejo. **Mantra relacionado:** OM según la fuente.
-
-**Aparición**
-
-> No vemos solamente  
-> lo que ocurre.  
->  
-> También miramos  
-> desde lo que hemos vivido.
-
-**Microtema · interpretación**
-
-> Una historia repetida  
-> puede acabar pareciéndose  
-> a la única verdad posible.
-
-**Microtema · incertidumbre**
-
-> No saber  
-> también puede abrir  
-> una forma de mirar.
-
-**Contracción:** el índigo se oscurece.
-
-> Cuando una certeza ocupa todo,  
-> otras posibilidades  
-> quedan fuera de la imagen.
-
-**PENDIENTE · experiencia propia:** reflexiones sobre creencias, percepción o cambio de mirada derivadas de la investigación.
-
-**Pausa**
-
-> Trae a la memoria  
-> una idea que tienes sobre ti.  
->  
-> ¿Qué la sostiene?  
-> ¿Qué la pondría en duda?
-
-**Reconocimiento**
-
-> Otra perspectiva  
-> no tiene que borrar  
-> todo lo que fui.
-
-**Pregunta 1:** ¿Qué parte de mi historia sigo tratando como verdad definitiva?
-
-**Desafío 2:** Ensayar una interpretación alternativa de una experiencia cotidiana.
-
-**Afirmación propuesta:** Puedo mirar mi historia desde otro lugar.
-
-## 27. Chakra 07 · Sahasrāra · Habitar el misterio
-
-**Color propuesto:** violeta o blanco. **Ubicación simbólica:** coronilla o espacio superior. **Símbolo:** loto de mil pétalos. No asignar un mantra o elemento universal sin una fuente específica.
-
-**Aparición**
-
-> No todo necesita  
-> convertirse en respuesta.
-
-**Microtema · sentido**
-
-> Buscamos explicaciones  
-> incluso para aquello  
-> que todavía está cambiando.
-
-**Microtema · integración**
-
-> Quizás comprenderme  
-> no sea encontrar  
-> una sola definición.
-
-**Contracción:** la luz se vuelve tenue y fragmentada.
-
-> Hay momentos  
-> en que intento controlar  
-> incluso lo que no comprendo.
-
-**PENDIENTE · experiencia propia:** meditación, espiritualidad, aceptación de la incertidumbre, relación con el sentido.
-
-**Pausa**
-
-> Por un instante,  
-> no necesitas resolver  
-> ninguna pregunta.
-
-**Reconocimiento**
-
-> Puedo seguir descubriéndome  
-> sin conocer todavía  
-> todas mis formas futuras.
-
-**Pregunta 1:** ¿Qué intento resolver cuando quizás necesito permitirme no saber?
-
-**Desafío 2:** Observar algo cotidiano sin apresurarte a darle significado.
-
-**Afirmación propuesta:** Puedo habitar lo que todavía no comprendo.
-
----
-
-# PARTE V · LA INTEGRACIÓN
-
-## 28. Scroll final 01 · El regreso
-
-**Imagen:** los siete centros reaparecen y se relacionan.
-
-**Texto de partida:**
-
-> Cada parte abrió  
-> una forma diferente de mirar.  
->  
-> Ninguna existe  
-> del todo separada  
-> de las demás.
-
-## 29. Scroll final 02 · El ecosistema
-
-**Imagen:** el avatar vuelve completo; sus diferencias coexisten. No representar perfección espiritual.
-
-**Texto de partida:**
-
-> No soy únicamente  
-> las historias que aprendí.  
->  
-> Tampoco las preguntas  
-> que todavía no sé responder.  
->  
-> Soy también  
-> las posibilidades  
-> que sigo explorando.
-
-## 30. Scroll final 03 · Una pregunta abierta
-
-**Imagen:** disminuye el movimiento; el avatar respira despacio.
-
-**Texto de partida:**
-
-> Quizás conocerse  
-> no sea llegar  
-> a una versión definitiva.  
->  
-> Quizás sea aprender  
-> a reconocerse  
-> en cada transformación.
-
-**Última pregunta:**
-
-> ¿Qué parte de ti  
-> quieres comenzar  
-> a habitar de otra manera?
-
----
-
-## 31. Incorporación de material original
-
-La investigación con IA es el origen, no la protagonista. Mostrar pequeñas reflexiones sobre identidad personal, preguntas, conexiones y pensamientos recurrentes, no transcripciones ni citas de conversaciones. No incorporar otros proyectos personales.
-
-**Regla:** no inventar citas ni experiencias para llenar espacios. Marcar como `PENDIENTE` lo que requiera testimonio real.
-
----
-
-## 32. Desarrollo progresivo
-
-Este es un **texto base**, no un guion cerrado. Durante el diseño y la programación podrán profundizarse los textos, variar la cantidad de scrolls, integrar nuevas reflexiones o cambiar la duración de silencios, imágenes y movimientos.
-
-La profundidad no se obtiene únicamente añadiendo texto. Cada nueva capa debe responder a una intención narrativa reconocible.
-
-### Verificar antes de aprobar nuevas escenas
-
-1. ¿Tiene una idea y función propias?
-2. ¿Se entiende cómo continúa la historia?
-3. ¿La metáfora ilumina algo o solo lo disfraza?
-4. ¿El testimonio es auténtico?
-5. ¿Se diferencia la fuente histórica de la interpretación personal?
-6. ¿El chakra aparece como mapa y no como diagnóstico?
-7. ¿El movimiento ayuda a sentir o comprender?
-8. ¿Hay espacio suficiente para detenerse?
-
----
-
-## 33. Relación con otros documentos y estado
-
-- `context.md`: origen, investigación, marco conceptual y decisiones.
-- `personalidad.md`: voz creativa y principios narrativos.
-- `referentes.md`: referencias visuales, cuando exista.
-- `estructura.md`: implementación de scrolls, estados y transiciones, cuando exista.
-- `criterio.md`: desarrollo, calidad y accesibilidad.
-- `memoria.md`: decisiones duraderas.
-- `log.md`: historial.
-
-**Versión:** 0.3  
-**Fecha:** 2026-11-25  
-**Estado:** Base narrativa de trabajo; microtextos, reflexiones y asociaciones personales siguen abiertos.
-
-**Cambios frente al borrador inicial:** escritura más poética y ocasionalmente abstracta con contexto; avatar sin rostro durante las pausas; vacío blanco con efecto de respiración de la propia pantalla; evolución progresiva de textos a medida que se materializa la web.
-
-**Pendiente:** elaborar reflexiones fundamentadas en la investigación, profundizar experiencias personales, revisar fuentes tradicionales, probar ritmo y lenguaje en la web real.
-
-La historia propia sigue siendo el centro. Los chakras son la estructura simbólica. El diseño convierte el encuentro entre ambos en una experiencia recorrible.
+Pendiente: pulir redacción, preguntas y desafíos; confirmar pasajes autobiográficos; verificar referencias espirituales y distinguir asociaciones cromáticas y psicológicas modernas de fuentes tradicionales. La meditación es voluntaria. La dirección visual permanece en referentes.md y estructura.md. No se considera implementado el guion por documentarlo.

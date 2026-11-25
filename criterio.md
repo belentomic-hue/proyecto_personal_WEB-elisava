@@ -7,8 +7,8 @@ Cada chakra integra seis momentos: Descubrir, Sentir, Reconocer, Cultivar, Exper
 
 ---
 
-**Versión:** 0.2  
-**Fecha:** 2026-11-24  
+**Versión:** 0.3  
+**Fecha:** 2026-11-25  
 **Estado:** Criterios de trabajo actualizados para el desarrollo del proyecto
 
 ---
@@ -218,6 +218,10 @@ Revisar cada cambio en cuatro niveles:
 
 ### Narrativo
 
+- Cada reflexión debe añadir significado y preparar la siguiente; eliminar reiteraciones.
+- Mantener seis momentos por chakra, un desafío y una pregunta; no fijar scrolls.
+- Evaluar la redacción antes de decidir animaciones.
+
 - ¿Mantiene el hilo autobiográfico y la progresión en cinco grandes etapas?
 - ¿Los textos corresponden a fuentes auténticas o están claramente marcados como propuestas?
 - ¿Los chakras aparecen como mapa simbólico y no como diagnóstico?
@@ -275,7 +279,7 @@ Revisar cada cambio en cuatro niveles:
 - Definir tipografías concretas y paleta cromática final.
 - Prototipar y validar un avatar volumétrico real con fibras y membranas.
 - Probar navegación de cámara, paneles, zoom e índice.
-- Completar testimonios autobiográficos reales y verificar documentación espiritual.
+- Pulir el guion v0.4, confirmar reflexiones autobiográficas y verificar documentación espiritual; no publicar chats.
 - Revisar rendimiento, accesibilidad y experiencia móvil.
 
 **Estos pendientes no se consideran implementados por estar descritos aquí.**
@@ -294,6 +298,6 @@ Las decisiones de tecnología y diseño deben servir a ese propósito.
 
 ---
 
-**Versión:** 0.2  
-**Fecha:** 2026-11-24  
+**Versión:** 0.3  
+**Fecha:** 2026-11-25  
 **Estado:** Guía de trabajo actualizada, abierta a revisión durante el prototipado.

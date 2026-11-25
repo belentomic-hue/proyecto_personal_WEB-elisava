@@ -1,5 +1,460 @@
 # NARRATIVA · Ecosistema del Ser
 
+**Versión 0.5 · 2026-11-25**
+
+Guion del prototipo web. Los rótulos de escena organizan el documento. En la lectura aparecen el nombre del chakra, BACK y el texto de la escena.
+
+## Entrada común
+
+### Portada
+
+Ecosistema del Ser
+
+¿Cuánto de lo que eres es aquello que has aprendido a ser?
+
+### Nacimiento
+
+NACIMIENTO
+
+¿QUIÉN SOY?
+
+### El cuestionamiento
+
+Hay cierta extrañeza en la seguridad con la que nos definimos, como si en un puñado de palabras pudiera caber todo lo que somos.
+
+Nos reconocemos en certezas que hemos recogido a lo largo de la vida, sin preguntarnos demasiado en qué momento comenzaron a pertenecernos.
+
+## 01. Mūlādhāra — Existir
+
+### 01. Pantalla en blanco
+
+*Pantalla en blanco. BACK sigue disponible.*
+
+### 02. Respiración
+
+Respira, las veces que sea necesario
+
+### 03. Descripción
+
+Rojo como la tierra, Mūlādhāra significa raíz y sostén. Habita en la base de la columna y simboliza la seguridad y la pertenencia. Su mantra es LAM.
+
+### 04. Invitación
+
+Volvamos a nuestras raíces. Descubramos cuánto podemos crecer sin dejar de pertenecernos.
+
+### 05. Entrada
+
+Deja al mundo continuar sin ti durante unos instantes.
+
+### 06. Atención
+
+Descansa.
+
+Siente la delicadeza con la que la tierra recibe tu peso.
+
+### 07. Exploración
+
+Imagina unas raíces que nacen bajo tu piel y te acompañan allí donde vas.
+
+### 08. Perspectiva
+
+Quizás pertenecer sea aprender a sentirte en casa dentro de ti.
+
+### 09. Afirmación
+
+*Soy mi propia morada, la tierra en la que puedo florecer.*
+
+### 10. Pregunta
+
+¿Cuánto de mí he modificado para sentir que pertenezco?
+
+### 11. Reflexión
+
+Antes de aprender a reconocernos, aprendimos a ser reconocidos. Descubrimos qué gestos nos acercaban a otros, qué palabras despertaban afecto y qué partes de nuestra naturaleza convenía reservar. No hay ingenuidad en ello, sino una profunda necesidad humana de pertenecer. Lo interesante es descubrir que, con el tiempo, podemos dejar de necesitar algunas de aquellas formas. Que nuestras raíces expliquen de dónde venimos no significa que deban determinar hacia dónde crecemos.
+
+### 12. Pausa
+
+Después de contemplar tus raíces, permanece un instante junto a ellas.
+
+### 13. Compasión
+
+Recibe con ternura las formas que alguna vez adoptaste para pertenecer. Fueron tu manera de encontrar un lugar en el mundo.
+
+### 14. Cierre abierto
+
+Permítete recorrer tu propia tierra, observar sus raíces y descubrir que también puedes pertenecer sin modificar tu naturaleza.
+
+
+## 02. Svādhiṣṭhāna — Sentir
+
+### 01. Pantalla en blanco
+
+*Pantalla en blanco. BACK sigue disponible.*
+
+### 02. Respiración
+
+Respira, las veces que sea necesario
+
+### 03. Descripción
+
+Naranja como la luz sobre el agua, Svādhiṣṭhāna significa la propia morada. Habita en la región pélvica y simboliza la sensibilidad, el deseo y la creatividad. Su mantra es VAM.
+
+### 04. Invitación
+
+Exploremos las aguas que nos habitan y aquello que todavía podemos permitirnos sentir.
+
+### 05. Entrada
+
+Deja descansar las explicaciones. No todo lo que sientes necesita un nombre.
+
+### 06. Atención
+
+Respira.
+
+Percibe ese pequeño oleaje que nace en tu abdomen.
+
+### 07. Exploración
+
+Permite que tus emociones encuentren en ti una orilla donde descansar.
+
+### 08. Perspectiva
+
+También el mar conoce la tormenta sin renunciar a su belleza.
+
+### 09. Afirmación
+
+*Abrazo las aguas que me habitan y la libertad de sentirlas.*
+
+### 10. Pregunta
+
+¿Qué partes de mi sensibilidad podría comenzar a recibir con ternura?
+
+### 11. Reflexión
+
+Resulta curioso que deseemos experimentar la vida en toda su profundidad y, al mismo tiempo, intentemos protegernos de aquello que nos permite sentirla. Quisiéramos conservar el asombro sin conocer la incertidumbre, amar sin exponernos a la ausencia. Pero nuestra sensibilidad no siempre distingue entre aquello que nos conmueve y aquello que nos duele. Quizás aprender a sentir consista en dejar de considerar nuestras emociones como obstáculos y comenzar a reconocerlas como parte del lenguaje con el que la vida nos habla.
+
+### 12. Pausa
+
+Deja que aquello que acabas de reconocer repose dentro de ti.
+
+### 13. Compasión
+
+No te apresures a abrir las aguas que alguna vez necesitaste contener. También la sensibilidad merece su propio tiempo.
+
+### 14. Cierre abierto
+
+Navega tus aguas con curiosidad. Date el permiso de sentirlas sin exigirles que sean siempre tranquilas.
+
+
+## 03. Maṇipūra — Elegir
+
+### 01. Pantalla en blanco
+
+*Pantalla en blanco. BACK sigue disponible.*
+
+### 02. Respiración
+
+Respira, las veces que sea necesario
+
+### 03. Descripción
+
+Amarillo como el fuego, Maṇipūra significa ciudad de las joyas. Habita en el abdomen y simboliza la voluntad, la autonomía y la transformación. Su mantra es RAM.
+
+### 04. Invitación
+
+Contemplemos aquello que nos enciende y descubramos cuánto de ese fuego nos pertenece.
+
+### 05. Entrada
+
+Olvida por un instante quién has intentado ser para los ojos del mundo.
+
+### 06. Atención
+
+Regresa.
+
+Siente el movimiento de la vida en el centro de tu abdomen.
+
+### 07. Exploración
+
+Escucha aquello que todavía deseas cuando nadie te contempla.
+
+### 08. Perspectiva
+
+Qué hermoso sería vivir para aquello que nos enciende, sin consumirnos intentando iluminar a otros.
+
+### 09. Afirmación
+
+*Que mis pasos nazcan del amor por aquello que deseo vivir.*
+
+### 10. Pregunta
+
+¿Qué deseos podría escuchar si dejara descansar la necesidad de demostrar?
+
+### 11. Reflexión
+
+Hay deseos que nacen de nuestra curiosidad y otros que nacen de la necesidad de ser reconocidos. A veces convivimos tanto tiempo con ambos que resulta difícil distinguirlos. Podemos alcanzar aquello que alguna vez soñamos y descubrir que la satisfacción dependía, en gran medida, de quién estuviera allí para contemplarlo. Quizás la verdadera libertad no resida únicamente en nuestra capacidad de elegir, sino en comprender desde dónde elegimos. En descubrir qué merece nuestro fuego, incluso cuando nadie presencia su luz.
+
+### 12. Pausa
+
+Deja descansar, por un instante, aquello que siempre has intentado alcanzar.
+
+### 13. Compasión
+
+Contempla con cariño el esfuerzo que te ha traído hasta aquí, incluso cuando nació de la necesidad de ser reconocido.
+
+### 14. Cierre abierto
+
+Observa aquello que enciende tu curiosidad. Permítete explorar deseos que no necesiten más propósito que el placer de vivirlos.
+
+
+## 04. Anāhata — Amar
+
+### 01. Pantalla en blanco
+
+*Pantalla en blanco. BACK sigue disponible.*
+
+### 02. Respiración
+
+Respira, las veces que sea necesario
+
+### 03. Descripción
+
+Verde como la primavera, Anāhata evoca el sonido que nace sin ser golpeado. Habita en el pecho y, vinculado al aire, simboliza el amor y la compasión. Su mantra es YAM.
+
+### 04. Invitación
+
+Recorramos los jardines de nuestros afectos. Descubramos cuánto de su ternura podemos sembrar en nosotros.
+
+### 05. Entrada
+
+Deja descansar todos los nombres que llevas escritos dentro del pecho.
+
+### 06. Atención
+
+Acércate.
+
+Posa suavemente una mano sobre tu corazón, si lo deseas.
+
+### 07. Exploración
+
+Recuerda la ternura con la que has amado. Permite que algo de ella regrese a ti.
+
+### 08. Perspectiva
+
+Entre todas las existencias que merecen tu amor, también se encuentra la tuya.
+
+### 09. Afirmación
+
+*Que también mis propios jardines conozcan la primavera.*
+
+### 10. Pregunta
+
+¿Cómo podría amarme con la misma ternura con la que he aprendido a amar a otros?
+
+### 11. Reflexión
+
+Cuando conocemos la historia de alguien, sus contradicciones adquieren otros significados. Comprendemos sus temores, encontramos humanidad en sus errores y aprendemos a mirar más allá de sus actos. Qué extraño que, siendo nuestra propia historia la que mejor conocemos, podamos llegar a contemplarnos con tanta severidad. Quizás exista una forma más coherente de entender el amor: aquella en la que la comprensión que ofrecemos al mundo no termina precisamente donde comienza nuestra propia existencia.
+
+### 12. Pausa
+
+Permanece cerca de aquello que estas palabras han despertado en tu pecho.
+
+### 13. Compasión
+
+Recibe tus propias contradicciones con la delicadeza con la que recibirías las de alguien a quien amas.
+
+### 14. Cierre abierto
+
+Recorre tus propios jardines con la ternura con la que has recorrido los de otros. Permítete también ser destino de tu amor.
+
+
+## 05. Viśuddha — Expresar
+
+### 01. Pantalla en blanco
+
+*Pantalla en blanco. BACK sigue disponible.*
+
+### 02. Respiración
+
+Respira, las veces que sea necesario
+
+### 03. Descripción
+
+Celeste como la amplitud del cielo, Viśuddha significa purificación. Habita en la garganta y, vinculado al espacio, simboliza la expresión y la autenticidad. Su mantra es HAM.
+
+### 04. Invitación
+
+Adentrémonos en nuestros silencios. Quizás encontremos palabras que todavía desean conocer el aire.
+
+### 05. Entrada
+
+Deja descansar las palabras con las que intentas ser comprendido.
+
+### 06. Atención
+
+Escucha.
+
+Relaja la mandíbula y siente el aire que atraviesa tu garganta.
+
+### 07. Exploración
+
+Reconoce aquellas palabras que han envejecido bajo tu piel.
+
+### 08. Perspectiva
+
+Hay libertad en escuchar nuestra voz antes de imaginar los oídos del mundo.
+
+### 09. Afirmación
+
+*Que mi voz conserve la delicadeza y la libertad de mi naturaleza.*
+
+### 10. Pregunta
+
+¿Qué encontraría mi voz si pudiera expresarse sin temor a la mirada ajena?
+
+### 11. Reflexión
+
+Entre aquello que sentimos y aquello que pronunciamos existe un espacio habitado por nuestras experiencias. Allí viven las palabras que alguna vez no fueron comprendidas, el temor a herir y el deseo de conservar ciertos afectos. Aprendemos a anticipar la mirada de otros hasta el punto de que, a veces, dejamos de escuchar nuestra propia voz. Quizás expresarnos con libertad no signifique decirlo todo, sino aprender a distinguir entre los silencios que elegimos y aquellos que hemos aprendido a necesitar.
+
+### 12. Pausa
+
+Deja que tus palabras permanezcan un instante en el silencio.
+
+### 13. Compasión
+
+Comprende con ternura las veces que elegiste callar. Tu voz también tiene una historia.
+
+### 14. Cierre abierto
+
+Escucha las palabras que nacen dentro de ti. Permíteles encontrar su lugar en el mundo, a su propio tiempo.
+
+
+## 06. Ājñā — Percibir
+
+### 01. Pantalla en blanco
+
+*Pantalla en blanco. BACK sigue disponible.*
+
+### 02. Respiración
+
+Respira, las veces que sea necesario
+
+### 03. Descripción
+
+Índigo como el anochecer, Ājñā significa dirección o mandato. Habita en el entrecejo y simboliza la percepción, la intuición y el discernimiento. Su mantra es OM.
+
+### 04. Invitación
+
+Contemplemos la historia que habita en nuestros ojos y los horizontes que aún podemos descubrir.
+
+### 05. Entrada
+
+Deja descansar los ojos con los que has aprendido a interpretar la vida.
+
+### 06. Atención
+
+Observa.
+
+Permite que tus pensamientos atraviesen el silencio.
+
+### 07. Exploración
+
+Contémplalos como nubes que pasan sin definir la inmensidad del cielo.
+
+### 08. Perspectiva
+
+Incluso lo familiar puede maravillarnos cuando aprendemos a mirarlo nuevamente.
+
+### 09. Afirmación
+
+*Que la memoria de lo vivido nunca me prive del asombro de lo desconocido.*
+
+### 10. Pregunta
+
+¿Desde qué experiencias he aprendido a interpretar el mundo?
+
+### 11. Reflexión
+
+Nunca contemplamos el mundo por primera vez. Incluso frente a lo desconocido, nos acompañan las huellas de aquello que hemos vivido. Una palabra puede despertar recuerdos distintos en cada existencia; un mismo silencio puede significar refugio para unos y ausencia para otros. Comprender esta diversidad nos invita a desconfiar, con delicadeza, de nuestras propias certezas. Quizás ampliar nuestra mirada no consista en abandonar lo que conocemos, sino en reconocer que la realidad siempre puede ser más extensa que nuestra experiencia de ella.
+
+### 12. Pausa
+
+Deja descansar las certezas que acabas de contemplar.
+
+### 13. Compasión
+
+No juzgues los ojos con los que alguna vez miraste el mundo. Aprendieron a hacerlo desde la historia que les pertenecía.
+
+### 14. Cierre abierto
+
+Lleva esta pregunta contigo. Observa lo cotidiano con curiosidad y permítete descubrir otros paisajes en aquello que creías conocer.
+
+
+## 07. Sahasrāra — Trascender
+
+### 01. Pantalla en blanco
+
+*Pantalla en blanco. BACK sigue disponible.*
+
+### 02. Respiración
+
+Respira, las veces que sea necesario
+
+### 03. Descripción
+
+Violeta como el misterio del universo, Sahasrāra evoca el loto de mil pétalos. Habita en la coronilla y simboliza la conciencia, la unidad y la trascendencia.
+
+### 04. Invitación
+
+Contemplemos aquello que nos reúne y la inmensidad de una existencia que nunca termina de revelarse.
+
+### 05. Entrada
+
+Deja descansar todas las palabras con las que has intentado definirte.
+
+### 06. Atención
+
+Permanece.
+
+Percibe tu piel, el aire y la vida que sucede dentro de ti.
+
+### 07. Exploración
+
+Hay algo de la tierra en tu cuerpo y algo del universo en tu manera de existir.
+
+### 08. Perspectiva
+
+Contémplate con la misma admiración con la que contemplas el mar. No necesitas comprender tu inmensidad para reconocer su belleza.
+
+### 09. Afirmación
+
+*Celebro lo que soy y recibo con ternura todo aquello que todavía está por florecer en mí.*
+
+### 10. Pregunta
+
+¿Qué nuevas formas de existir podrían florecer si me permitiera no conocerme por completo?
+
+### 11. Reflexión
+
+Qué hermosa paradoja dedicar parte de nuestra existencia a descubrir quiénes somos y encontrar, en ese mismo recorrido, la libertad de dejar de definirnos. Llevamos dentro la memoria de lo vivido, las formas que aprendimos para pertenecer, los afectos que nos transformaron y las certezas que alguna vez nos sostuvieron. Todo ello nos constituye, pero nada tiene por qué contenernos por completo. Quizás conocernos sea aprender a contemplar nuestra existencia como contemplamos la naturaleza: con admiración por aquello que permanece, ternura por aquello que cambia y asombro ante todo lo que todavía está por nacer.
+
+### 12. Pausa
+
+Deja reposar todo aquello que has descubierto. No necesitas convertirlo en una nueva definición de ti.
+
+### 13. Compasión
+
+Contempla con ternura las distintas formas que ha adquirido tu existencia. Cada una pertenece a una estación de tu historia.
+
+### 14. Cierre abierto
+
+Continúa explorando la inmensidad de tu existencia sin la prisa de definirla. Date el permiso de pertenecer a lo que eres y a todo aquello que todavía puedes llegar a ser.
+
+---
+
+<details>
+<summary>Guion v0.4 · Archivo editorial</summary>
+
 **Versión:** 0.4 · 2026-11-25  
 **Estado:** estructura aprobada; redacción literaria de referencia, revisable.
 
@@ -552,3 +1007,5 @@ Sin renunciar a la curiosidad de descubrirnos.
 ---
 
 Pendiente: pulir redacción, preguntas y desafíos; confirmar pasajes autobiográficos; verificar referencias espirituales y distinguir asociaciones cromáticas y psicológicas modernas de fuentes tradicionales. La meditación es voluntaria. La dirección visual permanece en referentes.md y estructura.md. No se considera implementado el guion por documentarlo.
+
+</details>

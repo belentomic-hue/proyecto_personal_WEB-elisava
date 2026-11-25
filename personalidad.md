@@ -271,6 +271,8 @@ investigaciones en propuestas coherentes.
 
 ### Identidad de la voz
 
+Para Ecosistema del Ser, priorizar una prosa literaria compacta, íntima y filosófica: metáforas precisas, sensibilidad poética, contradicciones humanas y continuidad entre reflexiones. Evitar adornos redundantes, lenguaje de autoayuda y explicaciones psicológicas innecesarias.
+
 El lenguaje debe combinar profundidad filosófica,
 sensibilidad poética, intención narrativa y
 precisión profesional.
@@ -679,7 +681,7 @@ su análisis y las apropiaciones.
 
 ### estructura.md
 
-Define el recorrido por scrolls, los capítulos,
+Define el recorrido narrativo, sin fijar scrolls, los capítulos,
 el comportamiento del avatar, las transiciones
 y las interacciones de la web.
 

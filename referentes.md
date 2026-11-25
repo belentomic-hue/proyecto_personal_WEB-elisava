@@ -1,7 +1,7 @@
 # REFERENTES · Ecosistema del Ser
 
-**Versión:** 0.1  
-**Fecha:** 2026-11-24  
+**Versión:** 0.2  
+**Fecha:** 2026-11-25  
 **Estado:** Dirección de arte aprobada como base editable; imágenes originales pendientes de incorporación binaria  
 **Repositorio:** `belentomic-hue/proyecto_personal_WEB-elisava`
 
@@ -21,7 +21,7 @@ Se utiliza junto con `context.md`, `personalidad.md`, `narrativa.md` y `estructu
 
 ### Atmósfera
 
-- Fondo predominantemente **blanco cálido / marfil**.
+- **Fondo blanco puro (`#FFFFFF`)** como base predominante. El marfil queda como etapa visual anterior.
 - Sensibilidad etérea, editorial, íntima, orgánica, sensorial y luminosa.
 - Grano muy fino semejante a papel o pigmento impreso.
 - Espacios de silencio visual que contrastan con escenas de gran complejidad.
@@ -29,11 +29,29 @@ Se utiliza junto con `context.md`, `personalidad.md`, `narrativa.md` y `estructu
 
 ### Color
 
-- **Halos suaves + núcleos de color intenso**.
+- **Halos suaves, tonos pastel y núcleos delicados**, con mayor densidad cromática en ciertas zonas pero sin saturación fluorescente.
 - Capas orgánicas con áreas cromáticas concentradas y difusas.
 - El color debe sentirse como pigmento suspendido y, a la vez, como luz que atraviesa volúmenes.
-- Los siete colores de los chakras se incorporan progresivamente al relato; los valores hexadecimales aún no están cerrados.
-- Sobre el marfil, mantener suficiente contraste para textos y controles.
+- Los siete colores de los chakras se incorporan progresivamente al relato, usando la paleta pastel de referencia que figura a continuación.
+- Sobre el **blanco**, mantener suficiente contraste para textos y controles. La paleta es una base elegida para prototipar; sus valores podrán ajustarse tras las pruebas visuales.
+
+### Paleta pastel · decisión vigente (25 de noviembre de 2026)
+
+**Fondo principal:** blanco puro `#FFFFFF`.
+
+| Chakra | Tono pastel | HEX de referencia |
+| --- | --- | --- |
+| Mūlādhāra · Existir | Rojo pastel | `#EFA3A3` |
+| Svādhiṣṭhāna · Sentir | Naranja pastel | `#F6C39A` |
+| Maṇipūra · Elegir | Amarillo pastel | `#F6E3A1` |
+| Anāhata · Amar | Verde pastel | `#BFE3BF` |
+| Viśuddha · Expresar | Azul pastel | `#B7D7F2` |
+| Ājñā · Percibir | Índigo/lila pastel | `#C7C3E8` |
+| Sahasrāra · Trascender | Violeta pastel | `#DEC6EA` |
+
+Esta combinación sustituye la anterior propuesta de **marfil + tonos más saturados**. La intención es una materia ligera, clara y etérea: **capas translúcidas, halos de bordes difusos y centros de color suave**. No reducir toda la forma a colores planos; conservar volumen, respiración, densidades y fibras.
+
+Los HEX son **colores de referencia aprobados para la siguiente prueba**, no una calibración técnica definitiva. Mantener los textos en un tono oscuro con contraste suficiente.
 
 ### Luz y materia
 
@@ -273,7 +291,7 @@ Se trata de **un mismo organismo** revelado progresivamente por la cámara.
 
 ### Nacimiento
 
-Composición preferentemente central, mucho vacío marfil, aparición gradual del organismo, color contenido y movimiento suave.
+Composición preferentemente central, mucho vacío blanco, aparición gradual del organismo, color contenido y movimiento suave.
 
 ### Observación
 
@@ -297,7 +315,7 @@ Convivencia de capas y tonalidades. Regreso a una vista más amplia del organism
 
 Antes de aceptar una nueva imagen, componente o animación, comprobar:
 
-1. ¿Dialoga con la atmósfera marfil y el lenguaje editorial?
+1. ¿Dialoga con la atmósfera blanca y el lenguaje editorial?
 2. ¿El color combina difusión y concentración?
 3. ¿La materia parece orgánica y tridimensional?
 4. ¿Las fibras tienen una función estructural o narrativa?
@@ -314,8 +332,8 @@ Antes de aceptar una nueva imagen, componente o animación, comprobar:
 
 ### Aprobado en conversación
 
-- Fondo cálido, predominantemente marfil.
-- Halos suaves y núcleos de color intenso.
+- Fondo blanco puro `#FFFFFF`.
+- Siete tonos pastel de referencia definidos en la tabla, con halos suaves y centros cromáticos delicados.
 - Materia cromática orgánica, concentrada y difusa.
 - Luz que combina pigmento y volumen luminoso.
 - Composiciones centrales y asimétricas según la escena.
@@ -329,21 +347,21 @@ Antes de aceptar una nueva imagen, componente o animación, comprobar:
 ### Pendiente de pruebas
 
 - Familia tipográfica concreta y licencias.
-- Códigos exactos de la paleta.
+- Validación de los códigos HEX propuestos en pantalla real, sobre el organismo volumétrico y con criterios de contraste.
 - Proporciones y densidad de las membranas.
 - Rendimiento del volumen 3D real.
 - Integración de texto en espacio tridimensional sin pérdida de legibilidad.
-- Efectos de luz y transparencia sobre fondo marfil.
+- Efectos de luz y transparencia sobre fondo blanco.
 - Validación visual en escritorio y móvil.
 - Créditos, autores y derechos de cada imagen externa.
 - Incorporación física de los catorce PNG a las rutas indicadas.
 
 ### Relación con estructura.md
 
-`estructura.md` conserva ciertas descripciones de la etapa visual oscura anterior. **Esta nueva dirección aprobada de fondo marfil tiene prioridad para futuros prototipos.** Preparar una actualización coherente de `estructura.md` antes de una implementación completa; no considerar el cambio ya aplicado al código.
+La dirección vigente es **blanco puro y chakras pastel**. Las etapas anteriores oscuras o marfil quedan como historial. `estructura.md` debe reflejar esta misma decisión; los cambios documentales no significan que el código de la web ya se haya actualizado.
 
 ---
 
-**Versión:** 0.1  
-**Estado:** Dirección de arte base aprobada; imágenes binaras pendientes de publicación.  
+**Versión:** 0.2  
+**Estado:** Dirección de arte base actualizada; imágenes binaras pendientes de publicación.  
 **Nota editorial:** las referencias externas no son diseños propios y deben acreditarse cuando corresponda.

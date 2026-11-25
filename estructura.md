@@ -7,7 +7,7 @@ Cada chakra integra seis momentos: Descubrir, Sentir, Reconocer, Cultivar, Exper
 
 ---
 
-**Versión:** 0.3  
+**Versión:** 0.4  
 **Fecha:** 2026-11-25  
 **Estado:** Borrador aprobado como base de trabajo; detalles sujetos a prototipado  
 **Repositorio:** belentomic-hue/proyecto_personal_WEB-elisava
@@ -321,13 +321,13 @@ La superficie tiene diferentes densidades y niveles de transparencia; algunas zo
 
 La iluminación procede principalmente del interior del organismo. Se combina una sensación de **pigmento difuso** con **luz volumétrica** que atraviesa las capas.
 
-Los reflejos exteriores son secundarios. El color puede aparecer como núcleos intensos que se disuelven en halos suaves; los degradados planos no sustituyen una prueba de volumen 3D real.
+Los reflejos exteriores son secundarios. Los tonos pastel forman centros delicados que se disuelven en halos suaves; los degradados planos no sustituyen una prueba de volumen 3D real.
 
 ### Relación con el fondo
 
-La atmósfera general es **marfil cálido, luminosa y editorial**, con grano finísimo semejante a papel o pigmento impreso.
+La atmósfera general usa un **fondo blanco puro (`#FFFFFF`)**, luminoso, limpio y editorial. Puede conservar un grano finísimo si no altera la percepción blanca del conjunto.
 
-La delicadeza se consigue mediante diferencias de opacidad, profundidad y luminosidad, no mediante un fondo oscuro generalizado. Evitar que los tejidos se pierdan sobre el marfil o reduzcan el contraste de los textos.
+La delicadeza se consigue mediante diferencias de opacidad, profundidad y luminosidad, no mediante un fondo oscuro generalizado. Evitar que los tejidos se pierdan sobre el blanco o reduzcan el contraste de los textos.
 
 **Decisión aprobada:** tejidos orgánicos, semitransparencia variable, núcleos cromáticos y luz interior predominante. Las técnicas de renderizado concretas siguen pendientes de prototipado.
 
@@ -337,7 +337,7 @@ La delicadeza se consigue mediante diferencias de opacidad, profundidad y lumino
 
 ### Fondo y atmósfera
 
-La experiencia utiliza predominantemente un **fondo blanco cálido / marfil**, con un grano muy fino. La dirección general es luminosa, editorial y contemplativa, y **sustituye la propuesta inicial de un entorno predominantemente oscuro**.
+La experiencia utiliza predominantemente un **fondo blanco puro (`#FFFFFF`)**. La dirección es luminosa, editorial, ligera y contemplativa. Esta decisión sustituye las etapas anteriores de fondo oscuro y después marfil.
 
 Pueden existir zonas de mayor sombra dentro del organismo cuando contribuyan a su profundidad, pero no debe confundirse ese contraste local con una página oscura.
 
@@ -345,9 +345,9 @@ Pueden existir zonas de mayor sombra dentro del organismo cuando contribuyan a s
 
 La riqueza cromática se revela gradualmente.
 
-La experiencia comienza con **colores contenidos sobre marfil**, no con una paleta oscura. A lo largo de la narrativa se incorporan nuevos tonos, capas y variaciones de luz.
+La experiencia comienza con **colores pastel contenidos sobre blanco**, no con una paleta oscura ni fluorescente. A lo largo de la narrativa se incorporan nuevos tonos, capas y variaciones de luz.
 
-Algunos núcleos cromáticos pueden aparecer intensos desde el inicio, rodeados por halos suaves y áreas difusas; la progresión no exige ausencia total de color.
+Algunos centros cromáticos pueden mostrar mayor densidad dentro de la misma familia pastel, rodeados por halos suaves y áreas difusas; la progresión no exige ausencia total de color.
 
 ### Recorrido de los chakras
 
@@ -363,15 +363,31 @@ Los siete colores asociados a los capítulos adquieren protagonismo progresivame
 
 Se trata de una convención visual adoptada por el proyecto y asociada a lecturas contemporáneas del sistema de siete chakras. No debe presentarse como una correspondencia histórica universal.
 
+### Paleta pastel de referencia (aprobada para prototipado)
+
+**Base:** blanco puro `#FFFFFF`.
+
+| Chakra | Tono pastel | HEX de referencia |
+| --- | --- | --- |
+| Mūlādhāra · Existir | Rojo pastel | `#EFA3A3` |
+| Svādhiṣṭhāna · Sentir | Naranja pastel | `#F6C39A` |
+| Maṇipūra · Elegir | Amarillo pastel | `#F6E3A1` |
+| Anāhata · Amar | Verde pastel | `#BFE3BF` |
+| Viśuddha · Expresar | Azul pastel | `#B7D7F2` |
+| Ājñā · Percibir | Índigo/lila pastel | `#C7C3E8` |
+| Sahasrāra · Trascender | Violeta pastel | `#DEC6EA` |
+
+Los tonos se distribuyen entre membranas y fibras con distintas transparencias. No utilizar colores fluorescentes como base. Los HEX son valores iniciales acordados para el prototipo y quedan sujetos a validación en pantalla y al contraste de los textos.
+
 ### Integración final
 
 Los diferentes colores pueden coexistir en membranas y núcleos del organismo. La integración no implica uniformidad cromática ni eliminación de contrastes.
 
 ### Estado
 
-**Aprobado:** fondo predominantemente marfil; halos difusos con núcleos intensos; progresión cromática vinculada al relato.
+**Aprobado:** fondo blanco puro; paleta de siete tonos pastel de referencia; halos difusos con centros delicados; progresión cromática vinculada al relato.
 
-**Pendiente:** valores hexadecimales, intensidad, saturación, distribución precisa por etapa y respuesta final de cada material ante la iluminación. Los estudios visuales son referencias, no especificaciones técnicas cerradas.
+**Pendiente:** validar los valores HEX pastel acordados, su contraste y ajuste final, distribución por etapa y respuesta de cada material ante la iluminación. Los estudios visuales son referencias, no especificaciones técnicas cerradas.
 
 ---
 
@@ -447,7 +463,7 @@ Definir el diseño exacto del índice, el comportamiento del icono en móvil y l
 
 ## 14. Portada: referencia de interacción
 
-La portada contiene título, apartados y la pregunta vigente: «¿Cuánto de lo que eres es aquello que has aprendido a ser?». La formación orgánica del avatar sobre marfil se conserva como referencia visual previa, no como secuencia nueva cerrada. Resolver aparición, cámara y desplazamiento de preguntas después de pulir la narrativa.
+La portada contiene título, apartados y la pregunta vigente: «¿Cuánto de lo que eres es aquello que has aprendido a ser?». La formación orgánica del avatar sobre blanco se conserva como referencia visual previa, no como secuencia nueva cerrada. Resolver aparición, cámara y desplazamiento de preguntas después de pulir la narrativa.
 
 ---
 
@@ -560,7 +576,7 @@ Quedan aprobados como principios generales:
 7. El cursor provoca orientación suave y reacción local de tejidos.
 8. Los clics textuales abren paneles; los visuales permiten acercamientos.
 9. Los elementos explorables se identifican mediante brillo e indicaciones discretas.
-10. Los colores se incorporan progresivamente sobre un **fondo predominantemente marfil**, mediante halos difusos y núcleos intensos.
+10. Los colores se incorporan progresivamente sobre **fondo blanco (`#FFFFFF`)**, mediante tonos pastel, halos difusos y centros delicados.
 11. Los materiales son suaves, orgánicos y semitransparentes, con **visibilidad interna variable** y una nube de volúmenes interconectados.
 12. Predomina la iluminación desde el interior.
 13. Los cambios de escena notorios se reservan principalmente para grandes etapas.
@@ -579,7 +595,7 @@ Quedan aprobados como principios generales:
 Antes de definir la implementación definitiva será necesario concretar:
 
 - Implementación y nivel de detalle de la geometría volumétrica del avatar (la forma conceptual está aprobada).
-- Paleta cromática exacta (el fondo marfil y la lógica de halos con núcleos intensos están aprobados).
+- Validación de paleta pastel (fondo blanco y siete HEX de referencia aprobados para prototipado; calibración final pendiente).
 - Familias tipográficas definitivas (el sistema serif/sans/mono está aprobado).
 - Movimiento y deformación de fibras.
 - Recorridos precisos de cámara.

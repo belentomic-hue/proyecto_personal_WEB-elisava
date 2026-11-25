@@ -7,8 +7,8 @@ Cada chakra integra seis momentos: Descubrir, Sentir, Reconocer, Cultivar, Exper
 
 ---
 
-**Versión:** 0.2  
-**Fecha:** 2026-11-24  
+**Versión:** 0.3  
+**Fecha:** 2026-11-25  
 **Estado:** Memoria operativa actualizada con decisiones vigentes y pendientes.
 
 ---
@@ -44,17 +44,24 @@ La filosofía creativa que orienta el proyecto es **comprender, experimentar y t
 
 ## 03. Estructura narrativa vigente
 
-El recorrido general se organiza en **cinco grandes etapas**:
+1. **Nacimiento — ¿Quién soy?** Portada con título, apartados y pregunta; cuestionamiento, origen del proyecto e investigación.
+2. **Observación — ¿Cómo llegué a ser quien soy?** Primeras huellas, mirada ajena, certezas aprendidas, refugios, paradoja de identidad, descubrimiento y posibilidad. Cada reflexión nace de la anterior.
+3. **Pausa — ¿Y ahora qué?** Silencio, respiración, umbral, nueva perspectiva, tradición espiritual e interpretación personal de los chakras.
+4. **Transformación — Habitar el ser.** Existir, Sentir, Elegir, Amar, Expresar, Percibir y Trascender.
+5. **Integración — Seguir siendo.** Regreso al avatar completo y reflexión breve, sin representar perfección espiritual.
 
-1. **Nacimiento:** aparición del organismo e introducción al origen de las conversaciones y del proyecto.
-2. **Observación:** reflexión de Gemini, recopilación de datos, huellas, experiencias, narraciones propias y miradas externas.
-3. **Pausa:** pantalla blanca que respira de forma apenas perceptible; transición entre comprender y explorar otras formas de habitarse.
-4. **Transformación:** recorrido simbólico por los **siete chakras**, en diálogo con experiencias propias y preguntas al visitante.
-5. **Integración:** el organismo vuelve a contemplarse como un ecosistema vivo y cambiante, sin identidad final perfecta.
+La fuente textual es narrativa.md v0.4. No fijar cantidad de scrolls ni nuevas decisiones de interacción.
 
-`narrativa.md` contiene una versión detallada del recorrido y textos iniciales. Las escenas y cantidades de scrolls son **editables**, no un esquema técnico inamovible.
+1. **Descubrir:** conocer el centro, su significado y aquello que representa.
+2. **Sentir:** dirigir la atención hacia esa dimensión corporal y vital.
+3. **Reconocer:** observar resistencias y formas aprendidas.
+4. **Cultivar:** explorar otras maneras de relacionarse con ellas mediante meditación guiada voluntaria.
+5. **Experimentar:** un pequeño desafío cotidiano.
+6. **Cuestionar:** una pregunta abierta final, todavía revisable.
 
-La antigua organización en seis categorías se conserva como **historia de la investigación**, no como navegación principal actual.
+La meditación atraviesa el capítulo. No exigir microtemas independientes, testimonios por chakra, segundo desafío ni afirmación final. Las transiciones enlazan los territorios.
+
+Las seis categorías originales son antecedentes, no navegación vigente.
 
 ---
 
@@ -214,6 +221,6 @@ Las seis categorías originales y las decisiones minuciosas de los primeros scro
 
 ---
 
-**Versión:** 0.2  
-**Actualización:** 2026-11-24  
+**Versión:** 0.3  
+**Actualización:** 2026-11-25  
 **Estado:** Memoria operativa de decisiones vigentes; actualizar cuando se aprueben cambios duraderos.

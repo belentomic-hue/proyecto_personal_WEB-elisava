@@ -7,7 +7,7 @@ Cada chakra integra seis momentos: Descubrir, Sentir, Reconocer, Cultivar, Exper
 
 ---
 
-**Versión:** 0.3  
+**Versión:** 0.4  
 **Fecha:** 2026-11-25  
 **Estado:** Memoria operativa actualizada con decisiones vigentes y pendientes.
 
@@ -85,11 +85,11 @@ Distinguir en cada capítulo: tradición documentada, lectura contemporánea e i
 
 ## 05. Dirección visual actual — decisión prioritaria
 
-**Fondo predominantemente marfil / blanco cálido**, con grano muy fino similar al papel o pigmento impreso. Es la elección más reciente y reemplaza la dirección de fondo mayoritariamente oscuro de propuestas anteriores.
+**Fondo blanco puro (`#FFFFFF`)** como base predominante. Esta decisión del 25 de noviembre de 2026 sustituye el fondo marfil y, anteriormente, el fondo oscuro. El grano muy fino puede conservarse solo si no altera la sensación de blanco limpio.
 
 La estética debe sentirse **editorial, etérea, íntima, orgánica, artística y luminosa**, no tecnológica convencional ni un sitio genérico de bienestar.
 
-- **Color:** halos suaves mezclados con **núcleos cromáticos intensos**; pigmento difuminado y luz volumétrica.
+- **Color:** siete tonos **pastel**, halos suaves y centros de color delicados; pigmento difuminado y luz volumétrica. Evitar saturación fluorescente.
 - **Progresión:** la riqueza cromática se incorpora gradualmente y los siete colores cobran importancia durante la transformación.
 - **Tipografía:** serif elegante y delicada para narrativa; sans serif clara para información; monoespaciada discreta para índices y detalles. Las familias concretas están pendientes.
 - **Composición:** sistema variable de escenas **centrales, asimétricas y espaciales**; grandes silencios visuales alternados con zonas complejas.
@@ -99,6 +99,20 @@ La estética debe sentirse **editorial, etérea, íntima, orgánica, artística 
 La pausa blanca continúa siendo esencial: distinguirla del resto mediante reducción de elementos y respiración sutil, no solo por el color de fondo.
 
 Referencia principal: `referentes.md`.
+
+### Colores aprobados como referencia de prototipado
+
+| Chakra | Tono pastel | HEX de referencia |
+| --- | --- | --- |
+| Mūlādhāra · Existir | Rojo pastel | `#EFA3A3` |
+| Svādhiṣṭhāna · Sentir | Naranja pastel | `#F6C39A` |
+| Maṇipūra · Elegir | Amarillo pastel | `#F6E3A1` |
+| Anāhata · Amar | Verde pastel | `#BFE3BF` |
+| Viśuddha · Expresar | Azul pastel | `#B7D7F2` |
+| Ājñā · Percibir | Índigo/lila pastel | `#C7C3E8` |
+| Sahasrāra · Trascender | Violeta pastel | `#DEC6EA` |
+
+**Base:** `#FFFFFF`. Los tonos HEX son la propuesta pastel elegida para las próximas pruebas; ajustar solo si la revisión visual y el contraste lo requieren.
 
 ---
 
@@ -182,9 +196,9 @@ Carpetas de referencia:
 
 ## 10. Prioridades y pendientes
 
-1. **Reconciliar `estructura.md` y otros textos visuales anteriores** con la dirección marfil aprobada, sin perder el historial.
+1. Mantener los archivos de diseño coherentes con la nueva dirección **blanco puro + chakras pastel**, conservando las decisiones anteriores como historial.
 2. Incorporar y comprobar las catorce imágenes originales de referencia cuando sean subidas.
-3. Seleccionar las familias tipográficas definitivas y la paleta cromática exacta.
+3. Seleccionar las familias tipográficas definitivas y validar en pantalla los siete HEX pastel acordados.
 4. Crear/probar un avatar volumétrico convincente con membranas y fibras, verificando su movimiento y sus transparencias.
 5. Validar cámara con scroll, texto integrado, paneles, zoom y navegación secundaria.
 6. Comprobar rendimiento, acceso desde móvil, navegación por teclado, lectura y preferencias de movimiento reducido.
@@ -213,7 +227,7 @@ No fijar librerías, dependencias o arquitectura final sin revisar primero el c�
 
 La plantilla inicial de HTML/CSS/JavaScript incluía una interacción básica para mostrar u ocultar una pregunta de investigación. **Esa descripción no define el proyecto vigente**.
 
-La primera dirección visual experimentó con fondos oscuros y un organismo fluorescente. Posteriormente se eligió de manera expresa el **fondo cálido marfil** y una composición más editorial.
+La primera dirección visual experimentó con fondos oscuros y un organismo fluorescente. Después se eligió el **fondo cálido marfil** y una composición más editorial. La decisión vigente desde el **25 de noviembre de 2026** es **fondo blanco puro con colores pastel**.
 
 Las seis categorías originales y las decisiones minuciosas de los primeros scrolls permanecen como registro de investigación y exploración, no como estructura final obligatoria.
 

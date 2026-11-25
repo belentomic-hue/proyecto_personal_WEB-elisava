@@ -1,6 +1,6 @@
 # REFERENTES · Ecosistema del Ser
 
-**Versión:** 0.2  
+**Versión:** 0.3  
 **Fecha:** 2026-11-25  
 **Estado:** Dirección de arte aprobada como base editable; imágenes originales pendientes de incorporación binaria  
 **Repositorio:** `belentomic-hue/proyecto_personal_WEB-elisava`
@@ -67,7 +67,9 @@ Sistema **B**, aprobado:
 - **Sans serif limpia** para información y explicación.
 - **Monoespaciada pequeña** para índices, numeración, referencias y datos documentales.
 
-Las tipografías concretas siguen pendientes de selección. Los textos importantes deben mantenerse legibles aunque se integren en el espacio 3D.
+**Fuente de títulos aprobada: Italiana, peso 400, en mayúsculas.** Aplicarla al título principal «ECOSISTEMA DEL SER» y a los encabezados editoriales destacados, con ajustes responsivos de tamaño y espaciado. **Fuente:** [Google Fonts · Italiana](https://fonts.google.com/specimen/Italiana). **Licencia:** SIL Open Font License 1.1, atribuida a Santiago Orozco. Se carga en la web mediante Google Fonts, sin necesidad de subir archivos binarios de tipografía al repositorio.
+
+Los párrafos largos mantienen la capitalización normal para preservar su lectura. La familia sans de texto informativo y la monoespaciada de detalles todavía pueden concretarse. Los textos importantes deben mantenerse legibles aunque se integren en el espacio 3D.
 
 ### Composición
 
@@ -337,7 +339,7 @@ Antes de aceptar una nueva imagen, componente o animación, comprobar:
 - Materia cromática orgánica, concentrada y difusa.
 - Luz que combina pigmento y volumen luminoso.
 - Composiciones centrales y asimétricas según la escena.
-- Tipografía serif predominante en la narrativa, sans informativa y mono para detalles.
+- **Italiana 400 en mayúsculas para títulos principales y encabezados editoriales**; sans informativa y mono para detalles.
 - Líneas finas como fibras, trayectorias y conexiones.
 - Grano muy fino y variación entre escenas vacías y densas.
 - Avatar como nube de volúmenes blandos e interconectados.
@@ -346,7 +348,7 @@ Antes de aceptar una nueva imagen, componente o animación, comprobar:
 
 ### Pendiente de pruebas
 
-- Familia tipográfica concreta y licencias.
+- Familia sans y monoespaciada concretas; licencia OFL-1.1 de Italiana verificada, tipografía cargada mediante Google Fonts.
 - Validación de los códigos HEX propuestos en pantalla real, sobre el organismo volumétrico y con criterios de contraste.
 - Proporciones y densidad de las membranas.
 - Rendimiento del volumen 3D real.
@@ -362,6 +364,6 @@ La dirección vigente es **blanco puro y chakras pastel**. Las etapas anteriores
 
 ---
 
-**Versión:** 0.2  
+**Versión:** 0.3  
 **Estado:** Dirección de arte base actualizada; imágenes binaras pendientes de publicación.  
 **Nota editorial:** las referencias externas no son diseños propios y deben acreditarse cuando corresponda.

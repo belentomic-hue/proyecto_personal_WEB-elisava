@@ -7,7 +7,7 @@ Cada chakra integra seis momentos: Descubrir, Sentir, Reconocer, Cultivar, Exper
 
 ---
 
-**Versión:** 0.4  
+**Versión:** 0.5  
 **Fecha:** 2026-11-25  
 **Estado:** Borrador aprobado como base de trabajo; detalles sujetos a prototipado  
 **Repositorio:** belentomic-hue/proyecto_personal_WEB-elisava
@@ -272,11 +272,12 @@ No deben utilizarse efectos exagerados o constantes que distraigan del relato.
 
 La dirección editorial se articula en tres registros, según `referentes.md`:
 
-- **Serif elegante y delicada:** títulos narrativos, preguntas principales y pasajes poéticos.
+- **Italiana, peso 400, en mayúsculas:** títulos principales y encabezados editoriales destacados (incluida la portada «ECOSISTEMA DEL SER»). Para la composición de muestra, mantener alto contraste, trazos finos y espaciado ajustado; comprobar que no se recorten las letras en móvil.
+- **Serif para narración y pasajes poéticos:** Italiana puede aplicarse en titulares, pero los párrafos mantienen capitalización normal y tipografía legible.
 - **Sans serif limpia:** información explicativa, instrucciones y textos de apoyo.
 - **Monoespaciada discreta:** índices, números de etapa, referencias y anotaciones documentales.
 
-Las familias tipográficas específicas todavía no están elegidas. Las mayúsculas pueden tener protagonismo en portada e índices, pero no se imponen a toda la narración.
+La familia **Italiana** queda aprobada para títulos destacados y ya se carga mediante Google Fonts en `style.css` (licencia SIL OFL 1.1). Las fuentes informativas y monoespaciadas aún se pueden definir. Las mayúsculas se reservan para los títulos editoriales y no se imponen a los párrafos narrativos.
 
 ### Tres composiciones reutilizables
 
@@ -584,7 +585,7 @@ Quedan aprobados como principios generales:
 15. Durante el recorrido existe un acceso minimalista al índice, que aparece con el movimiento del cursor o la interacción táctil.
 16. La experiencia debe ser comprensible mediante el scroll, sin exigir clics adicionales.
 17. El recorrido se organiza en cinco grandes etapas, manteniendo los siete chakras como capítulos simbólicos de transformación.
-18. La tipografía combina serif narrativa, sans informativa y mono para referencias.
+18. Los títulos principales utilizan **Italiana 400 en mayúsculas**; se combina con sans informativa y mono para referencias.
 19. Se alternan tres sistemas editoriales: central, asimétrico y espacial.
 20. La materia combina fluidez, respiración y fibras elásticas, revelando diferentes escalas de un mismo organismo.
 
@@ -596,7 +597,7 @@ Antes de definir la implementación definitiva será necesario concretar:
 
 - Implementación y nivel de detalle de la geometría volumétrica del avatar (la forma conceptual está aprobada).
 - Validación de paleta pastel (fondo blanco y siete HEX de referencia aprobados para prototipado; calibración final pendiente).
-- Familias tipográficas definitivas (el sistema serif/sans/mono está aprobado).
+- Familias informativa y monoespaciada definitivas; **Italiana 400 en mayúsculas ya aprobada para títulos principales**.
 - Movimiento y deformación de fibras.
 - Recorridos precisos de cámara.
 - Duración y distancia de cada escena.
@@ -661,7 +662,7 @@ La tecnología debe ponerse al servicio de estas relaciones.
 
 ---
 
-**Versión:** 0.3  
+**Versión:** 0.5  
 **Estado:** Base actualizada con la dirección de arte aprobada; detalles abiertos al prototipado.  
 **Publicación en GitHub:** Realizada tras aprobación.  
 **Próxima revisión:** validar principios generales mediante prototipos y resolver decisiones pendientes.

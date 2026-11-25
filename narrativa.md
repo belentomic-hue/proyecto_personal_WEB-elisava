@@ -1,6 +1,6 @@
 <!--
 NARRATIVA.md · Ecosistema del Ser
-Guion narrativo y microtextos de trabajo, v0.2.
+Guion narrativo y microtextos de trabajo, v0.3.
 Consultar personalidad.md y context.md.
 
 PROVISIONAL: los textos pueden adquirir más profundidad al construir la web.
@@ -10,8 +10,8 @@ No confundir tradición histórica, interpretación simbólica y experiencia pro
 
 # NARRATIVA · Ecosistema del Ser
 
-**Versión:** 0.2  
-**Fecha:** 2026-11-24  
+**Versión:** 0.3  
+**Fecha:** 2026-11-25  
 **Estado:** Base de trabajo aprobada para continuar desarrollando; microtextos provisionales.
 
 ## 01. Propósito
@@ -27,6 +27,16 @@ Este archivo define **qué se cuenta y qué se siente**. Las implementaciones, e
 ---
 
 ## 02. Voz narrativa
+
+### Criterios acordados el 25 de noviembre
+
+- Voz íntima, contemplativa, poética y legible, siguiendo la portada aprobada.
+- Portada: un párrafo breve (máximo tres líneas orientativas) y una pregunta abierta.
+- Desarrollar partes y subpartes una a una, con profundidad e hilo conductor; primero escribir y pulir, después fragmentar en scrolls.
+- Cada reflexión nace de la anterior y prepara la siguiente. Los demás microtextos son bases provisionales.
+- Profundizar posteriormente los chakras desde el ser, la percepción, la conciencia y la experiencia de la realidad, no reducirlos a bloqueos y beneficios.
+- No incluir otros proyectos personales ni transcripciones de conversaciones en la web.
+
 
 ### Poética, abstracta y legible
 
@@ -92,8 +102,11 @@ El orden narrativo es una base; el número de scrolls puede cambiar mientras se 
 
 **Texto de partida:**
 
-> Antes de saber quién era,  
-> ya estaba aprendiendo a ser.
+**Texto de portada aprobado:**
+
+> Habitamos el mundo mientras, silenciosamente, el mundo va habitando en nosotros. Cada encuentro, cada ausencia y cada recuerdo deja una huella en ese universo íntimo al que llamamos identidad.
+>
+> *¿Cuánto conocemos realmente de aquello que somos?*
 
 **Intención:** intriga y presencia; no explicar todavía el sistema.
 
@@ -120,7 +133,7 @@ El orden narrativo es una base; el número de scrolls puede cambiar mientras se 
 > que reconocía,  
 > pero que nunca había observado así.
 
-**PENDIENTE:** fragmento auténtico de Gemini. No fabricar ni atribuirle frases.
+**PENDIENTE:** elaborar pequeñas reflexiones sobre identidad personal, preguntas, conexiones y pensamientos recurrentes derivados de la investigación. No publicar transcripciones.
 
 ## 08. Scroll 04 · Los datos
 
@@ -595,7 +608,7 @@ No forzar el mismo número de scrolls en todos. Cada capítulo deberá desarroll
 > otras posibilidades  
 > quedan fuera de la imagen.
 
-**PENDIENTE · experiencia propia:** fragmento original de Gemini o ChatGPT sobre creencias, percepción o cambio de mirada.
+**PENDIENTE · experiencia propia:** reflexiones sobre creencias, percepción o cambio de mirada derivadas de la investigación.
 
 **Pausa**
 
@@ -721,9 +734,7 @@ No forzar el mismo número de scrolls en todos. Cada capítulo deberá desarroll
 
 ## 31. Incorporación de material original
 
-La versión final debe incluir fragmentos auténticos de las conversaciones con Gemini y reflexiones posteriores con ChatGPT. Elegirlos por su relación con una pregunta, contradicción, creencia o cambio de percepción concreto.
-
-Se pueden adaptar para lectura web, pero no presentarlos como citas literales si han sido reescritos. Revisar nombres, referencias a terceros y detalles íntimos antes de publicar.
+La investigación con IA es el origen, no la protagonista. Mostrar pequeñas reflexiones sobre identidad personal, preguntas, conexiones y pensamientos recurrentes, no transcripciones ni citas de conversaciones. No incorporar otros proyectos personales.
 
 **Regla:** no inventar citas ni experiencias para llenar espacios. Marcar como `PENDIENTE` lo que requiera testimonio real.
 
@@ -758,12 +769,12 @@ La profundidad no se obtiene únicamente añadiendo texto. Cada nueva capa debe 
 - `memoria.md`: decisiones duraderas.
 - `log.md`: historial.
 
-**Versión:** 0.2  
-**Fecha:** 2026-11-24  
+**Versión:** 0.3  
+**Fecha:** 2026-11-25  
 **Estado:** Base narrativa de trabajo; microtextos, reflexiones y asociaciones personales siguen abiertos.
 
 **Cambios frente al borrador inicial:** escritura más poética y ocasionalmente abstracta con contexto; avatar sin rostro durante las pausas; vacío blanco con efecto de respiración de la propia pantalla; evolución progresiva de textos a medida que se materializa la web.
 
-**Pendiente:** incorporar conversaciones verificables, profundizar experiencias personales, revisar fuentes tradicionales, probar ritmo y lenguaje en la web real.
+**Pendiente:** elaborar reflexiones fundamentadas en la investigación, profundizar experiencias personales, revisar fuentes tradicionales, probar ritmo y lenguaje en la web real.
 
 La historia propia sigue siendo el centro. Los chakras son la estructura simbólica. El diseño convierte el encuentro entre ambos en una experiencia recorrible.

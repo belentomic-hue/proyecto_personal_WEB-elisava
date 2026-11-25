@@ -7,8 +7,8 @@ Cada chakra integra seis momentos: Descubrir, Sentir, Reconocer, Cultivar, Exper
 
 ---
 
-**Versión:** 0.2  
-**Fecha:** 2026-11-24  
+**Versión:** 0.3  
+**Fecha:** 2026-11-25  
 **Estado:** Borrador aprobado como base de trabajo; detalles sujetos a prototipado  
 **Repositorio:** belentomic-hue/proyecto_personal_WEB-elisava
 
@@ -56,53 +56,13 @@ El relato autobiográfico sigue siendo el centro. Los chakras constituyen el mar
 
 ## 03. Organización narrativa general
 
-La experiencia se divide en cinco grandes etapas.
+1. **Nacimiento — ¿Quién soy?** Portada con título, apartados y pregunta; cuestionamiento, origen del proyecto e investigación.
+2. **Observación — ¿Cómo llegué a ser quien soy?** Primeras huellas, mirada ajena, certezas aprendidas, refugios, paradoja de identidad, descubrimiento y posibilidad. Cada reflexión nace de la anterior.
+3. **Pausa — ¿Y ahora qué?** Silencio, respiración, umbral, nueva perspectiva, tradición espiritual e interpretación personal de los chakras.
+4. **Transformación — Habitar el ser.** Existir, Sentir, Elegir, Amar, Expresar, Percibir y Trascender.
+5. **Integración — Seguir siendo.** Regreso al avatar completo y reflexión breve, sin representar perfección espiritual.
 
-### I. Nacimiento
-
-Se presenta el organismo y se introduce el origen de la investigación.
-
-El avatar nace progresivamente a partir de partículas, fibras y membranas que se reúnen.
-
-El visitante comienza contemplándolo desde el exterior. El scroll acerca la cámara hasta entrar en su interior.
-
-### II. Observación
-
-La cámara explora el organismo desde distintas escalas y profundidades.
-
-Aparecen las conversaciones con Gemini, las reflexiones, los datos recopilados, los patrones, las huellas de experiencias y las narraciones sobre la identidad.
-
-Los tejidos funcionan como metáfora de memoria, relaciones e interpretaciones.
-
-La información debe proceder de material autobiográfico verificable. Los recursos visuales pueden ser simbólicos, pero no deben sugerir cantidades o conclusiones objetivas inexistentes.
-
-### III. Pausa
-
-La complejidad visual disminuye.
-
-La experiencia atraviesa un momento de vacío blanco, con una respiración visual sutil que afecta al propio espacio.
-
-La pausa marca el paso de comprender una historia a preguntarse cómo relacionarse con ella de otra manera.
-
-El avatar puede reaparecer sin rostro, conservando su naturaleza abstracta.
-
-### IV. Transformación
-
-Se introducen los siete chakras como recorrido simbólico.
-
-Cada capítulo combina contexto espiritual documentado, interpretación autobiográfica, preguntas y momentos contemplativos.
-
-El organismo cambia progresivamente de color, comportamiento, densidad o luminosidad, sin presentar las transformaciones visuales como estados energéticos medibles.
-
-### V. Integración
-
-El visitante vuelve a contemplar el organismo como un conjunto.
-
-Las capas, colores y estructuras conviven sin necesidad de convertirse en una forma perfecta, estable o definitiva.
-
-La experiencia concluye con una pregunta abierta, no con una respuesta sobre cómo debe ser una persona.
-
-**Estado:** aprobada la organización general en cinco etapas. El número definitivo de scrolls y la duración de cada escena siguen siendo editables.
+La fuente textual es narrativa.md v0.4. No fijar cantidad de scrolls ni nuevas decisiones de interacción.
 
 ---
 
@@ -487,105 +447,26 @@ Definir el diseño exacto del índice, el comportamiento del icono en móvil y l
 
 ## 14. Portada: referencia de interacción
 
-Se conserva la dirección trabajada durante las primeras sesiones de diseño.
-
-### Formación del avatar
-
-Sobre el fondo **marfil** aparece progresivamente un organismo mediante la unión de partículas, filamentos, membranas y **volúmenes blandos interconectados**.
-
-### Aparición del texto
-
-La primera frase narrativa aparece después de que el avatar se haya formado.
-
-Texto de referencia de `narrativa.md`:
-
-> Antes de saber quién era,  
-> ya estaba aprendiendo a ser.
-
-### Transición inicial
-
-Al bajar, la cámara se acerca y el organismo ocupa progresivamente la pantalla.
-
-Los tejidos y fibras interiores se vuelven visibles.
-
-Las palabras permanecen inicialmente delante del organismo y se desplazan hacia los lados mientras la cámara avanza, desapareciendo del campo visual.
-
-### Estado
-
-Esta secuencia se conserva como referencia específica aprobada.
-
-Su duración, geometría, iluminación y comportamiento exacto se ajustarán durante el prototipado.
+La portada contiene título, apartados y la pregunta vigente: «¿Cuánto de lo que eres es aquello que has aprendido a ser?». La formación orgánica del avatar sobre marfil se conserva como referencia visual previa, no como secuencia nueva cerrada. Resolver aparición, cámara y desplazamiento de preguntas después de pulir la narrativa.
 
 ---
 
 ## 15. Interacciones narrativas de referencia
 
-Durante las primeras sesiones se exploraron soluciones específicas para los capítulos de observación.
-
-No todas deben implementarse literalmente.
-
-Se conservan como recursos narrativos disponibles:
-
-### Conversaciones
-
-Palabras flotantes, sin cajas de chat convencionales, suspendidas entre tejidos orgánicos.
-
-Los fragmentos pueden acercarse y alejarse con el movimiento de la cámara.
-
-### El espejo
-
-Patrones que se manifiestan mediante repetición de formas y movimientos orgánicos.
-
-Las reflexiones de Gemini pueden presentarse en espacios despejados y permitir ampliar el contexto original mediante un panel lateral.
-
-### Los datos
-
-Fibras que se ramifican y se vuelven más densas.
-
-Pulsos recurrentes y observación cercana de pequeñas estructuras.
-
-### Las huellas
-
-Marcas luminosas que permanecen en los tejidos.
-
-Las huellas pueden mostrar diferentes intensidades y ritmos.
-
-La cámara puede seguirlas mientras aparecen reflexiones personales breves.
-
-### Ser nombrada
-
-Una membrana translúcida que responde a palabras y percepciones externas mediante deformaciones.
-
-Las frases pueden desaparecer mientras ciertas tensiones permanecen.
-
-La aparición de la voz propia puede comenzar a suavizar esas deformaciones.
-
-### Criterio de uso
-
-Estas ideas son referencias de diseño previas.
-
-Deben evaluarse en función del sistema global de movimiento y simplificarse cuando introduzcan complejidad innecesaria.
-
-No se consideran instrucciones obligatorias para cada scroll.
+Las exploraciones anteriores de palabras flotantes, fibras, huellas y membranas quedan como recursos visuales opcionales. Solo mostrar reflexiones finales y preguntas, nunca fragmentos privados de chat ni paneles que revelen conversaciones. No fijar animaciones ni número de scrolls en esta revisión.
 
 ---
 
 ## 16. Experiencia de los siete chakras
 
-Cada capítulo debe conservar una identidad narrativa dentro de un lenguaje visual compartido.
+1. **Descubrir:** conocer el centro, su significado y aquello que representa.
+2. **Sentir:** dirigir la atención hacia esa dimensión corporal y vital.
+3. **Reconocer:** observar resistencias y formas aprendidas.
+4. **Cultivar:** explorar otras maneras de relacionarse con ellas mediante meditación guiada voluntaria.
+5. **Experimentar:** un pequeño desafío cotidiano.
+6. **Cuestionar:** una pregunta abierta final, todavía revisable.
 
-Se toma como base `narrativa.md`, que propone:
-
-1. Introducción simbólica.
-2. Microtemas narrativos.
-3. Una situación de contracción o dificultad.
-4. Experiencia personal auténtica.
-5. Pausa contemplativa.
-6. Reconocimiento o cambio de perspectiva.
-7. Preguntas y desafíos abiertos.
-8. Cierre o afirmación propuesta.
-
-La cantidad y distribución de scrolls de cada chakra podrá modificarse durante el diseño.
+La meditación atraviesa el capítulo. No exigir microtemas independientes, testimonios por chakra, segundo desafío ni afirmación final. Las transiciones enlazan los territorios.
 
 ### Sistema visual
 
@@ -764,7 +645,7 @@ La tecnología debe ponerse al servicio de estas relaciones.
 
 ---
 
-**Versión:** 0.2  
+**Versión:** 0.3  
 **Estado:** Base actualizada con la dirección de arte aprobada; detalles abiertos al prototipado.  
 **Publicación en GitHub:** Realizada tras aprobación.  
 **Próxima revisión:** validar principios generales mediante prototipos y resolver decisiones pendientes.

@@ -36,6 +36,13 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
+## 2026-11-25 — Fondo blanco y paleta pastel para los chakras
+- **Canvis:** actualitzats `referentes.md` v0.2, `estructura.md` v0.4 i `memoria.md` v0.4 amb fons blanc `#FFFFFF`, set tons pastel de referència (`#EFA3A3`, `#F6C39A`, `#F6E3A1`, `#BFE3BF`, `#B7D7F2`, `#C7C3E8`, `#DEC6EA`) i halos delicats.
+- **Motiu:** aplicar la nova decisió visual de substituir el marfil i reduir la saturació.
+- **Verificació:** documents rellegits a GitHub després de publicar, amb narrativa v0.4 conservada.
+- **Pendents/incidències:** validar el contrast i la percepció de la paleta en pantalla; **el codi HTML/CSS/JS encara no s'ha modificat**.
+
+
 ## 2026-11-25 — Narrativa v0.4 simplificada
 - **Canvis:** actualitzats `narrativa.md`, `estructura.md`, `context.md`, `memoria.md`, `criterio.md`, `personalidad.md` i `README.md`. Guió literari complet, cinc etapes, sis moments per chakra, un repte i una pregunta; sense transcripcions privades ni scrolls fixats.
 - **Motiu:** consolidar la simplificació aprovada i eliminar contradiccions de les estructures anteriors.
